@@ -1,0 +1,3513 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/arashhosseiniarash/AFDDOntology#"
+     xml:base="https://github.com/arashhosseiniarash/AFDDOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:AFDDOntology="https://github.com/arashhosseiniarash/AFDDOntology#">
+    <owl:Ontology rdf:about="https://github.com/arashhosseiniarash/AFDDOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#value -->
+
+
+    <owl:AnnotationProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#value"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Element"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Element"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#featureBelongsTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#featureBelongsTo">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Element"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm">
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Element"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated">
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Element"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#hasFault -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#hasFault">
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Element"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#hasInspection -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#hasInspection">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#hasMaintenance -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#hasMaintenance">
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Element"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#hasParameter -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#hasParameter">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#hasState -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#hasState">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#State"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#isRecorded -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#isRecorded">
+        <rdfs:domain rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#State"/>
+        <rdfs:range rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Track"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#adjacentElement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#adjacentElement">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bot#hasElement"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/bot#intersectingElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#adjacentZone -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#adjacentZone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Zone"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/bot#intersectsZone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#containsElement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#containsElement">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bot#hasElement"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/bot#containsZone"/>
+            <rdf:Description rdf:about="https://w3id.org/bot#containsElement"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#containsZone -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#containsZone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Zone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#hasBuilding -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#hasBuilding">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bot#containsZone"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Building"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#hasElement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#hasElement">
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Element"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/bot#containsZone"/>
+            <rdf:Description rdf:about="https://w3id.org/bot#hasElement"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#hasSpace -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#hasSpace">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bot#containsZone"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Space"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#hasStorey -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#hasStorey">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bot#containsZone"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Storey"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#hasSubElement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#hasSubElement">
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Element"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Element"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#interfaceOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#interfaceOf">
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Interface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#intersectingElement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#intersectingElement">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/bot#hasElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/bot#intersectsZone -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/bot#intersectsZone">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+        <rdfs:range rdf:resource="https://w3id.org/bot#Zone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#AHU -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#AHU">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Absorption_Chiller -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Absorption_Chiller">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Chiller"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Air_Diffuser -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Air_Diffuser">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Air_Handler_Unit -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Air_Handler_Unit">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Air_Handling_Unit -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Air_Handling_Unit">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Air_Plenum -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Air_Plenum">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Baseboard_Radiator -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Baseboard_Radiator">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Boiler -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Boiler">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Booster_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Booster_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Bypass_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Bypass_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#CAV -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#CAV">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#CRAC -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#CRAC">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Ceiling_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Ceiling_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Centrifugal_Chiller -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Centrifugal_Chiller">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Chiller"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Chilled_Water_Coil -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Chilled_Water_Coil">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Cooling_Coil"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Chilled_Water_Pump -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Chilled_Water_Pump">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Water_Pump"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Chilled_Water_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Chilled_Water_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Water_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Chiller -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Chiller">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Coil -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Coil">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Heat_Exchanger"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Compressor -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Compressor">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Computer_Room_Air_Conditioning -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Computer_Room_Air_Conditioning">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Condenser -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Condenser">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Condenser_Heat_Exchanger -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Condenser_Heat_Exchanger">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Heat_Exchanger"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Condenser_Water_Bypass_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Condenser_Water_Bypass_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Bypass_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Condenser_Water_Isolation_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Condenser_Water_Isolation_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Isolation_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Condenser_Water_Pump -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Condenser_Water_Pump">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Water_Pump"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Condenser_Water_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Condenser_Water_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Water_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Condensing_Natural_Gas_Boiler -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Condensing_Natural_Gas_Boiler">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Natural_Gas_Boiler"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Constant_Air_Volume_Box -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Constant_Air_Volume_Box">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Cooling_Coil -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Cooling_Coil">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Coil"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Cooling_Tower -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Cooling_Tower">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Cooling_Tower_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Cooling_Tower_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Cooling_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Cooling_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#DOAS -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#DOAS">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Damper -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Damper">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Dedicated_Outdoor_Air_System_Unit -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Dedicated_Outdoor_Air_System_Unit">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Differential_Pressure_Bypass_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Differential_Pressure_Bypass_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Bypass_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Discharge_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Discharge_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Displacement_Flow_Air_Diffuser -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Displacement_Flow_Air_Diffuser">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Air_Diffuser"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Domestic_Hot_Water_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Domestic_Hot_Water_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Hot_Water_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#ESS_Panel -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#ESS_Panel">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiant_Panel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Economizer -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Economizer">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Economizer_Damper -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Economizer_Damper">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Damper"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Electric_Baseboard_Radiator -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Electric_Baseboard_Radiator">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Baseboard_Radiator"/>
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Electric_Radiator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Electric_Boiler -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Electric_Boiler">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Boiler"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Electric_Radiator -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Electric_Radiator">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiant_Panel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Evaporative_Heat_Exchanger -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Evaporative_Heat_Exchanger">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Heat_Exchanger"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Exhaust_Damper -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Exhaust_Damper">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Damper"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Exhaust_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Exhaust_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#FCU -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#FCU">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Fan_Coil_Unit -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Fan_Coil_Unit">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Filter -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Filter">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Final_Filter -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Final_Filter">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Fresh_Air_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Fresh_Air_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Fume_Hood -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Fume_Hood">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Gas_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Gas_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#HVAC_Equipment -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#HVAC_Equipment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Element"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#HX -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#HX">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Heat_Exchanger -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Heat_Exchanger">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Heat_Wheel -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Heat_Wheel">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Heat_Exchanger"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Heating_Coil -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Heating_Coil">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Coil"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Heating_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Heating_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Hot_Water_Baseboard_Radiator -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Hot_Water_Baseboard_Radiator">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Baseboard_Radiator"/>
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Hot_Water_Radiator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Hot_Water_Coil -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Hot_Water_Coil">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Heating_Coil"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Hot_Water_Pump -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Hot_Water_Pump">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Water_Pump"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Hot_Water_Radiator -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Hot_Water_Radiator">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Hot_Water_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Hot_Water_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Heating_Valve"/>
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Water_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Humidifier -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Humidifier">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Intake_Air_Filter -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Intake_Air_Filter">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Isolation_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Isolation_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Air_Diffuser"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Laminar_Flow_Air_Diffuser -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Laminar_Flow_Air_Diffuser">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Air_Diffuser"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#MAU -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#MAU">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Makeup_Air_Unit -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Makeup_Air_Unit">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Makeup_Water_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Makeup_Water_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Water_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Mixed_Air_Filter -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Mixed_Air_Filter">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Mixed_Damper -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Mixed_Damper">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Damper"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Natural_Gas_Boiler -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Natural_Gas_Boiler">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Boiler"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Noncondensing_Natural_Gas_Boiler -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Noncondensing_Natural_Gas_Boiler">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Natural_Gas_Boiler"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Outside_Damper -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Outside_Damper">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Damper"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#PAU -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#PAU">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Pre_Filter -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Pre_Filter">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Preheat_Hot_Water_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Preheat_Hot_Water_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Hot_Water_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Pump -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Pump">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#RC_Panel -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#RC_Panel">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiant_Panel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#RTU -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#RTU">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#RVAV -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#RVAV">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Variable_Air_Volume_Box"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Radiant_Ceiling_Panel -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Radiant_Ceiling_Panel">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiant_Panel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Radiant_Panel -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Radiant_Panel">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Radiator -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Radiator">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Reheat_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Reheat_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Heating_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Return_Air_Filter -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Return_Air_Filter">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Return_Air_Plenum -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Return_Air_Plenum">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Air_Plenum"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Return_Damper -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Return_Damper">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Damper"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Return_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Return_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Return_Heating_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Return_Heating_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Heating_Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Rooftop_Unit -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Rooftop_Unit">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Space_Heater -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Space_Heater">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Standby_CRAC -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Standby_CRAC">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#CRAC"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Standby_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Standby_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Baseboard_Radiator"/>
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Steam_Radiator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Steam_Radiator -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Steam_Radiator">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiator"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Steam_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Steam_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Supply_Air_Plenum -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Supply_Air_Plenum">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Air_Plenum"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Supply_Fan -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Supply_Fan">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#TABS_Panel -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#TABS_Panel">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiant_Panel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Terminal_Unit -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Terminal_Unit">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Thermally_Activated_Building_System_Panel -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Thermally_Activated_Building_System_Panel">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Radiant_Panel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Thermostat -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Thermostat">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Underfloor_Air_Plenum -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Underfloor_Air_Plenum">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Supply_Air_Plenum"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#VAV -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#VAV">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#HVAC_Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Variable_Air_Volume_Box -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Variable_Air_Volume_Box">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Terminal_Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Variable_Air_Volume_Box_With_Reheat -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Variable_Air_Volume_Box_With_Reheat">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Variable_Air_Volume_Box"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Water_Pump -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Water_Pump">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Pump"/>
+    </owl:Class>
+    
+
+
+    <!-- https://brickschema.org/schema/Brick#Water_Valve -->
+
+
+    <owl:Class rdf:about="https://brickschema.org/schema/Brick#Water_Valve">
+        <rdfs:subClassOf rdf:resource="https://brickschema.org/schema/Brick#Valve"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Activation -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Activation">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Algorithm -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Blockage -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Blockage">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Building -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Building">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#C -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#C">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Svm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Calculation -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Calculation">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Track"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#CheckForFluidFlow -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#CheckForFluidFlow">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#CheckOperation -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#CheckOperation">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Clustering -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Clustering">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Confidence -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Confidence">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#RuleBased"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Control -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Control">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#ControlFault -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#ControlFault">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Criterion -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Criterion">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#DamperConditionSettingAndOperation -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#DamperConditionSettingAndOperation">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Deleted -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Deleted">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Track"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#DeteriorationLeaksMoistureProblemsCondensationAndCombustion -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#DeteriorationLeaksMoistureProblemsCondensationAndCombustion">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Disinfect -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Disinfect">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Efficiency -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Efficiency">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#EnergyOrPower -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#EnergyOrPower">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Epochs -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Epochs">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Epsilon -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Epsilon">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#FanBladeaAndHousing -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#FanBladeaAndHousing">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Fault -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Feature -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#FitAndIntegrity -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#FitAndIntegrity">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#FlowRate -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#FlowRate">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#FluidFlowAndLeaks -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#FluidFlowAndLeaks">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Foul -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Foul">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Frequency -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Frequency">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Track"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#HVAC -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#HVAC">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Humidity -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Humidity">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Hybrid -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Hybrid">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Information -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Information"/>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#K -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#K">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Clustering"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#KernelType -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#KernelType">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Svm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#L1 -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#L1">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#L2 -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#L2">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Leakage -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Leakage">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Load -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Load">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#LossFunction -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#LossFunction">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Maintenance -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Maintenance"/>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Maintenance"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Maintenance"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Clustering"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Clustering"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MaxW2 -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MaxW2">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Clustering"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Clustering"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Optimizer -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Optimizer">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Other -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Other">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Performance -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Performance">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Pressure -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Pressure">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Rate -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Rate">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Record -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Record">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Track"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantSystemPressuresOrTemperatures -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantSystemPressuresOrTemperatures">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantTemperatures -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantTemperatures">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Regression -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Regression">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#RepairAndAdjust -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#RepairAndAdjust">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#RepairOrReplace -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#RepairOrReplace">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#RepairReplaceOrRestore -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#RepairReplaceOrRestore">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Replace -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Replace">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Rho -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Rho">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#RuleBased -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#RuleBased">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Scale -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Scale">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Svm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#SetPoint -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#SetPoint">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Speed -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Speed">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#State -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#State"/>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Status -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Status">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#SteamSystemTrapsPumpsStrainersAndControls -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#SteamSystemTrapsPumpsStrainersAndControls">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Support -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Support">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#RuleBased"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Svm -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Svm">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Temperature -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Temperature">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Track -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Track"/>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Voltage -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Voltage">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote -->
+
+
+    <owl:Class rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote">
+        <rdfs:subClassOf rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bot#Building -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Building">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Zone"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Site"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Space"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Storey"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bot#Element -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Element">
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Interface"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bot#Interface -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Interface">
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bot#Site -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Site">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Zone"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Space"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Storey"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bot#Space -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Space">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Zone"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/bot#Storey"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bot#Storey -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Storey">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bot#Zone -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Zone"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios"/>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.67</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#Svc -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#Svc">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Svm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Activation"/>
+        <rdfs:comment>relu and softmax</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#adam -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#adam">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Optimizer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#LossFunction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#patience -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#patience">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance"/>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#random_state -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#random_state">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed"/>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#rbf -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#rbf">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#KernelType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize"/>
+        <rdfs:comment>70-15-7</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Scale"/>
+        <rdfs:comment>feature range -1 , 1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#test_size -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#test_size">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration"/>
+        <value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#C"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Foul"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Leakage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#SetPoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#SetPoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Control"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Foul"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Leakage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#SetPoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#SetPoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Control"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Pressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Humidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Status"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#3">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/arashhosseiniarash/AFDDOntology#600 -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/arashhosseiniarash/AFDDOntology#600">
+        <rdf:type rdf:resource="https://github.com/arashhosseiniarash/AFDDOntology#Epochs"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

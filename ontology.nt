@@ -1,0 +1,1606 @@
+<https://github.com/arashhosseiniarash/AFDDOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#value
+<https://github.com/arashhosseiniarash/AFDDOntology#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo
+<https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Element> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo
+<https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Element> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#featureBelongsTo
+<https://github.com/arashhosseiniarash/AFDDOntology#featureBelongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#featureBelongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+<https://github.com/arashhosseiniarash/AFDDOntology#featureBelongsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Element> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm
+<https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Element> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated
+<https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Element> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#hasFault
+<https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Element> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#hasInspection
+<https://github.com/arashhosseiniarash/AFDDOntology#hasInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasInspection> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasInspection> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#hasMaintenance
+<https://github.com/arashhosseiniarash/AFDDOntology#hasMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasMaintenance> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Element> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasMaintenance> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#hasParameter
+<https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#hasState
+<https://github.com/arashhosseiniarash/AFDDOntology#hasState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasState> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasState> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#State> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures
+<https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith
+<https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+<https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#isRecorded
+<https://github.com/arashhosseiniarash/AFDDOntology#isRecorded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#isRecorded> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#State> .
+<https://github.com/arashhosseiniarash/AFDDOntology#isRecorded> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Track> .
+# 
+# https://w3id.org/bot#adjacentElement
+<https://w3id.org/bot#adjacentElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#adjacentElement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bot#hasElement> .
+<https://w3id.org/bot#adjacentElement> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <https://w3id.org/bot#intersectingElement> .
+# 
+# https://w3id.org/bot#adjacentZone
+<https://w3id.org/bot#adjacentZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#adjacentZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<https://w3id.org/bot#adjacentZone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#adjacentZone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#adjacentZone> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <https://w3id.org/bot#intersectsZone> .
+# 
+# https://w3id.org/bot#containsElement
+<https://w3id.org/bot#containsElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#containsElement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bot#hasElement> .
+<https://w3id.org/bot#containsElement> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#containsElement> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#containsZone> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# https://w3id.org/bot#containsZone
+<https://w3id.org/bot#containsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#containsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/bot#containsZone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#containsZone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Zone> .
+# 
+# https://w3id.org/bot#hasBuilding
+<https://w3id.org/bot#hasBuilding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bot#containsZone> .
+<https://w3id.org/bot#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#hasBuilding> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Building> .
+# 
+# https://w3id.org/bot#hasElement
+<https://w3id.org/bot#hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#hasElement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#hasElement> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Element> .
+<https://w3id.org/bot#hasElement> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#hasElement> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/bot#containsZone> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# https://w3id.org/bot#hasSpace
+<https://w3id.org/bot#hasSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#hasSpace> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bot#containsZone> .
+<https://w3id.org/bot#hasSpace> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#hasSpace> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Space> .
+# 
+# https://w3id.org/bot#hasStorey
+<https://w3id.org/bot#hasStorey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#hasStorey> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bot#containsZone> .
+<https://w3id.org/bot#hasStorey> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#hasStorey> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Storey> .
+# 
+# https://w3id.org/bot#hasSubElement
+<https://w3id.org/bot#hasSubElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#hasSubElement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Element> .
+<https://w3id.org/bot#hasSubElement> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Element> .
+# 
+# https://w3id.org/bot#interfaceOf
+<https://w3id.org/bot#interfaceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#interfaceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Interface> .
+# 
+# https://w3id.org/bot#intersectingElement
+<https://w3id.org/bot#intersectingElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#intersectingElement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bot#hasElement> .
+# 
+# https://w3id.org/bot#intersectsZone
+<https://w3id.org/bot#intersectsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/bot#intersectsZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<https://w3id.org/bot#intersectsZone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#intersectsZone> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Zone> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://brickschema.org/schema/Brick#AHU
+<https://brickschema.org/schema/Brick#AHU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#AHU> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Absorption_Chiller
+<https://brickschema.org/schema/Brick#Absorption_Chiller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Absorption_Chiller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Chiller> .
+# 
+# https://brickschema.org/schema/Brick#Air_Diffuser
+<https://brickschema.org/schema/Brick#Air_Diffuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Air_Diffuser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#Air_Handler_Unit
+<https://brickschema.org/schema/Brick#Air_Handler_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Air_Handler_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Air_Handling_Unit
+<https://brickschema.org/schema/Brick#Air_Handling_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Air_Handling_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Air_Plenum
+<https://brickschema.org/schema/Brick#Air_Plenum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Air_Plenum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Baseboard_Radiator
+<https://brickschema.org/schema/Brick#Baseboard_Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Baseboard_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiator> .
+# 
+# https://brickschema.org/schema/Brick#Boiler
+<https://brickschema.org/schema/Brick#Boiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Boiler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Booster_Fan
+<https://brickschema.org/schema/Brick#Booster_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Booster_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#Bypass_Valve
+<https://brickschema.org/schema/Brick#Bypass_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Bypass_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Valve> .
+# 
+# https://brickschema.org/schema/Brick#CAV
+<https://brickschema.org/schema/Brick#CAV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#CAV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#CRAC
+<https://brickschema.org/schema/Brick#CRAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#CRAC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Ceiling_Fan
+<https://brickschema.org/schema/Brick#Ceiling_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Ceiling_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#Centrifugal_Chiller
+<https://brickschema.org/schema/Brick#Centrifugal_Chiller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Centrifugal_Chiller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Chiller> .
+# 
+# https://brickschema.org/schema/Brick#Chilled_Water_Coil
+<https://brickschema.org/schema/Brick#Chilled_Water_Coil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Chilled_Water_Coil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Cooling_Coil> .
+# 
+# https://brickschema.org/schema/Brick#Chilled_Water_Pump
+<https://brickschema.org/schema/Brick#Chilled_Water_Pump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Chilled_Water_Pump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Water_Pump> .
+# 
+# https://brickschema.org/schema/Brick#Chilled_Water_Valve
+<https://brickschema.org/schema/Brick#Chilled_Water_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Chilled_Water_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Water_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Chiller
+<https://brickschema.org/schema/Brick#Chiller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Chiller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Coil
+<https://brickschema.org/schema/Brick#Coil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Coil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Heat_Exchanger> .
+# 
+# https://brickschema.org/schema/Brick#Compressor
+<https://brickschema.org/schema/Brick#Compressor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Compressor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Computer_Room_Air_Conditioning
+<https://brickschema.org/schema/Brick#Computer_Room_Air_Conditioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Computer_Room_Air_Conditioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Condenser
+<https://brickschema.org/schema/Brick#Condenser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Condenser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Condenser_Heat_Exchanger
+<https://brickschema.org/schema/Brick#Condenser_Heat_Exchanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Condenser_Heat_Exchanger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Heat_Exchanger> .
+# 
+# https://brickschema.org/schema/Brick#Condenser_Water_Bypass_Valve
+<https://brickschema.org/schema/Brick#Condenser_Water_Bypass_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Condenser_Water_Bypass_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Bypass_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Condenser_Water_Isolation_Valve
+<https://brickschema.org/schema/Brick#Condenser_Water_Isolation_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Condenser_Water_Isolation_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Isolation_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Condenser_Water_Pump
+<https://brickschema.org/schema/Brick#Condenser_Water_Pump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Condenser_Water_Pump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Water_Pump> .
+# 
+# https://brickschema.org/schema/Brick#Condenser_Water_Valve
+<https://brickschema.org/schema/Brick#Condenser_Water_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Condenser_Water_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Water_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Condensing_Natural_Gas_Boiler
+<https://brickschema.org/schema/Brick#Condensing_Natural_Gas_Boiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Condensing_Natural_Gas_Boiler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Natural_Gas_Boiler> .
+# 
+# https://brickschema.org/schema/Brick#Constant_Air_Volume_Box
+<https://brickschema.org/schema/Brick#Constant_Air_Volume_Box> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Constant_Air_Volume_Box> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#Cooling_Coil
+<https://brickschema.org/schema/Brick#Cooling_Coil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Cooling_Coil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Coil> .
+# 
+# https://brickschema.org/schema/Brick#Cooling_Tower
+<https://brickschema.org/schema/Brick#Cooling_Tower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Cooling_Tower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Cooling_Tower_Fan
+<https://brickschema.org/schema/Brick#Cooling_Tower_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Cooling_Tower_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#Cooling_Valve
+<https://brickschema.org/schema/Brick#Cooling_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Cooling_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Valve> .
+# 
+# https://brickschema.org/schema/Brick#DOAS
+<https://brickschema.org/schema/Brick#DOAS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#DOAS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#AHU> .
+# 
+# https://brickschema.org/schema/Brick#Damper
+<https://brickschema.org/schema/Brick#Damper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Damper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Dedicated_Outdoor_Air_System_Unit
+<https://brickschema.org/schema/Brick#Dedicated_Outdoor_Air_System_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Dedicated_Outdoor_Air_System_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#AHU> .
+# 
+# https://brickschema.org/schema/Brick#Differential_Pressure_Bypass_Valve
+<https://brickschema.org/schema/Brick#Differential_Pressure_Bypass_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Differential_Pressure_Bypass_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Bypass_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Discharge_Fan
+<https://brickschema.org/schema/Brick#Discharge_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Discharge_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#Displacement_Flow_Air_Diffuser
+<https://brickschema.org/schema/Brick#Displacement_Flow_Air_Diffuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Displacement_Flow_Air_Diffuser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Air_Diffuser> .
+# 
+# https://brickschema.org/schema/Brick#Domestic_Hot_Water_Valve
+<https://brickschema.org/schema/Brick#Domestic_Hot_Water_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Domestic_Hot_Water_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Hot_Water_Valve> .
+# 
+# https://brickschema.org/schema/Brick#ESS_Panel
+<https://brickschema.org/schema/Brick#ESS_Panel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#ESS_Panel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiant_Panel> .
+# 
+# https://brickschema.org/schema/Brick#Economizer
+<https://brickschema.org/schema/Brick#Economizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Economizer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Economizer_Damper
+<https://brickschema.org/schema/Brick#Economizer_Damper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Economizer_Damper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Damper> .
+# 
+# https://brickschema.org/schema/Brick#Electric_Baseboard_Radiator
+<https://brickschema.org/schema/Brick#Electric_Baseboard_Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Electric_Baseboard_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Baseboard_Radiator> .
+<https://brickschema.org/schema/Brick#Electric_Baseboard_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Electric_Radiator> .
+# 
+# https://brickschema.org/schema/Brick#Electric_Boiler
+<https://brickschema.org/schema/Brick#Electric_Boiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Electric_Boiler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Boiler> .
+# 
+# https://brickschema.org/schema/Brick#Electric_Radiator
+<https://brickschema.org/schema/Brick#Electric_Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Electric_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiator> .
+# 
+# https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel
+<https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiant_Panel> .
+# 
+# https://brickschema.org/schema/Brick#Evaporative_Heat_Exchanger
+<https://brickschema.org/schema/Brick#Evaporative_Heat_Exchanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Evaporative_Heat_Exchanger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Heat_Exchanger> .
+# 
+# https://brickschema.org/schema/Brick#Exhaust_Damper
+<https://brickschema.org/schema/Brick#Exhaust_Damper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Exhaust_Damper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Damper> .
+# 
+# https://brickschema.org/schema/Brick#Exhaust_Fan
+<https://brickschema.org/schema/Brick#Exhaust_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Exhaust_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#FCU
+<https://brickschema.org/schema/Brick#FCU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#FCU> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#Fan
+<https://brickschema.org/schema/Brick#Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Fan_Coil_Unit
+<https://brickschema.org/schema/Brick#Fan_Coil_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Fan_Coil_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#Filter
+<https://brickschema.org/schema/Brick#Filter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Filter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Final_Filter
+<https://brickschema.org/schema/Brick#Final_Filter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Final_Filter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Filter> .
+# 
+# https://brickschema.org/schema/Brick#Fresh_Air_Fan
+<https://brickschema.org/schema/Brick#Fresh_Air_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Fresh_Air_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#Fume_Hood
+<https://brickschema.org/schema/Brick#Fume_Hood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Fume_Hood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Gas_Valve
+<https://brickschema.org/schema/Brick#Gas_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Gas_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Valve> .
+# 
+# https://brickschema.org/schema/Brick#HVAC_Equipment
+<https://brickschema.org/schema/Brick#HVAC_Equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#HVAC_Equipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+# 
+# https://brickschema.org/schema/Brick#HX
+<https://brickschema.org/schema/Brick#HX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#HX> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Heat_Exchanger
+<https://brickschema.org/schema/Brick#Heat_Exchanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Heat_Exchanger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Heat_Wheel
+<https://brickschema.org/schema/Brick#Heat_Wheel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Heat_Wheel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Heat_Exchanger> .
+# 
+# https://brickschema.org/schema/Brick#Heating_Coil
+<https://brickschema.org/schema/Brick#Heating_Coil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Heating_Coil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Coil> .
+# 
+# https://brickschema.org/schema/Brick#Heating_Valve
+<https://brickschema.org/schema/Brick#Heating_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Heating_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Valve> .
+# 
+# https://brickschema.org/schema/Brick#Hot_Water_Baseboard_Radiator
+<https://brickschema.org/schema/Brick#Hot_Water_Baseboard_Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Hot_Water_Baseboard_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Baseboard_Radiator> .
+<https://brickschema.org/schema/Brick#Hot_Water_Baseboard_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Hot_Water_Radiator> .
+# 
+# https://brickschema.org/schema/Brick#Hot_Water_Coil
+<https://brickschema.org/schema/Brick#Hot_Water_Coil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Hot_Water_Coil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Heating_Coil> .
+# 
+# https://brickschema.org/schema/Brick#Hot_Water_Pump
+<https://brickschema.org/schema/Brick#Hot_Water_Pump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Hot_Water_Pump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Water_Pump> .
+# 
+# https://brickschema.org/schema/Brick#Hot_Water_Radiator
+<https://brickschema.org/schema/Brick#Hot_Water_Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Hot_Water_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiator> .
+# 
+# https://brickschema.org/schema/Brick#Hot_Water_Valve
+<https://brickschema.org/schema/Brick#Hot_Water_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Hot_Water_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Heating_Valve> .
+<https://brickschema.org/schema/Brick#Hot_Water_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Water_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Humidifier
+<https://brickschema.org/schema/Brick#Humidifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Humidifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Intake_Air_Filter
+<https://brickschema.org/schema/Brick#Intake_Air_Filter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Intake_Air_Filter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Filter> .
+# 
+# https://brickschema.org/schema/Brick#Isolation_Valve
+<https://brickschema.org/schema/Brick#Isolation_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Isolation_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Valve> .
+# 
+# https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser
+<https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Air_Diffuser> .
+# 
+# https://brickschema.org/schema/Brick#Laminar_Flow_Air_Diffuser
+<https://brickschema.org/schema/Brick#Laminar_Flow_Air_Diffuser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Laminar_Flow_Air_Diffuser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Air_Diffuser> .
+# 
+# https://brickschema.org/schema/Brick#MAU
+<https://brickschema.org/schema/Brick#MAU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#MAU> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#AHU> .
+# 
+# https://brickschema.org/schema/Brick#Makeup_Air_Unit
+<https://brickschema.org/schema/Brick#Makeup_Air_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Makeup_Air_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#AHU> .
+# 
+# https://brickschema.org/schema/Brick#Makeup_Water_Valve
+<https://brickschema.org/schema/Brick#Makeup_Water_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Makeup_Water_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Water_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Mixed_Air_Filter
+<https://brickschema.org/schema/Brick#Mixed_Air_Filter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Mixed_Air_Filter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Filter> .
+# 
+# https://brickschema.org/schema/Brick#Mixed_Damper
+<https://brickschema.org/schema/Brick#Mixed_Damper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Mixed_Damper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Damper> .
+# 
+# https://brickschema.org/schema/Brick#Natural_Gas_Boiler
+<https://brickschema.org/schema/Brick#Natural_Gas_Boiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Natural_Gas_Boiler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Boiler> .
+# 
+# https://brickschema.org/schema/Brick#Noncondensing_Natural_Gas_Boiler
+<https://brickschema.org/schema/Brick#Noncondensing_Natural_Gas_Boiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Noncondensing_Natural_Gas_Boiler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Natural_Gas_Boiler> .
+# 
+# https://brickschema.org/schema/Brick#Outside_Damper
+<https://brickschema.org/schema/Brick#Outside_Damper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Outside_Damper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Damper> .
+# 
+# https://brickschema.org/schema/Brick#PAU
+<https://brickschema.org/schema/Brick#PAU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#PAU> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#AHU> .
+# 
+# https://brickschema.org/schema/Brick#Pre_Filter
+<https://brickschema.org/schema/Brick#Pre_Filter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Pre_Filter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Filter> .
+# 
+# https://brickschema.org/schema/Brick#Preheat_Hot_Water_Valve
+<https://brickschema.org/schema/Brick#Preheat_Hot_Water_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Preheat_Hot_Water_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Hot_Water_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Pump
+<https://brickschema.org/schema/Brick#Pump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Pump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#RC_Panel
+<https://brickschema.org/schema/Brick#RC_Panel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#RC_Panel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiant_Panel> .
+# 
+# https://brickschema.org/schema/Brick#RTU
+<https://brickschema.org/schema/Brick#RTU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#RTU> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#AHU> .
+# 
+# https://brickschema.org/schema/Brick#RVAV
+<https://brickschema.org/schema/Brick#RVAV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#RVAV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Variable_Air_Volume_Box> .
+# 
+# https://brickschema.org/schema/Brick#Radiant_Ceiling_Panel
+<https://brickschema.org/schema/Brick#Radiant_Ceiling_Panel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Radiant_Ceiling_Panel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiant_Panel> .
+# 
+# https://brickschema.org/schema/Brick#Radiant_Panel
+<https://brickschema.org/schema/Brick#Radiant_Panel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Radiant_Panel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#Radiator
+<https://brickschema.org/schema/Brick#Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#Reheat_Valve
+<https://brickschema.org/schema/Brick#Reheat_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Reheat_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Heating_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Return_Air_Filter
+<https://brickschema.org/schema/Brick#Return_Air_Filter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Return_Air_Filter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Filter> .
+# 
+# https://brickschema.org/schema/Brick#Return_Air_Plenum
+<https://brickschema.org/schema/Brick#Return_Air_Plenum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Return_Air_Plenum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Air_Plenum> .
+# 
+# https://brickschema.org/schema/Brick#Return_Damper
+<https://brickschema.org/schema/Brick#Return_Damper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Return_Damper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Damper> .
+# 
+# https://brickschema.org/schema/Brick#Return_Fan
+<https://brickschema.org/schema/Brick#Return_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Return_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#Return_Heating_Valve
+<https://brickschema.org/schema/Brick#Return_Heating_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Return_Heating_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Heating_Valve> .
+# 
+# https://brickschema.org/schema/Brick#Rooftop_Unit
+<https://brickschema.org/schema/Brick#Rooftop_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Rooftop_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#AHU> .
+# 
+# https://brickschema.org/schema/Brick#Space_Heater
+<https://brickschema.org/schema/Brick#Space_Heater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Space_Heater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Standby_CRAC
+<https://brickschema.org/schema/Brick#Standby_CRAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Standby_CRAC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#CRAC> .
+# 
+# https://brickschema.org/schema/Brick#Standby_Fan
+<https://brickschema.org/schema/Brick#Standby_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Standby_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator
+<https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Baseboard_Radiator> .
+<https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Steam_Radiator> .
+# 
+# https://brickschema.org/schema/Brick#Steam_Radiator
+<https://brickschema.org/schema/Brick#Steam_Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Steam_Radiator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiator> .
+# 
+# https://brickschema.org/schema/Brick#Steam_Valve
+<https://brickschema.org/schema/Brick#Steam_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Steam_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Valve> .
+# 
+# https://brickschema.org/schema/Brick#Supply_Air_Plenum
+<https://brickschema.org/schema/Brick#Supply_Air_Plenum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Supply_Air_Plenum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Air_Plenum> .
+# 
+# https://brickschema.org/schema/Brick#Supply_Fan
+<https://brickschema.org/schema/Brick#Supply_Fan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Supply_Fan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Fan> .
+# 
+# https://brickschema.org/schema/Brick#TABS_Panel
+<https://brickschema.org/schema/Brick#TABS_Panel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#TABS_Panel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiant_Panel> .
+# 
+# https://brickschema.org/schema/Brick#Terminal_Unit
+<https://brickschema.org/schema/Brick#Terminal_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Terminal_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Thermally_Activated_Building_System_Panel
+<https://brickschema.org/schema/Brick#Thermally_Activated_Building_System_Panel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Thermally_Activated_Building_System_Panel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Radiant_Panel> .
+# 
+# https://brickschema.org/schema/Brick#Thermostat
+<https://brickschema.org/schema/Brick#Thermostat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Thermostat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Underfloor_Air_Plenum
+<https://brickschema.org/schema/Brick#Underfloor_Air_Plenum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Underfloor_Air_Plenum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Supply_Air_Plenum> .
+# 
+# https://brickschema.org/schema/Brick#VAV
+<https://brickschema.org/schema/Brick#VAV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#VAV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#Valve
+<https://brickschema.org/schema/Brick#Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#HVAC_Equipment> .
+# 
+# https://brickschema.org/schema/Brick#Variable_Air_Volume_Box
+<https://brickschema.org/schema/Brick#Variable_Air_Volume_Box> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Variable_Air_Volume_Box> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Terminal_Unit> .
+# 
+# https://brickschema.org/schema/Brick#Variable_Air_Volume_Box_With_Reheat
+<https://brickschema.org/schema/Brick#Variable_Air_Volume_Box_With_Reheat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Variable_Air_Volume_Box_With_Reheat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Variable_Air_Volume_Box> .
+# 
+# https://brickschema.org/schema/Brick#Water_Pump
+<https://brickschema.org/schema/Brick#Water_Pump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Water_Pump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Pump> .
+# 
+# https://brickschema.org/schema/Brick#Water_Valve
+<https://brickschema.org/schema/Brick#Water_Valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://brickschema.org/schema/Brick#Water_Valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://brickschema.org/schema/Brick#Valve> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Activation
+<https://github.com/arashhosseiniarash/AFDDOntology#Activation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Activation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Algorithm
+<https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks
+<https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment
+<https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration
+<https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Blockage
+<https://github.com/arashhosseiniarash/AFDDOntology#Blockage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Blockage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Building
+<https://github.com/arashhosseiniarash/AFDDOntology#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Information> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#C
+<https://github.com/arashhosseiniarash/AFDDOntology#C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#C> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Svm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure
+<https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Calculation
+<https://github.com/arashhosseiniarash/AFDDOntology#Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Calculation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Track> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction
+<https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks
+<https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#CheckForFluidFlow
+<https://github.com/arashhosseiniarash/AFDDOntology#CheckForFluidFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#CheckForFluidFlow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#CheckOperation
+<https://github.com/arashhosseiniarash/AFDDOntology#CheckOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#CheckOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Clustering
+<https://github.com/arashhosseiniarash/AFDDOntology#Clustering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Clustering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem
+<https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Confidence
+<https://github.com/arashhosseiniarash/AFDDOntology#Confidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Confidence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased
+<https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Control
+<https://github.com/arashhosseiniarash/AFDDOntology#Control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Control> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#ControlFault
+<https://github.com/arashhosseiniarash/AFDDOntology#ControlFault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#ControlFault> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Criterion
+<https://github.com/arashhosseiniarash/AFDDOntology#Criterion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Criterion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak
+<https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#DamperConditionSettingAndOperation
+<https://github.com/arashhosseiniarash/AFDDOntology#DamperConditionSettingAndOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DamperConditionSettingAndOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree
+<https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Deleted
+<https://github.com/arashhosseiniarash/AFDDOntology#Deleted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Deleted> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Track> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#DeteriorationLeaksMoistureProblemsCondensationAndCombustion
+<https://github.com/arashhosseiniarash/AFDDOntology#DeteriorationLeaksMoistureProblemsCondensationAndCombustion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DeteriorationLeaksMoistureProblemsCondensationAndCombustion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction
+<https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Disinfect
+<https://github.com/arashhosseiniarash/AFDDOntology#Disinfect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Disinfect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction
+<https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping
+<https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Efficiency
+<https://github.com/arashhosseiniarash/AFDDOntology#Efficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Efficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents
+<https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#EnergyOrPower
+<https://github.com/arashhosseiniarash/AFDDOntology#EnergyOrPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#EnergyOrPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning
+<https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Epochs
+<https://github.com/arashhosseiniarash/AFDDOntology#Epochs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Epochs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Epsilon
+<https://github.com/arashhosseiniarash/AFDDOntology#Epsilon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Epsilon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange
+<https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#FanBladeaAndHousing
+<https://github.com/arashhosseiniarash/AFDDOntology#FanBladeaAndHousing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#FanBladeaAndHousing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Fault
+<https://github.com/arashhosseiniarash/AFDDOntology#Fault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Feature
+<https://github.com/arashhosseiniarash/AFDDOntology#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul
+<https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#FitAndIntegrity
+<https://github.com/arashhosseiniarash/AFDDOntology#FitAndIntegrity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#FitAndIntegrity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem
+<https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#FlowRate
+<https://github.com/arashhosseiniarash/AFDDOntology#FlowRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#FlowRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#FluidFlowAndLeaks
+<https://github.com/arashhosseiniarash/AFDDOntology#FluidFlowAndLeaks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#FluidFlowAndLeaks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Foul
+<https://github.com/arashhosseiniarash/AFDDOntology#Foul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Foul> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation
+<https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Frequency
+<https://github.com/arashhosseiniarash/AFDDOntology#Frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Frequency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Track> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#HVAC
+<https://github.com/arashhosseiniarash/AFDDOntology#HVAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#HVAC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Information> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Humidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Hybrid
+<https://github.com/arashhosseiniarash/AFDDOntology#Hybrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Hybrid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Information
+<https://github.com/arashhosseiniarash/AFDDOntology#Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters
+<https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification
+<https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity
+<https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#K
+<https://github.com/arashhosseiniarash/AFDDOntology#K> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#K> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering
+<https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#KernelType
+<https://github.com/arashhosseiniarash/AFDDOntology#KernelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#KernelType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Svm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#L1
+<https://github.com/arashhosseiniarash/AFDDOntology#L1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#L1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#L2
+<https://github.com/arashhosseiniarash/AFDDOntology#L2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#L2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Leakage
+<https://github.com/arashhosseiniarash/AFDDOntology#Leakage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Leakage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue
+<https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Load
+<https://github.com/arashhosseiniarash/AFDDOntology#Load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Load> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#LossFunction
+<https://github.com/arashhosseiniarash/AFDDOntology#LossFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#LossFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Maintenance
+<https://github.com/arashhosseiniarash/AFDDOntology#Maintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction
+<https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Maintenance> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection
+<https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Maintenance> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps
+<https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns
+<https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MaxW2
+<https://github.com/arashhosseiniarash/AFDDOntology#MaxW2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaxW2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth
+<https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes
+<https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering
+<https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure
+<https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth
+<https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining
+<https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable
+<https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning
+<https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents
+<https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives
+<https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure
+<https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition
+<https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Optimizer
+<https://github.com/arashhosseiniarash/AFDDOntology#Optimizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Optimizer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Other
+<https://github.com/arashhosseiniarash/AFDDOntology#Other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Other> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults
+<https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection
+<https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Performance
+<https://github.com/arashhosseiniarash/AFDDOntology#Performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Performance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed
+<https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Rate
+<https://github.com/arashhosseiniarash/AFDDOntology#Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Record
+<https://github.com/arashhosseiniarash/AFDDOntology#Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Record> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Track> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantSystemPressuresOrTemperatures
+<https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantSystemPressuresOrTemperatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantSystemPressuresOrTemperatures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantTemperatures
+<https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantTemperatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantTemperatures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Regression
+<https://github.com/arashhosseiniarash/AFDDOntology#Regression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Regression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace
+<https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#RepairAndAdjust
+<https://github.com/arashhosseiniarash/AFDDOntology#RepairAndAdjust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RepairAndAdjust> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#RepairOrReplace
+<https://github.com/arashhosseiniarash/AFDDOntology#RepairOrReplace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RepairOrReplace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#RepairReplaceOrRestore
+<https://github.com/arashhosseiniarash/AFDDOntology#RepairReplaceOrRestore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RepairReplaceOrRestore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Replace
+<https://github.com/arashhosseiniarash/AFDDOntology#Replace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Replace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Rho
+<https://github.com/arashhosseiniarash/AFDDOntology#Rho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Rho> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#RuleBased
+<https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Scale
+<https://github.com/arashhosseiniarash/AFDDOntology#Scale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Scale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Svm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault
+<https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#SetPoint
+<https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue
+<https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue
+<https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation
+<https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Speed
+<https://github.com/arashhosseiniarash/AFDDOntology#Speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Speed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity
+<https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#State
+<https://github.com/arashhosseiniarash/AFDDOntology#State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Status
+<https://github.com/arashhosseiniarash/AFDDOntology#Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#SteamSystemTrapsPumpsStrainersAndControls
+<https://github.com/arashhosseiniarash/AFDDOntology#SteamSystemTrapsPumpsStrainersAndControls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SteamSystemTrapsPumpsStrainersAndControls> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed
+<https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Support
+<https://github.com/arashhosseiniarash/AFDDOntology#Support> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Support> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Svm
+<https://github.com/arashhosseiniarash/AFDDOntology#Svm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Temperature
+<https://github.com/arashhosseiniarash/AFDDOntology#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue
+<https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Track
+<https://github.com/arashhosseiniarash/AFDDOntology#Track> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration
+<https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold
+<https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Voltage
+<https://github.com/arashhosseiniarash/AFDDOntology#Voltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Voltage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote
+<https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> .
+# 
+# https://w3id.org/bot#Building
+<https://w3id.org/bot#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#Building> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Site> .
+<https://w3id.org/bot#Building> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Space> .
+<https://w3id.org/bot#Building> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Storey> .
+# 
+# https://w3id.org/bot#Element
+<https://w3id.org/bot#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Element> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Interface> .
+<https://w3id.org/bot#Element> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Zone> .
+# 
+# https://w3id.org/bot#Interface
+<https://w3id.org/bot#Interface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Interface> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Zone> .
+# 
+# https://w3id.org/bot#Site
+<https://w3id.org/bot#Site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#Site> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Space> .
+<https://w3id.org/bot#Site> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Storey> .
+# 
+# https://w3id.org/bot#Space
+<https://w3id.org/bot#Space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Space> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#Space> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Storey> .
+# 
+# https://w3id.org/bot#Storey
+<https://w3id.org/bot#Storey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Storey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+# 
+# https://w3id.org/bot#Zone
+<https://w3id.org/bot#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value
+<https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> <https://github.com/arashhosseiniarash/AFDDOntology#value> "0.67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#Svc
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Svm> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN
+<https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Activation> .
+<https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN> <http://www.w3.org/2000/01/rdf-schema#comment> "relu and softmax" .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#adam
+<https://github.com/arashhosseiniarash/AFDDOntology#adam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#adam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Optimizer> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy
+<https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#LossFunction> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#patience
+<https://github.com/arashhosseiniarash/AFDDOntology#patience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#patience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance> .
+<https://github.com/arashhosseiniarash/AFDDOntology#patience> <https://github.com/arashhosseiniarash/AFDDOntology#value> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#random_state
+<https://github.com/arashhosseiniarash/AFDDOntology#random_state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#random_state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed> .
+<https://github.com/arashhosseiniarash/AFDDOntology#random_state> <https://github.com/arashhosseiniarash/AFDDOntology#value> "101"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#rbf
+<https://github.com/arashhosseiniarash/AFDDOntology#rbf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#rbf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#KernelType> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer
+<https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize> .
+<https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer> <http://www.w3.org/2000/01/rdf-schema#comment> "70-15-7" .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling
+<https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Scale> .
+<https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling> <http://www.w3.org/2000/01/rdf-schema#comment> "feature range -1 , 1" .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#test_size
+<https://github.com/arashhosseiniarash/AFDDOntology#test_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#test_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration> .
+<https://github.com/arashhosseiniarash/AFDDOntology#test_size> <https://github.com/arashhosseiniarash/AFDDOntology#value> "0.25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1
+<https://github.com/arashhosseiniarash/AFDDOntology#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#C> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Foul> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Leakage> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error
+<https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback
+<https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Control> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#FlowRate> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Foul> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Leakage> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error
+<https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback
+<https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Control> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#FlowRate> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#3
+<https://github.com/arashhosseiniarash/AFDDOntology#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#600
+<https://github.com/arashhosseiniarash/AFDDOntology#600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Epochs> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

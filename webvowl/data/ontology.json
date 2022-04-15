@@ -1,0 +1,6324 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "https://w3id.org/bot", "https://brickschema.org/schema/Brick", "https://github.com/arashhosseiniarash/AFDDOntology", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "215",
+    "type" : "owl:Class"
+  }, {
+    "id" : "217",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "236",
+    "type" : "owl:Class"
+  }, {
+    "id" : "237",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "230",
+    "type" : "owl:Class"
+  }, {
+    "id" : "246",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "258",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "277",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "279",
+    "type" : "owl:Class"
+  }, {
+    "id" : "280",
+    "type" : "owl:Class"
+  }, {
+    "id" : "287",
+    "type" : "owl:Class"
+  }, {
+    "id" : "293",
+    "type" : "owl:Class"
+  }, {
+    "id" : "220",
+    "type" : "owl:Class"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "229",
+    "type" : "owl:Class"
+  }, {
+    "id" : "243",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "337",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:Class"
+  }, {
+    "id" : "326",
+    "type" : "owl:Class"
+  }, {
+    "id" : "216",
+    "type" : "owl:Class"
+  }, {
+    "id" : "214",
+    "type" : "owl:Class"
+  }, {
+    "id" : "353",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "354",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "355",
+    "type" : "owl:Class"
+  }, {
+    "id" : "365",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "238",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "224",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:Class"
+  }, {
+    "id" : "263",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "393",
+    "type" : "owl:Class"
+  }, {
+    "id" : "223",
+    "type" : "owl:Class"
+  }, {
+    "id" : "267",
+    "type" : "owl:Class"
+  }, {
+    "id" : "396",
+    "type" : "owl:Class"
+  }, {
+    "id" : "388",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "309",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "320",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "212",
+    "type" : "owl:Class"
+  }, {
+    "id" : "292",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "418",
+    "type" : "owl:Class"
+  }, {
+    "id" : "219",
+    "type" : "owl:Class"
+  }, {
+    "id" : "385",
+    "type" : "owl:Class"
+  }, {
+    "id" : "286",
+    "type" : "owl:Class"
+  }, {
+    "id" : "330",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "335",
+    "type" : "owl:Class"
+  }, {
+    "id" : "420",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "328",
+    "type" : "owl:Class"
+  }, {
+    "id" : "250",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "221",
+    "type" : "owl:Class"
+  }, {
+    "id" : "398",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "384",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "318",
+    "type" : "owl:Class"
+  }, {
+    "id" : "218",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "241",
+    "type" : "owl:Class"
+  }, {
+    "id" : "307",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "432",
+    "type" : "owl:Class"
+  }, {
+    "id" : "275",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "303",
+    "type" : "owl:Class"
+  }, {
+    "id" : "301",
+    "type" : "owl:Class"
+  }, {
+    "id" : "370",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "272",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "311",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "228",
+    "type" : "owl:Class"
+  }, {
+    "id" : "372",
+    "type" : "owl:Class"
+  }, {
+    "id" : "410",
+    "type" : "owl:Class"
+  }, {
+    "id" : "378",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "455",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "472",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "363",
+    "type" : "owl:Class"
+  }, {
+    "id" : "380",
+    "type" : "owl:Class"
+  }, {
+    "id" : "344",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "332",
+    "type" : "owl:Class"
+  }, {
+    "id" : "261",
+    "type" : "owl:Class"
+  }, {
+    "id" : "474",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "248",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "475",
+    "type" : "owl:Class"
+  }, {
+    "id" : "245",
+    "type" : "owl:Class"
+  }, {
+    "id" : "322",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "477",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "274",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "342",
+    "type" : "owl:Class"
+  }, {
+    "id" : "316",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "382",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "324",
+    "type" : "owl:Class"
+  }, {
+    "id" : "482",
+    "type" : "owl:Class"
+  }, {
+    "id" : "373",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "305",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "386",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "374",
+    "type" : "owl:Class"
+  }, {
+    "id" : "343",
+    "type" : "owl:Class"
+  }, {
+    "id" : "494",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "463",
+    "type" : "owl:Class"
+  }, {
+    "id" : "273",
+    "type" : "owl:Class"
+  }, {
+    "id" : "435",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "276",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
+    "type" : "owl:Class"
+  }, {
+    "id" : "480",
+    "type" : "owl:Class"
+  }, {
+    "id" : "252",
+    "type" : "owl:Class"
+  }, {
+    "id" : "314",
+    "type" : "owl:Class"
+  }, {
+    "id" : "495",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "478",
+    "type" : "owl:Class"
+  }, {
+    "id" : "437",
+    "type" : "owl:Class"
+  }, {
+    "id" : "265",
+    "type" : "owl:Class"
+  }, {
+    "id" : "226",
+    "type" : "owl:Class"
+  }, {
+    "id" : "357",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "529",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "479",
+    "type" : "owl:Class"
+  }, {
+    "id" : "295",
+    "type" : "owl:Class"
+  }, {
+    "id" : "298",
+    "type" : "owl:Class"
+  }, {
+    "id" : "465",
+    "type" : "owl:Class"
+  }, {
+    "id" : "269",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "260",
+    "type" : "owl:Class"
+  }, {
+    "id" : "426",
+    "type" : "owl:Class"
+  }, {
+    "id" : "225",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "312",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "278",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "439",
+    "type" : "owl:Class"
+  }, {
+    "id" : "376",
+    "type" : "owl:Class"
+  }, {
+    "id" : "235",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "408",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://brickschema.org/schema/Brick#Supply_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DimensionalityReduction"
+    },
+    "subClasses" : [ "10", "11" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Electric_Boiler",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electric_Boiler"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Variable_Air_Volume_Box_With_Reheat",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Variable_Air_Volume_Box_With_Reheat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#RTU",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RTU"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#L2",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "L2"
+    },
+    "id" : "17",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#L1",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "L1"
+    },
+    "id" : "23",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Control",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Control"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Lighting_System:_Control_Command"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Lighting_System:_Control_Command"
+      }
+    } ],
+    "id" : "44",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#SteamSystemTrapsPumpsStrainersAndControls",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SteamSystemTrapsPumpsStrainersAndControls"
+    },
+    "id" : "45",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RepairAndAdjust",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RepairAndAdjust"
+    },
+    "id" : "72",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Filter",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Filter"
+    },
+    "subClasses" : [ "79", "80", "81", "82", "83" ],
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#DamperConditionSettingAndOperation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DamperConditionSettingAndOperation"
+    },
+    "id" : "84",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NumberOfPrepruningAlternatives"
+    },
+    "id" : "85",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Steam_Baseboard_Radiator"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "88", "89" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RepairReplaceOrRestore",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RepairReplaceOrRestore"
+    },
+    "id" : "104",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Pump",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pump"
+    },
+    "subClasses" : [ "110" ],
+    "attributes" : [ "external" ],
+    "id" : "109",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Space",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Space"
+    },
+    "attributes" : [ "external" ],
+    "id" : "111",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FanBladeaAndHousing",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FanBladeaAndHousing"
+    },
+    "id" : "113",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Water_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Valve"
+    },
+    "subClasses" : [ "116", "117", "118", "119" ],
+    "attributes" : [ "external" ],
+    "id" : "114",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Heating_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heating_Valve"
+    },
+    "subClasses" : [ "123", "118", "124" ],
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Coil",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Coil"
+    },
+    "subClasses" : [ "131", "132" ],
+    "attributes" : [ "external" ],
+    "id" : "129",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RepairAdjustOrReplace"
+    },
+    "id" : "108",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DamageOrLeak"
+    },
+    "id" : "149",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Differential_Pressure_Bypass_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Differential_Pressure_Bypass_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "150",
+    "superClasses" : [ "151" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Blockage",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Blockage"
+    },
+    "id" : "152",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Return_Air_Filter",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Return_Air_Filter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WeightedVote"
+    },
+    "id" : "173",
+    "superClasses" : [ "174" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#HVAC",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HVAC"
+    },
+    "id" : "70",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TemperatureIssue"
+    },
+    "id" : "175",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Exhaust_Damper",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exhaust_Damper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "176",
+    "superClasses" : [ "177" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Building",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Building"
+    },
+    "attributes" : [ "external" ],
+    "id" : "178",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MinimalSizeForSplit"
+    },
+    "id" : "179",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Electric_Baseboard_Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electric_Baseboard_Radiator"
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "93", "88" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Evaporative_Heat_Exchanger",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Evaporative_Heat_Exchanger"
+    },
+    "attributes" : [ "external" ],
+    "id" : "188",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Underfloor_Air_Plenum",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Underfloor_Air_Plenum"
+    },
+    "attributes" : [ "external" ],
+    "id" : "189",
+    "superClasses" : [ "190" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Regression",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Regression"
+    },
+    "id" : "191",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrainSamplesPerIteration"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#test_size",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "annotations" : {
+        "value" : [ {
+          "identifier" : "value",
+          "language" : "undefined",
+          "value" : "0.25",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "test_size"
+      }
+    } ],
+    "id" : "33",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Heat_Exchanger",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heat_Exchanger"
+    },
+    "subClasses" : [ "129", "192", "188", "193" ],
+    "attributes" : [ "external" ],
+    "id" : "130",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EvaluateFrequencyOfChange"
+    },
+    "id" : "50",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Storey",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Storey"
+    },
+    "attributes" : [ "external" ],
+    "id" : "182",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Frequency",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Frequency"
+    },
+    "id" : "215",
+    "superClasses" : [ "216" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Gas_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gas_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "217",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Fault",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fault"
+    },
+    "subClasses" : [ "218", "219", "220", "221", "222", "223", "224", "225", "226", "175", "227", "228", "152", "229", "230", "126", "59", "64" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CalculatedMeasure"
+    },
+    "id" : "236",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KNumberForClustering"
+    },
+    "id" : "237",
+    "superClasses" : [ "238" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MoistureOrBiologicalGrowth"
+    },
+    "id" : "136",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SizzingIssue"
+    },
+    "id" : "230",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#DOAS",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DOAS"
+    },
+    "attributes" : [ "external" ],
+    "id" : "246",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VarianceThreshold"
+    },
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnsembleLearning"
+    },
+    "id" : "258",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Exhaust_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exhaust_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "148",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Radiant_Panel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Radiant_Panel"
+    },
+    "subClasses" : [ "273", "274", "275", "276", "252", "256" ],
+    "attributes" : [ "external" ],
+    "id" : "198",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Condenser_Water_Isolation_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condenser_Water_Isolation_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "277",
+    "superClasses" : [ "278" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Hot_Water_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hot_Water_Valve"
+    },
+    "subClasses" : [ "269", "272" ],
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "114", "122" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Hot_Water_Coil",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hot_Water_Coil"
+    },
+    "attributes" : [ "external" ],
+    "id" : "279",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaxRuns"
+    },
+    "id" : "280",
+    "superClasses" : [ "238" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Cooling_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cooling_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "287",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MeasureTypesForClustering"
+    },
+    "id" : "293",
+    "superClasses" : [ "238" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonFunctioning"
+    },
+    "id" : "220",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Svm",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Svm"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Svc",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "Svc"
+      }
+    } ],
+    "subClasses" : [ "248", "250", "207" ],
+    "id" : "208",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Makeup_Water_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Makeup_Water_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "117",
+    "superClasses" : [ "114" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Zone",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zone"
+    },
+    "subClasses" : [ "111", "178", "182", "184" ],
+    "attributes" : [ "external" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Final_Filter",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Final_Filter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CapacityReduction"
+    },
+    "id" : "229",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Hot_Water_Pump",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hot_Water_Pump"
+    },
+    "attributes" : [ "external" ],
+    "id" : "243",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Standby_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Standby_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Reheat_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reheat_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "123",
+    "superClasses" : [ "122" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Fume_Hood",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fume_Hood"
+    },
+    "attributes" : [ "external" ],
+    "id" : "337",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#RC_Panel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RC_Panel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "256",
+    "superClasses" : [ "198" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Scale",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Scale"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "comment" : {
+        "undefined" : "feature range -1 , 1"
+      },
+      "labels" : {
+        "IRI-based" : "svm_scaling"
+      }
+    } ],
+    "id" : "207",
+    "superClasses" : [ "208" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#LossFunction",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LossFunction"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "categorical_crossentropy"
+      }
+    } ],
+    "id" : "326",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Track",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Track"
+    },
+    "subClasses" : [ "215", "342", "343", "344" ],
+    "id" : "216"
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#FCU",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FCU"
+    },
+    "attributes" : [ "external" ],
+    "id" : "214",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantSystemPressuresOrTemperatures",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RefrigerantSystemPressuresOrTemperatures"
+    },
+    "id" : "353",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StoppingMetric"
+    },
+    "id" : "13",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Space_Heater",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Space_Heater"
+    },
+    "attributes" : [ "external" ],
+    "id" : "354",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Jet_Nozzle_Air_Diffuser"
+    },
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "98" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FoulingCorrosionOrDegradation"
+    },
+    "id" : "165",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Air_Handler_Unit",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Air_Handler_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "355",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "365",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Mixed_Air_Filter",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mixed_Air_Filter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Supply_Air_Plenum",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Air_Plenum"
+    },
+    "subClasses" : [ "189" ],
+    "attributes" : [ "external" ],
+    "id" : "190",
+    "superClasses" : [ "372" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Clustering",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Clustering"
+    },
+    "subClasses" : [ "293", "373", "374", "237", "280" ],
+    "id" : "238",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Constant_Air_Volume_Box",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Constant_Air_Volume_Box"
+    },
+    "attributes" : [ "external" ],
+    "id" : "202",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OtherFaults"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Lighting_Setback_Error"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Lighting_Setback_Error"
+      }
+    } ],
+    "id" : "224",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#VAV",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VAV"
+    },
+    "attributes" : [ "external" ],
+    "id" : "204",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Condenser_Heat_Exchanger",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condenser_Heat_Exchanger"
+    },
+    "attributes" : [ "external" ],
+    "id" : "192",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Economizer_Damper",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economizer_Damper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "263",
+    "superClasses" : [ "177" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaintenanceInspection"
+    },
+    "subClasses" : [ "385", "84", "353", "386", "156", "158", "149", "161", "163", "165", "113", "168", "170", "172", "154", "134", "136", "45", "139" ],
+    "id" : "46",
+    "superClasses" : [ "286" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fan"
+    },
+    "subClasses" : [ "141", "0", "144", "146", "148", "121", "128", "62", "66" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Dedicated_Outdoor_Air_System_Unit",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dedicated_Outdoor_Air_System_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "393",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BiasDriftCalibration"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Thermostat_measurement_bias"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Thermostat_measurement_bias"
+      }
+    } ],
+    "id" : "223",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Outside_Damper",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Outside_Damper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "267",
+    "superClasses" : [ "177" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Rooftop_Unit",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rooftop_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "396",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Criterion",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Criterion"
+    },
+    "id" : "388",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Information",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Information"
+    },
+    "subClasses" : [ "70", "76" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Rho",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rho"
+    },
+    "id" : "309",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RefrigerantTemperatures",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RefrigerantTemperatures"
+    },
+    "id" : "139",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Leakage",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Leakage"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Excessive_infiltration"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Excessive_infiltration"
+      }
+    } ],
+    "id" : "126",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Load",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Load"
+    },
+    "id" : "39",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Rate",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rate"
+    },
+    "id" : "320",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Air_Diffuser",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Air_Diffuser"
+    },
+    "subClasses" : [ "97", "102", "106" ],
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#CAV",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CAV"
+    },
+    "attributes" : [ "external" ],
+    "id" : "212",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Mixed_Damper",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mixed_Damper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "292",
+    "superClasses" : [ "177" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Activation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activation"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "comment" : {
+        "undefined" : "relu and softmax"
+      },
+      "labels" : {
+        "IRI-based" : "activation_used_for_NN"
+      }
+    } ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Heat_Wheel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heat_Wheel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "193",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Thermostat",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Thermostat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "418",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Foul",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Foul"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Condenser_Fouling"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Condenser_Fouling"
+      }
+    } ],
+    "id" : "219",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#DeteriorationLeaksMoistureProblemsCondensationAndCombustion",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeteriorationLeaksMoistureProblemsCondensationAndCombustion"
+    },
+    "id" : "385",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Maintenance",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Maintenance"
+    },
+    "subClasses" : [ "51", "46" ],
+    "id" : "286"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Epochs",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Epochs"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#600",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "600"
+      }
+    } ],
+    "id" : "330",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Intake_Air_Filter",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Intake_Air_Filter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FluidFlowAndLeaks",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FluidFlowAndLeaks"
+    },
+    "id" : "172",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Fan_Coil_Unit",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fan_Coil_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "195",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#State",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "State"
+    },
+    "id" : "335"
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Computer_Room_Air_Conditioning",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Computer_Room_Air_Conditioning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "420",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Building",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Building"
+    },
+    "id" : "76",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Humidity",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Humidity"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_105_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_202_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_203_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_106_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_103_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_102_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_104_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_104_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_103_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_106_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_105_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_206_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_203_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_206_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_202_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_205_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_102_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_204_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_205_Air_Humidity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_204_Air_Humidity"
+      }
+    } ],
+    "id" : "328",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#KernelType",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KernelType"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#rbf",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "rbf"
+      }
+    } ],
+    "id" : "250",
+    "superClasses" : [ "208" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Booster_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Booster_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "121",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#EnergyOrPower",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnergyOrPower"
+    },
+    "id" : "53",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RepairOrReplace",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RepairOrReplace"
+    },
+    "id" : "74",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Speed",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Speed"
+    },
+    "id" : "221",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Chilled_Water_Coil",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chilled_Water_Coil"
+    },
+    "attributes" : [ "external" ],
+    "id" : "398",
+    "superClasses" : [ "131" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FinDamageAndFoul"
+    },
+    "id" : "161",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MinimalGain"
+    },
+    "id" : "384",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Algorithm",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Algorithm"
+    },
+    "subClasses" : [ "4", "8", "258", "363", "86", "357", "174", "191", "312", "208", "238" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StoppingTolerance"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#patience",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "annotations" : {
+        "value" : [ {
+          "identifier" : "value",
+          "language" : "undefined",
+          "value" : "25",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "patience"
+      }
+    } ],
+    "id" : "318",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#ControlFault",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ControlFault"
+    },
+    "id" : "218",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Ceiling_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ceiling_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "144",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Chilled_Water_Pump",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chilled_Water_Pump"
+    },
+    "attributes" : [ "external" ],
+    "id" : "241",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#ElectricCurrents",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectricCurrents"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Electricity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Electricity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Fan_Electricity"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Fan_Electricity"
+      }
+    } ],
+    "id" : "307",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Cooling_Coil",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cooling_Coil"
+    },
+    "subClasses" : [ "398" ],
+    "attributes" : [ "external" ],
+    "id" : "131",
+    "superClasses" : [ "129" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Boiler",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Boiler"
+    },
+    "subClasses" : [ "261", "20" ],
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DecisionTree"
+    },
+    "subClasses" : [ "388", "384", "85", "179", "378", "376", "382" ],
+    "id" : "86",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Compressor",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Compressor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "432",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Embedded_Surface_System_Panel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "275",
+    "superClasses" : [ "198" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompressorOilLevelPressureSystem"
+    },
+    "id" : "158",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SetPointOrSetValue"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_Air_Temperature_Cooling_Setpoint"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_Air_Temperature_Heating_Setpoint"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Terminal:_Room_Air_Temperature_Heating_Setpoint"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Terminal:_Room_Air_Temperature_Cooling_Setpoint"
+      }
+    } ],
+    "id" : "303",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Epsilon",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Epsilon"
+    },
+    "id" : "301",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#CRAC",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CRAC"
+    },
+    "subClasses" : [ "380" ],
+    "attributes" : [ "external" ],
+    "id" : "370",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Pre_Filter",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pre_Filter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Domestic_Hot_Water_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Domestic_Hot_Water_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "272",
+    "superClasses" : [ "118" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#HVAC_Equipment",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HVAC_Equipment"
+    },
+    "subClasses" : [ "21", "41", "370", "435", "77", "439", "437", "1", "337", "432", "354", "130", "109", "426", "420", "418", "355", "196", "372", "187", "115", "410", "408", "177" ],
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "235" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Discharge_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Discharge_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "128",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConfidenceForRuleBased"
+    },
+    "id" : "311",
+    "superClasses" : [ "312" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ScheduleFault"
+    },
+    "id" : "227",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#SetPoint",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SetPoint"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-No_Overnight_HVAC_Setback"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-No_Overnight_HVAC_Setback"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-HVAC_Setback_Error"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-HVAC_Setback_Error"
+      }
+    } ],
+    "id" : "228",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Air_Plenum",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Air_Plenum"
+    },
+    "subClasses" : [ "190", "465" ],
+    "attributes" : [ "external" ],
+    "id" : "372",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Cooling_Tower",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cooling_Tower"
+    },
+    "attributes" : [ "external" ],
+    "id" : "410",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaximalDepth"
+    },
+    "id" : "378",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Status",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Status"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_105_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_206_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_202_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_106_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-Occupancy_Mode_Indicator_1"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_103_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Compressor_2_On/Off_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_104_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_204_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_205_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Supply_Air_Fan_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_202_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_106_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_203_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_104_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_102_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_205_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_105_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Compressor_1_On/Off_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_102_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_103_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_206_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-VAV_Box:_Room_203_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Compressor_1_On/Off_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-VAV_Box:_Room_204_Reheat_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Supply_Air_Fan_Status"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-Occupancy_Mode_Indicator"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Compressor_2_On/Off_Status"
+      }
+    } ],
+    "id" : "48",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Baseboard_Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Baseboard_Radiator"
+    },
+    "subClasses" : [ "463", "87", "92" ],
+    "attributes" : [ "external" ],
+    "id" : "88",
+    "superClasses" : [ "200" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Absorption_Chiller",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Absorption_Chiller"
+    },
+    "attributes" : [ "external" ],
+    "id" : "186",
+    "superClasses" : [ "187" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Condenser_Water_Bypass_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condenser_Water_Bypass_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "455",
+    "superClasses" : [ "151" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Displacement_Flow_Air_Diffuser",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Displacement_Flow_Air_Diffuser"
+    },
+    "attributes" : [ "external" ],
+    "id" : "106",
+    "superClasses" : [ "98" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MeasureTypes"
+    },
+    "id" : "472",
+    "superClasses" : [ "174" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Bypass_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bypass_Valve"
+    },
+    "subClasses" : [ "455", "150" ],
+    "attributes" : [ "external" ],
+    "id" : "151",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InsulationAndVaporIntegrity"
+    },
+    "id" : "156",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Return_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Return_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaintenanceAction"
+    },
+    "subClasses" : [ "68", "74", "72", "95", "100", "104", "108", "50" ],
+    "id" : "51",
+    "superClasses" : [ "286" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BayesianNetworks"
+    },
+    "id" : "363",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Standby_CRAC",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Standby_CRAC"
+    },
+    "attributes" : [ "external" ],
+    "id" : "380",
+    "superClasses" : [ "370" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Record",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Record"
+    },
+    "id" : "344",
+    "superClasses" : [ "216" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NeuralNetworksOrDeepLearining"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "SequentialNeuralNetworkModel"
+      }
+    } ],
+    "subClasses" : [ "55", "3", "13", "17", "23", "29", "33", "37", "43", "322", "326", "330", "295", "298", "301", "305", "309", "314", "318" ],
+    "id" : "4",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Cooling_Tower_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cooling_Tower_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "141",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Pressure",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pressure"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Circuit_2_Discharge_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Circuit_2_Condenser_Outlet_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Circuit_2_Suction_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Circuit_1_Suction_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Circuit_1_Discharge_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Circuit_1_Discharge_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Circuit_2_Condenser_Outlet_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Circuit_2_Suction_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Circuit_2_Discharge_Pressure"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Circuit_1_Suction_Pressure"
+      }
+    } ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Disinfect",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Disinfect"
+    },
+    "id" : "95",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StoppingRounds"
+    },
+    "id" : "29",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SolarOrRadiation"
+    },
+    "id" : "332",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Natural_Gas_Boiler",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Gas_Boiler"
+    },
+    "subClasses" : [ "260", "265" ],
+    "attributes" : [ "external" ],
+    "id" : "261",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#PAU",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PAU"
+    },
+    "attributes" : [ "external" ],
+    "id" : "474",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Water_Pump",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Pump"
+    },
+    "subClasses" : [ "241", "243", "245" ],
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "109" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#C",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "C"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1"
+      }
+    } ],
+    "id" : "248",
+    "superClasses" : [ "208" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OpeningOrPosition"
+    },
+    "id" : "31",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#K",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "K"
+    },
+    "id" : "475",
+    "superClasses" : [ "174" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Condenser_Water_Pump",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condenser_Water_Pump"
+    },
+    "attributes" : [ "external" ],
+    "id" : "245",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Optimizer",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Optimizer"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#adam",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "adam"
+      }
+    } ],
+    "id" : "322",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Condenser_Water_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condenser_Water_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "114" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Makeup_Air_Unit",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Makeup_Air_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "477",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Terminal_Unit",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Terminal_Unit"
+    },
+    "subClasses" : [ "27", "98", "212", "214", "195", "198", "200", "202", "204" ],
+    "attributes" : [ "external" ],
+    "id" : "196",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Chiller",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chiller"
+    },
+    "subClasses" : [ "186", "478" ],
+    "attributes" : [ "external" ],
+    "id" : "187",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#ESS_Panel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ESS_Panel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "274",
+    "superClasses" : [ "198" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Valve"
+    },
+    "subClasses" : [ "151", "114", "278", "217", "287", "479", "122" ],
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Radiator"
+    },
+    "subClasses" : [ "480", "88", "93", "89" ],
+    "attributes" : [ "external" ],
+    "id" : "200",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Calculation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calculation"
+    },
+    "id" : "342",
+    "superClasses" : [ "216" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Support",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Support"
+    },
+    "id" : "316",
+    "superClasses" : [ "312" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Other",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Other"
+    },
+    "id" : "19",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Confidence",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Confidence"
+    },
+    "id" : "382",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Efficiency",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Efficiency"
+    },
+    "id" : "35",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Voltage",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Voltage"
+    },
+    "id" : "324",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#MAU",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MAU"
+    },
+    "attributes" : [ "external" ],
+    "id" : "482",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaxOptimizationSteps"
+    },
+    "id" : "373",
+    "superClasses" : [ "238" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#CheckOperation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CheckOperation"
+    },
+    "id" : "168",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Return_Heating_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Return_Heating_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "122" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HiddelLayerSize"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "comment" : {
+        "undefined" : "70-15-7"
+      },
+      "labels" : {
+        "IRI-based" : "size_of_each_layer"
+      }
+    } ],
+    "id" : "305",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Site",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site"
+    },
+    "attributes" : [ "external" ],
+    "id" : "184",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Chilled_Water_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chilled_Water_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "114" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RandomSeed"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#random_state",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "annotations" : {
+        "value" : [ {
+          "identifier" : "value",
+          "language" : "undefined",
+          "value" : "101",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "random_state"
+      }
+    } ],
+    "id" : "55",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Variable_Air_Volume_Box",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Variable_Air_Volume_Box"
+    },
+    "subClasses" : [ "26", "494" ],
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FlowRate",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlowRate"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "2-RTU:_Supply_Air_Volumetric_Flow_Rate_1"
+      }
+    }, {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "1-RTU:_Supply_Air_Volumetric_Flow_Rate_1"
+      }
+    } ],
+    "id" : "15",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InspectFilters"
+    },
+    "id" : "386",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InstanceBasedClassification"
+    },
+    "subClasses" : [ "495", "173", "475", "472" ],
+    "id" : "174",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CheckForDamageOrEvidenceOfLeaks"
+    },
+    "id" : "100",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HiddenDropoutRatios"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "annotations" : {
+        "value" : [ {
+          "identifier" : "value",
+          "language" : "undefined",
+          "value" : "0.67",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Drop_out_value"
+      }
+    } ],
+    "id" : "43",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NumericalMeasure"
+    },
+    "id" : "374",
+    "superClasses" : [ "238" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Deleted",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Deleted"
+    },
+    "id" : "343",
+    "superClasses" : [ "216" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#RVAV",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RVAV"
+    },
+    "attributes" : [ "external" ],
+    "id" : "494",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Replace",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Replace"
+    },
+    "id" : "68",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#AHU",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AHU"
+    },
+    "subClasses" : [ "482", "477", "474", "40", "393", "246", "396" ],
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Hot_Water_Baseboard_Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hot_Water_Baseboard_Radiator"
+    },
+    "attributes" : [ "external" ],
+    "id" : "463",
+    "superClasses" : [ "480", "88" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Radiant_Ceiling_Panel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Radiant_Ceiling_Panel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "273",
+    "superClasses" : [ "198" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#HX",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HX"
+    },
+    "attributes" : [ "external" ],
+    "id" : "435",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Fresh_Air_Fan",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fresh_Air_Fan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "146",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Thermally_Activated_Building_System_Panel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Thermally_Activated_Building_System_Panel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "276",
+    "superClasses" : [ "198" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FitAndIntegrity",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FitAndIntegrity"
+    },
+    "id" : "163",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Return_Damper",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Return_Damper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "254",
+    "superClasses" : [ "177" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Hot_Water_Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hot_Water_Radiator"
+    },
+    "subClasses" : [ "463" ],
+    "attributes" : [ "external" ],
+    "id" : "480",
+    "superClasses" : [ "200" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#TABS_Panel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TABS_Panel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "252",
+    "superClasses" : [ "198" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HiddenLayerNumber"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#3",
+      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+      "labels" : {
+        "IRI-based" : "3"
+      }
+    } ],
+    "id" : "314",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MixedMeasure"
+    },
+    "id" : "495",
+    "superClasses" : [ "174" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Temperature",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temperature"
+    },
+    "id" : "57",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Centrifugal_Chiller",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Centrifugal_Chiller"
+    },
+    "attributes" : [ "external" ],
+    "id" : "478",
+    "superClasses" : [ "187" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Condenser",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condenser"
+    },
+    "attributes" : [ "external" ],
+    "id" : "437",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Noncondensing_Natural_Gas_Boiler",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Noncondensing_Natural_Gas_Boiler"
+    },
+    "attributes" : [ "external" ],
+    "id" : "265",
+    "superClasses" : [ "261" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonCondesable"
+    },
+    "id" : "226",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Hybrid",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hybrid"
+    },
+    "id" : "357",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Electric_Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electric_Radiator"
+    },
+    "subClasses" : [ "92" ],
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "200" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Interface",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interface"
+    },
+    "attributes" : [ "external" ],
+    "id" : "529"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Performance",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Performance"
+    },
+    "id" : "222",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Laminar_Flow_Air_Diffuser",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Laminar_Flow_Air_Diffuser"
+    },
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "98" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpeedOrVelocity"
+    },
+    "id" : "25",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Steam_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Steam_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "479",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DistributionFunction"
+    },
+    "id" : "295",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EarlyStopping"
+    },
+    "id" : "298",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Return_Air_Plenum",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Return_Air_Plenum"
+    },
+    "attributes" : [ "external" ],
+    "id" : "465",
+    "superClasses" : [ "372" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Preheat_Hot_Water_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Preheat_Hot_Water_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "269",
+    "superClasses" : [ "118" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Feature",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Feature"
+    },
+    "subClasses" : [ "48", "53", "57", "6", "15", "19", "25", "31", "35", "39", "320", "324", "328", "332", "44", "236", "303", "307" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Condensing_Natural_Gas_Boiler",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condensing_Natural_Gas_Boiler"
+    },
+    "attributes" : [ "external" ],
+    "id" : "260",
+    "superClasses" : [ "261" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Air_Handling_Unit",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Air_Handling_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "426",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlowProblem"
+    },
+    "id" : "225",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OtherInspection"
+    },
+    "id" : "154",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RuleBased",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RuleBased"
+    },
+    "subClasses" : [ "311", "316" ],
+    "id" : "312",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Heating_Coil",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heating_Coil"
+    },
+    "subClasses" : [ "279" ],
+    "attributes" : [ "external" ],
+    "id" : "132",
+    "superClasses" : [ "129" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Isolation_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Isolation_Valve"
+    },
+    "subClasses" : [ "277" ],
+    "attributes" : [ "external" ],
+    "id" : "278",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MaxW2",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaxW2"
+    },
+    "id" : "37",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "232",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeltWearAndSheavesAlighnment"
+    },
+    "id" : "170",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NumberOfComponents"
+    },
+    "id" : "11",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Damper",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Damper"
+    },
+    "subClasses" : [ "292", "254", "176", "263", "267" ],
+    "attributes" : [ "external" ],
+    "id" : "177",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Steam_Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Steam_Radiator"
+    },
+    "subClasses" : [ "87" ],
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "200" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StuckOrPartiallyClosed"
+    },
+    "id" : "64",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Economizer",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economizer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "439",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MinimalLeafSize"
+    },
+    "id" : "376",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://w3id.org/bot#Element",
+    "baseIri" : "https://w3id.org/bot",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Element"
+    },
+    "subClasses" : [ "78" ],
+    "attributes" : [ "external" ],
+    "id" : "235"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#CheckForFluidFlow",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CheckForFluidFlow"
+    },
+    "id" : "134",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Humidifier",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Humidifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "408",
+    "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LimitIssue"
+    },
+    "id" : "59",
+    "superClasses" : [ "60" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "234",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "285",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "288",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "291",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "297",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "299",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "302",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "304",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "306",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "308",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "310",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "313",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "315",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "319",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "321",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "323",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "325",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "327",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "329",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "331",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "333",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "334",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "336",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "338",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "339",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "340",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "341",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "345",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "346",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "347",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "348",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "349",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "350",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "351",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "352",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "356",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "358",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "359",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "360",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "361",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "362",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "364",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "366",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "367",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "368",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "369",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "371",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "377",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "379",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "381",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "383",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "387",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "389",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "390",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "391",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "392",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "394",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "397",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "399",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "400",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "401",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "402",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "403",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "404",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "405",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "406",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "407",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "409",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "411",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "412",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "413",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "414",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "415",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "416",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "417",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "419",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "421",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "422",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "423",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "424",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "425",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "427",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "428",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "429",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "430",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "431",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "433",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "434",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "436",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "438",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "440",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "441",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "442",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "443",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "444",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "445",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "446",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "447",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "448",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "233",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "450",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "451",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "452",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "453",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "454",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "456",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "457",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "458",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "459",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "460",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "461",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "462",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "464",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "466",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "467",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "468",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "469",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "470",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "471",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "473",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "476",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "481",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "483",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "484",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "485",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "486",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "487",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "488",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "489",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "490",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "491",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "492",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "493",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "449",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "496",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "497",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "498",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "499",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "500",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "501",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "502",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "503",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "504",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "505",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "506",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "507",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "508",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "509",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "510",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "511",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "512",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "513",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "514",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "515",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "516",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "517",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "518",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "519",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "520",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "521",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "522",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "523",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "524",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "525",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "526",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "527",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "528",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "530",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "531",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "532",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "533",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "534",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "535",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "536",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "537",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "538",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "539",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "540",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "541",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "395",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "2"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "4",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "7",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "4",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "7",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "4",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "7",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "4",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "7",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "4",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "7",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "4",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "7",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "4",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "7",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "51",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "7",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "4",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "7",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "60",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "1",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "60",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "1",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "51",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "71",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "51",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "71",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "51",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "93",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "51",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "98",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "51",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "98",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "51",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "98",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "51",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "1",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "60",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "1",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "46",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "46",
+    "domain" : "136",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "46",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "46",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "1",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "1",
+    "domain" : "144",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "1",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "1",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "46",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "46",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "46",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "46",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "46",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "46",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "46",
+    "domain" : "165",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "46",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "46",
+    "domain" : "168",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "46",
+    "domain" : "170",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "46",
+    "domain" : "172",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "112",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "112",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "112",
+    "domain" : "184",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "187",
+    "domain" : "186",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "196",
+    "domain" : "195",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "range" : "196",
+    "domain" : "198",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "196",
+    "domain" : "200",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "196",
+    "domain" : "202",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "196",
+    "domain" : "204",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "112",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "208",
+    "domain" : "207",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "196",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "196",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "196",
+    "domain" : "212",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "196",
+    "domain" : "214",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "iri" : "https://w3id.org/bot#containsElement",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "containsElement"
+    },
+    "superproperty" : [ "233" ],
+    "domain" : "232",
+    "attributes" : [ "object", "external" ],
+    "id" : "231"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasFault",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hasFault"
+    },
+    "domain" : "235",
+    "attributes" : [ "object" ],
+    "id" : "234"
+  }, {
+    "range" : "235",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "110",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "110",
+    "domain" : "243",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "110",
+    "domain" : "245",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "208",
+    "domain" : "248",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "208",
+    "domain" : "250",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "198",
+    "domain" : "252",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "177",
+    "domain" : "254",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "198",
+    "domain" : "256",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "177",
+    "domain" : "176",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "range" : "261",
+    "domain" : "260",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  }, {
+    "range" : "177",
+    "domain" : "263",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "261",
+    "domain" : "265",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "177",
+    "domain" : "267",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "118",
+    "domain" : "269",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "89",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "118",
+    "domain" : "272",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "271"
+  }, {
+    "range" : "132",
+    "domain" : "279",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "198",
+    "domain" : "273",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "278",
+    "domain" : "277",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "range" : "198",
+    "domain" : "274",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "range" : "286",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "range" : "198",
+    "domain" : "275",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "288"
+  }, {
+    "range" : "286",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "range" : "198",
+    "domain" : "276",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "177",
+    "domain" : "292",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "range" : "4",
+    "domain" : "295",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "range" : "7",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "4",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "297"
+  }, {
+    "range" : "7",
+    "domain" : "236",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "299"
+  }, {
+    "range" : "4",
+    "domain" : "301",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "300"
+  }, {
+    "range" : "7",
+    "domain" : "303",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "302"
+  }, {
+    "range" : "4",
+    "domain" : "305",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "7",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "range" : "4",
+    "domain" : "309",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "308"
+  }, {
+    "range" : "312",
+    "domain" : "311",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "310"
+  }, {
+    "range" : "4",
+    "domain" : "314",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "range" : "312",
+    "domain" : "316",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "315"
+  }, {
+    "range" : "4",
+    "domain" : "318",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "317"
+  }, {
+    "range" : "7",
+    "domain" : "320",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "319"
+  }, {
+    "range" : "4",
+    "domain" : "322",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "321"
+  }, {
+    "range" : "7",
+    "domain" : "324",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "323"
+  }, {
+    "range" : "4",
+    "domain" : "326",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "325"
+  }, {
+    "range" : "7",
+    "domain" : "328",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "327"
+  }, {
+    "range" : "4",
+    "domain" : "330",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "329"
+  }, {
+    "range" : "7",
+    "domain" : "332",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "331"
+  }, {
+    "range" : "114",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "333"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasState",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "335",
+    "label" : {
+      "IRI-based" : "hasState"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "334"
+  }, {
+    "iri" : "https://w3id.org/bot#hasSubElement",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "hasSubElement"
+    },
+    "domain" : "235",
+    "attributes" : [ "object", "external" ],
+    "id" : "336"
+  }, {
+    "iri" : "https://w3id.org/bot#intersectsZone",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "intersectsZone"
+    },
+    "domain" : "112",
+    "attributes" : [ "object", "symmetric", "external" ],
+    "id" : "338"
+  }, {
+    "range" : "109",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "339"
+  }, {
+    "range" : "77",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "340"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasParameter",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasParameter"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "341"
+  }, {
+    "range" : "77",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "345"
+  }, {
+    "range" : "77",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "346"
+  }, {
+    "range" : "77",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "347"
+  }, {
+    "range" : "77",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "348"
+  }, {
+    "range" : "9",
+    "domain" : "312",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "349"
+  }, {
+    "range" : "9",
+    "domain" : "191",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "350"
+  }, {
+    "range" : "9",
+    "domain" : "238",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "351"
+  }, {
+    "range" : "9",
+    "domain" : "208",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "352"
+  }, {
+    "range" : "9",
+    "domain" : "357",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "356"
+  }, {
+    "range" : "9",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "358"
+  }, {
+    "range" : "9",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "359"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "360"
+  }, {
+    "range" : "9",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "361"
+  }, {
+    "range" : "9",
+    "domain" : "363",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "362"
+  }, {
+    "range" : "9",
+    "domain" : "258",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "364"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "366"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "367"
+  }, {
+    "range" : "78",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "368"
+  }, {
+    "range" : "78",
+    "domain" : "370",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "369"
+  }, {
+    "range" : "78",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "371"
+  }, {
+    "range" : "86",
+    "domain" : "376",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "375"
+  }, {
+    "range" : "86",
+    "domain" : "378",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "377"
+  }, {
+    "range" : "370",
+    "domain" : "380",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "379"
+  }, {
+    "range" : "86",
+    "domain" : "382",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "381"
+  }, {
+    "range" : "86",
+    "domain" : "384",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "383"
+  }, {
+    "range" : "86",
+    "domain" : "388",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "387"
+  }, {
+    "range" : "86",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "389"
+  }, {
+    "range" : "86",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "390"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "391"
+  }, {
+    "range" : "21",
+    "domain" : "261",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "392"
+  }, {
+    "iri" : "https://w3id.org/bot#hasBuilding",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "hasBuilding"
+    },
+    "superproperty" : [ "395" ],
+    "domain" : "112",
+    "attributes" : [ "object", "external" ],
+    "id" : "394"
+  }, {
+    "range" : "131",
+    "domain" : "398",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "397"
+  }, {
+    "range" : "122",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "399"
+  }, {
+    "range" : "122",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "400"
+  }, {
+    "range" : "129",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "401"
+  }, {
+    "range" : "129",
+    "domain" : "131",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "402"
+  }, {
+    "range" : "114",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "403"
+  }, {
+    "range" : "114",
+    "domain" : "117",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "404"
+  }, {
+    "range" : "122",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "405"
+  }, {
+    "range" : "114",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "406"
+  }, {
+    "range" : "78",
+    "domain" : "408",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "407"
+  }, {
+    "range" : "78",
+    "domain" : "410",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "409"
+  }, {
+    "range" : "372",
+    "domain" : "190",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "411"
+  }, {
+    "range" : "78",
+    "domain" : "177",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "412"
+  }, {
+    "range" : "78",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "413"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#isRecorded",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "216",
+    "label" : {
+      "IRI-based" : "isRecorded"
+    },
+    "domain" : "335",
+    "attributes" : [ "object" ],
+    "id" : "414"
+  }, {
+    "range" : "78",
+    "domain" : "187",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "415"
+  }, {
+    "range" : "78",
+    "domain" : "372",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "416"
+  }, {
+    "range" : "78",
+    "domain" : "418",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "417"
+  }, {
+    "range" : "78",
+    "domain" : "420",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "419"
+  }, {
+    "range" : "78",
+    "domain" : "196",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "421"
+  }, {
+    "range" : "78",
+    "domain" : "355",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "422"
+  }, {
+    "range" : "78",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "423"
+  }, {
+    "range" : "78",
+    "domain" : "354",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "424"
+  }, {
+    "range" : "78",
+    "domain" : "426",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "425"
+  }, {
+    "range" : "78",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "427"
+  }, {
+    "iri" : "https://w3id.org/bot#adjacentZone",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "adjacentZone"
+    },
+    "domain" : "112",
+    "attributes" : [ "object", "symmetric", "external" ],
+    "id" : "428"
+  }, {
+    "range" : "78",
+    "domain" : "337",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "429"
+  }, {
+    "range" : "78",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "430"
+  }, {
+    "range" : "78",
+    "domain" : "432",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "431"
+  }, {
+    "range" : "78",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "433"
+  }, {
+    "range" : "78",
+    "domain" : "435",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "434"
+  }, {
+    "range" : "78",
+    "domain" : "437",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "436"
+  }, {
+    "range" : "78",
+    "domain" : "439",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "438"
+  }, {
+    "range" : "60",
+    "domain" : "175",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "440"
+  }, {
+    "range" : "60",
+    "domain" : "226",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "441"
+  }, {
+    "range" : "60",
+    "domain" : "228",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "442"
+  }, {
+    "range" : "60",
+    "domain" : "227",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "443"
+  }, {
+    "range" : "60",
+    "domain" : "223",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "444"
+  }, {
+    "range" : "60",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "445"
+  }, {
+    "range" : "60",
+    "domain" : "224",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "446"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasInspection",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasInspection"
+    },
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "447"
+  }, {
+    "iri" : "https://w3id.org/bot#intersectingElement",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "intersectingElement"
+    },
+    "superproperty" : [ "233" ],
+    "domain" : "232",
+    "attributes" : [ "object", "external" ],
+    "id" : "448"
+  }, {
+    "iri" : "https://w3id.org/bot#hasElement",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "hasElement"
+    },
+    "domain" : "112",
+    "subproperty" : [ "449", "448", "231" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "233"
+  }, {
+    "range" : "60",
+    "domain" : "220",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "450"
+  }, {
+    "range" : "60",
+    "domain" : "219",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "451"
+  }, {
+    "range" : "60",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "452"
+  }, {
+    "range" : "60",
+    "domain" : "221",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "453"
+  }, {
+    "range" : "151",
+    "domain" : "455",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "454"
+  }, {
+    "range" : "130",
+    "domain" : "193",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "456"
+  }, {
+    "range" : "60",
+    "domain" : "218",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "457"
+  }, {
+    "range" : "151",
+    "domain" : "150",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "458"
+  }, {
+    "range" : "130",
+    "domain" : "188",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "459"
+  }, {
+    "range" : "130",
+    "domain" : "192",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "460"
+  }, {
+    "range" : "130",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "461"
+  }, {
+    "range" : "88",
+    "domain" : "463",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "462"
+  }, {
+    "range" : "372",
+    "domain" : "465",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "464"
+  }, {
+    "range" : "88",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "466"
+  }, {
+    "range" : "88",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "467"
+  }, {
+    "range" : "60",
+    "domain" : "229",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "468"
+  }, {
+    "range" : "60",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "469"
+  }, {
+    "range" : "60",
+    "domain" : "230",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "470"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasMaintenance",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "hasMaintenance"
+    },
+    "domain" : "235",
+    "attributes" : [ "object" ],
+    "id" : "471"
+  }, {
+    "iri" : "https://w3id.org/bot#hasSpace",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "hasSpace"
+    },
+    "superproperty" : [ "395" ],
+    "domain" : "112",
+    "attributes" : [ "object", "external" ],
+    "id" : "473"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "isAssociatedWith"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "476"
+  }, {
+    "iri" : "https://w3id.org/bot#hasStorey",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "182",
+    "label" : {
+      "IRI-based" : "hasStorey"
+    },
+    "superproperty" : [ "395" ],
+    "domain" : "112",
+    "attributes" : [ "object", "external" ],
+    "id" : "481"
+  }, {
+    "range" : "238",
+    "domain" : "293",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "483"
+  }, {
+    "range" : "238",
+    "domain" : "373",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "484"
+  }, {
+    "range" : "238",
+    "domain" : "374",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "485"
+  }, {
+    "range" : "238",
+    "domain" : "237",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "486"
+  }, {
+    "range" : "238",
+    "domain" : "280",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "487"
+  }, {
+    "range" : "480",
+    "domain" : "463",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "488"
+  }, {
+    "range" : "46",
+    "domain" : "385",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "489"
+  }, {
+    "range" : "46",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "490"
+  }, {
+    "range" : "46",
+    "domain" : "353",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "491"
+  }, {
+    "range" : "46",
+    "domain" : "386",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "492"
+  }, {
+    "range" : "190",
+    "domain" : "189",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "493"
+  }, {
+    "iri" : "https://w3id.org/bot#adjacentElement",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "adjacentElement"
+    },
+    "superproperty" : [ "233" ],
+    "domain" : "232",
+    "attributes" : [ "object", "external" ],
+    "id" : "449"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasAlgorithm"
+    },
+    "domain" : "235",
+    "attributes" : [ "object" ],
+    "id" : "496"
+  }, {
+    "range" : "174",
+    "domain" : "475",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "497"
+  }, {
+    "range" : "174",
+    "domain" : "472",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "498"
+  }, {
+    "range" : "41",
+    "domain" : "482",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "499"
+  }, {
+    "range" : "41",
+    "domain" : "477",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "500"
+  }, {
+    "range" : "41",
+    "domain" : "474",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "501"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "502"
+  }, {
+    "range" : "41",
+    "domain" : "393",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "503"
+  }, {
+    "range" : "41",
+    "domain" : "246",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "504"
+  }, {
+    "range" : "41",
+    "domain" : "396",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "505"
+  }, {
+    "range" : "174",
+    "domain" : "495",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "506"
+  }, {
+    "range" : "174",
+    "domain" : "173",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "507"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasfeatures"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "508"
+  }, {
+    "range" : "200",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "509"
+  }, {
+    "range" : "200",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "510"
+  }, {
+    "range" : "216",
+    "domain" : "215",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "511"
+  }, {
+    "range" : "216",
+    "domain" : "342",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "512"
+  }, {
+    "range" : "216",
+    "domain" : "343",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "513"
+  }, {
+    "range" : "216",
+    "domain" : "344",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "514"
+  }, {
+    "range" : "27",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "515"
+  }, {
+    "range" : "27",
+    "domain" : "494",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "516"
+  }, {
+    "range" : "115",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "517"
+  }, {
+    "range" : "200",
+    "domain" : "480",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "518"
+  }, {
+    "range" : "200",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "519"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasAssociated"
+    },
+    "domain" : "235",
+    "attributes" : [ "object" ],
+    "id" : "520"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "faultBelongsTo"
+    },
+    "domain" : "60",
+    "attributes" : [ "object" ],
+    "id" : "521"
+  }, {
+    "range" : "187",
+    "domain" : "478",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "522"
+  }, {
+    "range" : "115",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "523"
+  }, {
+    "range" : "115",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "524"
+  }, {
+    "range" : "115",
+    "domain" : "278",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "525"
+  }, {
+    "range" : "115",
+    "domain" : "217",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "526"
+  }, {
+    "range" : "115",
+    "domain" : "287",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "527"
+  }, {
+    "range" : "115",
+    "domain" : "479",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "528"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#featureBelongsTo",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "featureBelongsTo"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "530"
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "algorithmBelongsTo"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "531"
+  }, {
+    "iri" : "https://w3id.org/bot#interfaceOf",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "365",
+    "label" : {
+      "IRI-based" : "interfaceOf"
+    },
+    "domain" : "529",
+    "attributes" : [ "object", "external" ],
+    "id" : "532"
+  }, {
+    "range" : "111",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "533"
+  }, {
+    "range" : "529",
+    "domain" : "235",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "534"
+  }, {
+    "range" : "112",
+    "domain" : "235",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "535"
+  }, {
+    "range" : "112",
+    "domain" : "529",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "536"
+  }, {
+    "range" : "111",
+    "domain" : "184",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "537"
+  }, {
+    "range" : "182",
+    "domain" : "184",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "538"
+  }, {
+    "range" : "182",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "539"
+  }, {
+    "range" : "184",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "540"
+  }, {
+    "range" : "182",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "541"
+  }, {
+    "iri" : "https://w3id.org/bot#containsZone",
+    "baseIri" : "https://w3id.org/bot",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "containsZone"
+    },
+    "domain" : "112",
+    "subproperty" : [ "473", "481", "394" ],
+    "attributes" : [ "object", "transitive", "external" ],
+    "id" : "395"
+  } ]
+}
