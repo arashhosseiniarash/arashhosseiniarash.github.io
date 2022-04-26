@@ -26,6 +26,18 @@
                     rdfs:range <https://w3id.org/bot#Element> .
 
 
+###  https://github.com/arashhosseiniarash/AFDDOntology#canDetect
+:canDetect rdf:type owl:ObjectProperty ;
+           rdfs:domain :Algorithm ;
+           rdfs:range :Fault .
+
+
+###  https://github.com/arashhosseiniarash/AFDDOntology#canUse
+:canUse rdf:type owl:ObjectProperty ;
+        rdfs:domain :Algorithm ;
+        rdfs:range :Feature .
+
+
 ###  https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo
 :faultBelongsTo rdf:type owl:ObjectProperty ;
                 rdfs:domain :Fault ;
@@ -80,16 +92,16 @@
           rdfs:range :State .
 
 
-###  https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures
-:hasfeatures rdf:type owl:ObjectProperty ;
-             rdfs:domain :Algorithm ;
-             rdfs:range :Feature .
-
-
 ###  https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith
 :isAssociatedWith rdf:type owl:ObjectProperty ;
                   rdfs:domain :Feature ;
                   rdfs:range :Fault .
+
+
+###  https://github.com/arashhosseiniarash/AFDDOntology#isParameter
+:isParameter rdf:type owl:ObjectProperty ;
+             rdfs:domain :Algorithm ;
+             rdfs:range :Algorithm .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#isRecorded
@@ -477,7 +489,8 @@
 
 ###  https://brickschema.org/schema/Brick#HVAC_Equipment
 <https://brickschema.org/schema/Brick#HVAC_Equipment> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <https://w3id.org/bot#Element> .
+                                                      rdfs:subClassOf <https://w3id.org/bot#Element> ;
+                                                      rdfs:comment "HVAC equpments can be studied at a system or local level. Local-level classification can be divided into (i) sub-system level and (ii) equipment/component level." .
 
 
 ###  https://brickschema.org/schema/Brick#HX
@@ -780,16 +793,23 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Activation
 :Activation rdf:type owl:Class ;
-            rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+            rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+            rdfs:comment """The activation function (non-linearity) to be used by the neurons in the hidden layers.
+Tanh: Hyperbolic tangent function (same as scaled and shifted sigmoid).
+Rectifier: Rectifier Linear Unit: Chooses the maximum of (0, x) where x is the input value.
+Maxout: Choose the maximum coordinate of the input vector.
+ExpRectifier: Exponential Rectifier Linear Unit function.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Algorithm
-:Algorithm rdf:type owl:Class .
+:Algorithm rdf:type owl:Class ;
+           rdfs:comment "The kind of Machine Learning Algorithm that was utilized for Data-driven FDD of HVAC systems." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks
 :BayesianNetworks rdf:type owl:Class ;
-                  rdfs:subClassOf :Algorithm .
+                  rdfs:subClassOf :Algorithm ;
+                  rdfs:comment "Bayesian networks (BN) use graph theory and probability theory to perform data analysis and are preferred for their reasoning ability. In the reviewed literature, it was evident that BN is mostly used in system-level studies to detect and diagnose HVAC faults and support literature analysis results found for the type of HVAC used . BN’s distinct advantage is the ability to identify the causes and sort them from the most to the least probable, which can be used to prioritize inspection and maintenance." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment
@@ -799,22 +819,52 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration
 :BiasDriftCalibration rdf:type owl:Class ;
-                      rdfs:subClassOf :Fault .
+                      rdfs:subClassOf :Fault ;
+                      rdfs:comment """Sensor faults can be classified into bias, drifting, precision degradation and complete failure
+
+Examples:
+
+Zone temperature sensor positively biased 
+Zone temperature sensor negatively biased
+temperature sensor bias +3F 
+OA temperature sensor bias -3F 
+Zone temperature sensor out of calibration (2℃ high offset) 
+Room temperature sensor fault (“1” for +2°C (3.6°F) bias and “-1” for -2°C (-3.6°F) bias, and “0” for no fault;  
+Airflow sensor fault (“1” for positive 10% bias and “-1” for negative 10% bias, and “0” for no fault. 
+Chiller DP sensor positive bias 1.4 kPa 
+Offset Fault in Temperature Sensor Room1 
+Temperature and flow sensors  fixed bias 
+Temperature and flow sensors drift biases 
+Bias faults 
+Drift faults 
+Positive bias ( + δ) 
+Negative bias ( −δ )
+Positive drift ( + δ) 
+Negative drift ( −δ)
+Precision degradation ( μ)""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Blockage
 :Blockage rdf:type owl:Class ;
-          rdfs:subClassOf :Fault .
+          rdfs:subClassOf :Fault ;
+          rdfs:comment """Examples:
+
+Air filter area block fault 10% 
+Air filter area block fault 25%
+Air filter blockage 25%
+Ventilation fan blockage""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Building
 :Building rdf:type owl:Class ;
-          rdfs:subClassOf :Information .
+          rdfs:subClassOf :Information ;
+          rdfs:comment "Relevant building envelope related information" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#C
 :C rdf:type owl:Class ;
-   rdfs:subClassOf :Svm .
+   rdfs:subClassOf :Svm ;
+   rdfs:comment "This is the SVM complexity constant which sets the tolerance for misclassification, where higher C values allow for 'softer' boundaries and lower values create 'harder' boundaries. A complexity constant that is too large can lead to over-fitting, while values that are too small may result in over-generalization." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure
@@ -829,7 +879,14 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction
 :CapacityReduction rdf:type owl:Class ;
-                   rdfs:subClassOf :Fault .
+                   rdfs:subClassOf :Fault ;
+                   rdfs:comment """Examples:
+
+Capacity reduction
+Heating coil reduced capacity stage 1 
+Heating coil reduced capacity stage 2 
+Heating coil reduced capacity stage 3
+Heating coil reduced capacity""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks
@@ -849,7 +906,8 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Clustering
 :Clustering rdf:type owl:Class ;
-            rdfs:subClassOf :Algorithm .
+            rdfs:subClassOf :Algorithm ;
+            rdfs:comment "In the clustering method, which is an unsupervised method, two or more clusters are created that separates normal from faulty data. Instance-based classification compares new problem instances with instances seen in training; k-nearest Neighbor (k-NN) is a typical example of the instance-based classifier. Instance-based classification is the least used method in literature and has been used to identify a single type of fault or binary faults in the HVAC system." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem
@@ -859,12 +917,14 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Confidence
 :Confidence rdf:type owl:Class ;
-            rdfs:subClassOf :DecisionTree .
+            rdfs:subClassOf :DecisionTree ;
+            rdfs:comment "This parameter specifies the confidence level used for the pessimistic error calculation of pruning." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased
 :ConfidenceForRuleBased rdf:type owl:Class ;
-                        rdfs:subClassOf :RuleBased .
+                        rdfs:subClassOf :RuleBased ;
+                        rdfs:comment "Conficence percentage" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Control
@@ -874,12 +934,36 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#ControlFault
 :ControlFault rdf:type owl:Class ;
-              rdfs:subClassOf :Fault .
+              rdfs:subClassOf :Fault ;
+              rdfs:comment """Examples:
+
+Cooling coil valve control unstable 
+Cooling coil control unstable 
+Supply fan control unstable
+Control of the number of chillers-Only one of the chillers always drives.
+Control of the number of chillers -Two of the chillers always drive. 
+Supply fan control unstable 
+Cooling coil valve control unstable 
+Iimproper control of the supply air fan
+Control malfunction 
+Mixed air damper unstable 
+Sequence of heating and cooling unstable 
+Mixed air damper unstable 
+Mixed air damper unstable cooling coil unstable 
+Heating and cooling unstable 
+Cooling coil valve control unstable""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Criterion
 :Criterion rdf:type owl:Class ;
-           rdfs:subClassOf :DecisionTree .
+           rdfs:subClassOf :DecisionTree ;
+           rdfs:comment """Selects the criterion on which Attributes will be selected for splitting. For each of these criteria the split value is optimized with regards to the chosen criterion. It can have one of the following values:
+
+information_gain: The entropies of all the Attributes are calculated and the one with least entropy is selected for split. This method has a bias towards selecting Attributes with a large number of values.
+gain_ratio: A variant of information gain that adjusts the information gain for each Attribute to allow the breadth and uniformity of the Attribute values.
+gini_index: A measure of inequality between the distributions of label characteristics. Splitting on a chosen Attribute results in a reduction in the average gini index of the resulting subsets.
+accuracy: An Attribute is selected for splitting, which maximizes the accuracy of the whole tree.
+least_square: An Attribute is selected for splitting, that minimizes the squared distance between the average of values in the node with regards to the true value.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak
@@ -894,7 +978,8 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree
 :DecisionTree rdf:type owl:Class ;
-              rdfs:subClassOf :Algorithm .
+              rdfs:subClassOf :Algorithm ;
+              rdfs:comment "Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Deleted
@@ -909,7 +994,8 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction
 :DimensionalityReduction rdf:type owl:Class ;
-                         rdfs:subClassOf :Algorithm .
+                         rdfs:subClassOf :Algorithm ;
+                         rdfs:comment "Dimensionality reduction methods such as principal component analysis (PCA), Fisher discriminant analysis (FDA) and linear discriminant analysis (LDA) are used for FDD purposes. However, PCA is the most dominant in this category. Generally, in the PCA method, raw data are decomposed into two subspaces: the principal component subspace and residual subspace. The principal component data captures the main normal statistical correlations and the residual data quantifies the main variances to detect faults." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Disinfect
@@ -919,12 +1005,17 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction
 :DistributionFunction rdf:type owl:Class ;
-                      rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+                      rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+                      rdfs:comment """The distribution function for the training data. For some function (e.g. tweedie) further tuning can be achieved via the expert parameters
+AUTO: Automatic selection. Uses multinomial for nominal and gaussian for numeric labels.
+bernoulli: Bernoulli distribution. Can be used for binominal or 2-class polynominal labels.
+gaussian, possion, gamma, tweedie, quantile, laplace: Distribution functions for regression.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping
 :EarlyStopping rdf:type owl:Class ;
-               rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+               rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+               rdfs:comment "If true, parameters for early stopping needs to be specified." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Efficiency
@@ -944,17 +1035,20 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning
 :EnsembleLearning rdf:type owl:Class ;
-                  rdfs:subClassOf :Algorithm .
+                  rdfs:subClassOf :Algorithm ;
+                  rdfs:comment "Ensemble methods utilize multiple learning algorithms to achieve better predictive performance than the same algorithms separately. Most of the algorithms in ensemble learning can be considered as weak learners. Ensemble learning integrates multiple weak learners to create an improved FDD method." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Epochs
 :Epochs rdf:type owl:Class ;
-        rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+        rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+        rdfs:comment "How many times the dataset should be iterated ." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Epsilon
 :Epsilon rdf:type owl:Class ;
-         rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+         rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+         rdfs:comment "Similar to learning rate annealing during initial training and momentum at later stages where it allows forward progress. Typical values are between 1e-10 and 1e-4." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange
@@ -968,11 +1062,15 @@
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Fault
-:Fault rdf:type owl:Class .
+:Fault rdf:type owl:Class ;
+       rdfs:comment """The types of faults associated with the HVAC system.
+
+The faults considered apply to the HVAC system, sub-system, and/or components. The faults are categorized based on the following procedure. The categories are created using a hypernym keyword. The faults are hyponym and belong to only one of the eighteen hypernyms created. Then, logical reasoning is performed to assign each fault to the category that it best represents. In cases where a hyponym consists of more than one word in its description, the first word will be selected, and the assignment is carried out based on that word. For example, for the fault type referred to as ‘control unstable’, the term ‘control’ is considered the primary word, and ‘unstable’ is a condition associated with controlling. Hence, the fault is assigned to the ‘control’ category. The only exception applies to faults that include bias/drift. In particular, for sensor faults, we skip the sensor type, even if it is the first word of the fault description, and look at the following term in the description.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Feature
-:Feature rdf:type owl:Class .
+:Feature rdf:type owl:Class ;
+         rdfs:comment "Sensory data obtained that can be used for Data-Driven FDD of HVAC systems" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul
@@ -987,7 +1085,19 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem
 :FlowProblem rdf:type owl:Class ;
-             rdfs:subClassOf :Fault .
+             rdfs:subClassOf :Fault ;
+             rdfs:comment """Examples:
+
+Reduced condenser water flow (F1) 
+Lower limit of chilled water flow-The lower limit of chilled water flow rise from 50% to 70% 
+Lower limit of chilled water flow- The lower limit of chilled water flow drop from 50% to 30%
+Reduced condenser water flow
+Reduced evaporator water flow
+Air flow rate and supply air temperature 
+Reduced evaporator water flow rate (REvW)
+Reduced condenser air flow 
+Supply Air Flow Sensor 
+Condenser water flow rate was reduced""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#FlowRate
@@ -1002,7 +1112,20 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Foul
 :Foul rdf:type owl:Class ;
-      rdfs:subClassOf :Fault .
+      rdfs:subClassOf :Fault ;
+      rdfs:comment """Examples:
+
+Condenser Fouling 
+Heating coil fouling 
+The outdoor unit fouling fault 
+Indoor units fouling 
+Heating fault-fouled water tube of boiler 50 % efficiency) 
+Cooling fault-fouled condenser or refrigerant leak of a chiller (efficiency 50%) 
+Evaporator fouled 
+Condenser fouled on the air section 
+Condenser fouled on the water section 
+Air intake strainer fouled 
+CdFoul Blocking tubes in the condenser""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation
@@ -1017,22 +1140,26 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#HVAC
 :HVAC rdf:type owl:Class ;
-      rdfs:subClassOf :Information .
+      rdfs:subClassOf :Information ;
+      rdfs:comment "Relevant HVAC related information" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize
 :HiddelLayerSize rdf:type owl:Class ;
-                 rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+                 rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+                 rdfs:comment "The size of each hidden layer in the model." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios
 :HiddenDropoutRatios rdf:type owl:Class ;
-                     rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+                     rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+                     rdfs:comment "A fraction of the inputs for each hidden layer to be omitted from training in order to improve generalization." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber
 :HiddenLayerNumber rdf:type owl:Class ;
-                   rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+                   rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+                   rdfs:comment "A fraction of the inputs for each hidden layer to be omitted from training in order to improve generalization." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Humidity
@@ -1042,11 +1169,13 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Hybrid
 :Hybrid rdf:type owl:Class ;
-        rdfs:subClassOf :Algorithm .
+        rdfs:subClassOf :Algorithm ;
+        rdfs:comment "This study explicitly defines the hybrid methods for FD/FDD algorithms based on learning as FD/FDD algorithms that have used a separate algorithm for fault detection and fault diagnosis. However, it is common to see multiple definitions based on the algorithms, applications and methodology and hence hybrid methods can be easily confused." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Information
-:Information rdf:type owl:Class .
+:Information rdf:type owl:Class ;
+             rdfs:comment "Information pertaining to the building envelope and HVAC as a physical asset" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters
@@ -1056,7 +1185,8 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification
 :InstanceBasedClassification rdf:type owl:Class ;
-                             rdfs:subClassOf :Algorithm .
+                             rdfs:subClassOf :Algorithm ;
+                             rdfs:comment "Instance-based classification compares new problem instances with instances seen in training; k-nearest Neighbor (k-NN) is a typical example of the instance-based classifier. Instance-based classification is the least used method in literature and has been used to identify a single type of fault or binary faults in the HVAC system." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity
@@ -1066,37 +1196,75 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#K
 :K rdf:type owl:Class ;
-   rdfs:subClassOf :InstanceBasedClassification .
+   rdfs:subClassOf :InstanceBasedClassification ;
+   rdfs:comment "The number of neighbors used to make the class decision.  The minimum value is 1 in which case you only look at the closest neighbor for each prediction to make your decision." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering
 :KNumberForClustering rdf:type owl:Class ;
-                      rdfs:subClassOf :Clustering .
+                      rdfs:subClassOf :Clustering ;
+                      rdfs:comment "This parameter specifies the number of clusters to determine." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#KernelType
 :KernelType rdf:type owl:Class ;
-            rdfs:subClassOf :Svm .
+            rdfs:subClassOf :Svm ;
+            rdfs:comment """The type of the kernel function is selected through this parameter. Following kernel types are supported: dot, radial, polynomial, neural, anova, epachnenikov, gaussian combination, multiquadric
+dot: The dot kernel is defined by k(x,y)=x*y i.e. it is inner product of x and y.
+radial: The radial kernel is defined by exp(-g ||x-y||^2) where g is the gamma, it is specified by the kernel gamma parameter. The adjustable parameter gamma plays a major role in the performance of the kernel, and should be carefully tuned to the problem at hand.
+polynomial: The polynomial kernel is defined by k(x,y)=(x*y+1)^d where d is the degree of polynomial and it is specified by the kernel degree parameter. The polynomial kernels are well suited for problems where all the training data is normalized.
+neural: The neural kernel is defined by a two layered neural net tanh(a x*y+b) where a is alpha and b is the intercept constant. These parameters can be adjusted using the kernel a and kernel b parameters. A common value for alpha is 1/N, where N is the data dimension. Note that not all choices of a and b lead to a valid kernel function.
+anova: The anova kernel is defined by raised to power d of summation of exp(-g (x-y)) where g is gamma and d is degree. gamma and degree are adjusted by the kernel gamma and kernel degree parameters respectively.
+epachnenikov: The epachnenikov kernel is this function (3/4)(1-u2) for u between -1 and 1 and zero for u outside that range. It has two adjustable parameters kernel sigma1 and kernel degree.
+gaussian_combination: This is the gaussian combination kernel. It has adjustable parameters kernel sigma1, kernel sigma2 and kernel sigma3.
+multiquadric: The multiquadric kernel is defined by the square root of ||x-y||^2 + c^2. It has adjustable parameters kernel sigma1 and kernel sigma shift.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#L1
 :L1 rdf:type owl:Class ;
-    rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+    rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+    rdfs:comment "A regularization method that constrains the absolute value of the weights and has the net effect of dropping some weights (setting them to zero) from a model to reduce complexity and avoid overfitting." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#L2
 :L2 rdf:type owl:Class ;
-    rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+    rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+    rdfs:comment "A regularization method that constrains the sum of the squared weights. This method introduces bias into parameter estimates, but frequently produces substantial gains in modeling as estimate variance is reduced." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Leakage
 :Leakage rdf:type owl:Class ;
-         rdfs:subClassOf :Fault .
+         rdfs:subClassOf :Fault ;
+         rdfs:comment """Examples:
+
+Outdoor air damper leak 
+AHU duct leaking (after supply fan (SF)
+Refrigerent leak/undercharge 
+Outdoor air damper leak
+AHU duct leaking (after supply fan (SF))
+EXV leakage 
+Heating coil valve leakage 
+AHU duct leakage before supply fan 
+Outdoor air damper leak""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue
 :LimitIssue rdf:type owl:Class ;
-            rdfs:subClassOf :Fault .
+            rdfs:subClassOf :Fault ;
+            rdfs:comment """Examples:
+
+Limit issue[over/under Charge/excess oil/reduced evaporator]
+Refrigerant Overcharge
+Refrigerant charge Undercharge (%) 
+Refrigerant charge  Overcharge  
+Excess oil 
+Refrigerant overcharge 
+Overcharge fault 
+Undercharge 
+Overcharge 
+RefLeak Refrigerant charge below normal values
+Ncg Extra nitrogen to the refrigerant 
+ExOil Increasing oil charge""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Load
@@ -1106,21 +1274,25 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#LossFunction
 :LossFunction rdf:type owl:Class ;
-              rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+              rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+              rdfs:comment "The loss (error) function to be minimized by the model. Absolute, Quadratic, and Huber are applicable for regression or classification, while CrossEntropy is only applicable for classification. Huber can improve for regression problems with outliers. CrossEntropy loss is used when the model output consists of independent hypotheses, and the outputs can be interpreted as the probability that each hypothesis is true. Cross entropy is the recommended loss function when the target values are class labels, and especially for imbalanced data. It strongly penalizes error in the prediction of the actual class label. Quadratic loss is used when the model output are continuous real values, but can be used for classification as well (where it emphasizes the error on all output classes, not just for the actual class)." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Maintenance
-:Maintenance rdf:type owl:Class .
+:Maintenance rdf:type owl:Class ;
+             rdfs:comment "The maintenance information regarding HVAC systems with regards to action strategy and inspection plan" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction
 :MaintenanceAction rdf:type owl:Class ;
-                   rdfs:subClassOf :Maintenance .
+                   rdfs:subClassOf :Maintenance ;
+                   rdfs:comment "HVAC maintenance action" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection
 :MaintenanceInspection rdf:type owl:Class ;
-                       rdfs:subClassOf :Maintenance .
+                       rdfs:subClassOf :Maintenance ;
+                       rdfs:comment "HVAC maintenance inspection" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps
@@ -1130,47 +1302,74 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns
 :MaxRuns rdf:type owl:Class ;
-         rdfs:subClassOf :Clustering .
+         rdfs:subClassOf :Clustering ;
+         rdfs:comment "This parameter specifies the maximal number of runs of k-Means with random initialization of the start points that are performed." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MaxW2
 :MaxW2 rdf:type owl:Class ;
-       rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+       rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+       rdfs:comment "A maximum on the sum of the squared incoming weights into any one neuron. This tuning parameter is especially useful for unbound activation functions such as Maxout or Rectifier." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth
 :MaximalDepth rdf:type owl:Class ;
-              rdfs:subClassOf :DecisionTree .
+              rdfs:subClassOf :DecisionTree ;
+              rdfs:comment "The depth of a tree varies depending upon the size and characteristics of the ExampleSet. This parameter is used to restrict the depth of the decision tree. If its value is set to '-1', the maximal depth parameter puts no bound on the depth of the tree. In this case the tree is built until other stopping criteria are met. If its value is set to '1', a tree with a single node is generated." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes
 :MeasureTypes rdf:type owl:Class ;
-              rdfs:subClassOf :InstanceBasedClassification .
+              rdfs:subClassOf :InstanceBasedClassification ;
+              rdfs:comment """This parameter is used for selecting the type of measure to be used for finding the nearest neighbors. The following options are available:
+ 
+
+MixedMeasures: Mixed Measures are used to calculate distances in case of both nominal and numerical Attributes.
+
+NominalMeasures: In case of only nominal Attributes different distance metrices can be used to calculate distances on this nominal Attributes.
+
+NumericalMeasures: In case of only numerical Attributes different distance metrices can be used to calculate distances on this numerical Attributes.
+
+BregmannDivergences: Bregmann divergences are more generic \"closeness\" measure types with does not satisfy the triangle inequality or symmetry. For more details see the parameter divergence.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering
 :MeasureTypesForClustering rdf:type owl:Class ;
-                           rdfs:subClassOf :Clustering .
+                           rdfs:subClassOf :Clustering ;
+                           rdfs:comment """This parameter is used for selecting the type of measure to be used for finding the nearest neighbors. The following options are available:
+ 
+
+MixedMeasures: Mixed Measures are used to calculate distances in case of both nominal and numerical Attributes.
+
+NominalMeasures: In case of only nominal Attributes different distance metrices can be used to calculate distances on this nominal Attributes.
+
+NumericalMeasures: In case of only numerical Attributes different distance metrices can be used to calculate distances on this numerical Attributes.
+
+BregmannDivergences: Bregmann divergences are more generic \"closeness\" measure types with does not satisfy the triangle inequality or symmetry. For more details see the parameter divergence.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain
 :MinimalGain rdf:type owl:Class ;
-             rdfs:subClassOf :DecisionTree .
+             rdfs:subClassOf :DecisionTree ;
+             rdfs:comment "The gain of a node is calculated before splitting it. The node is split if its gain is greater than the minimal gain. A higher value of minimal gain results in fewer splits and thus a smaller tree. A value that is too high will completely prevent splitting and a tree with a single node is generated." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize
 :MinimalLeafSize rdf:type owl:Class ;
-                 rdfs:subClassOf :DecisionTree .
+                 rdfs:subClassOf :DecisionTree ;
+                 rdfs:comment "The size of a leaf is the number of Examples in its subset. The tree is generated in such a way that every leaf has at least the minimal leaf size number of Examples." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit
 :MinimalSizeForSplit rdf:type owl:Class ;
-                     rdfs:subClassOf :DecisionTree .
+                     rdfs:subClassOf :DecisionTree ;
+                     rdfs:comment "The size of a node is the number of Examples in its subset. Only those nodes are split whose size is greater than or equal to the minimal size for split parameter." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure
 :MixedMeasure rdf:type owl:Class ;
-              rdfs:subClassOf :InstanceBasedClassification .
+              rdfs:subClassOf :InstanceBasedClassification ;
+              rdfs:comment "The only available option for mixed measure is the 'Mixed Euclidean Distance'. For numerical values the euclidean distance is calculated. For nomimal values, a distance of 0 is taken if both values are the same and a distance of one is taken otherwise. This parameter is available when the measure type parameter is set to 'mixed measures'." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth
@@ -1180,17 +1379,40 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining
 :NeuralNetworksOrDeepLearining rdf:type owl:Class ;
-                               rdfs:subClassOf :Algorithm .
+                               rdfs:subClassOf :Algorithm ;
+                               rdfs:comment "Artificial neural networks (ANN) or called neural networks/ Deep Learning (DL), can be defined as a machine learning technique that uses a deep neural network and learns a long chain of causal links." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable
 :NonCondesable rdf:type owl:Class ;
-               rdfs:subClassOf :Fault .
+               rdfs:subClassOf :Fault ;
+               rdfs:comment """Examples:
+
+Non-condensable in Refrigerant 
+non-condensable gas in refrigerant 
+non-condensable gas (Ncg).""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning
 :NonFunctioning rdf:type owl:Class ;
-                rdfs:subClassOf :Fault .
+                rdfs:subClassOf :Fault ;
+                rdfs:comment """Examples:
+
+Complete failure of fan 
+Return fan compete failure
+Dysfunctional” or “out-of-control
+Non-functioning boiler 
+Both the valve and the boiler are non-functioning 
+Air handler unit malfunction 
+Total heating system failure
+Compressor failure 
+Total cooling system failure 
+Total ventilation system failure
+Heating fault-system not turning on (0% efficiency) 
+Cooling  fault-system not turning on (0% efficiency) 
+Humidifier not turning on
+Dehumidifier not turning on  
+Return fan completely failed""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents
@@ -1200,12 +1422,45 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives
 :NumberOfPrepruningAlternatives rdf:type owl:Class ;
-                                rdfs:subClassOf :DecisionTree .
+                                rdfs:subClassOf :DecisionTree ;
+                                rdfs:comment "When split is prevented by prepruning at a certain node this parameter will adjust the number of alternative nodes tested for splitting. Occurs as prepruning runs parallel to the tree generation process. This may prevent splitting at certain nodes, when splitting at that node does not add to the discriminative power of the entire tree. In such a case, alternative nodes are tried for splitting." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure
 :NumericalMeasure rdf:type owl:Class ;
-                  rdfs:subClassOf :Clustering .
+                  rdfs:subClassOf :Clustering ;
+                  rdfs:comment """This parameters defines how to calculate distances for only numerical Attributes in the input ExampleSet, in case the measure type is set to numerical measure. For the different distance measures the following variable is defined:
+ 
+y(i,j) : Value of the j.th Attribute of the i.th Example. Hence y(1,3) - y(2,3) is the difference of the values of the third Attribute of the first and second Example.
+ 
+In case of using a similarity as a distance measure, the actual distance is calculated as the negative similarity.
+ 
+
+EuclideanDistance: Square root of the sum of quadratic differences over all Attributes. Dist = Sqrt ( Sum_(j=1) [y(1,j)-y(2,j)]^2 )
+
+CanberraDistance: Sum over all Attributes. The summand is the absolute of the difference of the value, divided by the sum of the absolute values. Dist = Sum_(j=1) |y(1,j)-y(2,j)| / (|y(1,j)|+|y(2,j)|) The CanberraDistance is often used to compare ranked list or for intrusion detection in computer security.
+
+ChebychevDistance: Maximum of all differences of all Attributes. Dist = max_(j=1) (|y(1,j)-y(2,j)|)
+
+CorrelationSimilarity: The similarity is calculated as the correlation between the Attribute vectors of the two Examples.
+
+CosineSimilarity: Similarity measure measuring the cosine of the angle between the Attribute vectors of the two Examples.
+
+DiceSimilarity: The DiceSimilarity for numerical Attributes is calculated as 2*Y1Y2/(Y1+Y2). Y1Y2 = Sum over product of values = Sum_(j=1) y(1,j)*y(2,j). Y1 = Sum over values of first Example = Sum_(j=1) y(1,j) Y2 = Sum over values of second Example = Sum_(j=1) y(2,j)
+
+DynamicTimeWarpingDistance: Dynamic Time Warping is often use in Time Series analysis for measuring the distance between two temporal sequences. Here the distance on an optimal \"warping\" path from the Attribute vector of the first Example to the second Example is calculated.
+
+InnerProductSimilarity: The similarity is calculated as the sum of the product of the Attribute vectors of the two Examples. Dist = -Similarity = -Sum_(j=1) y(1,j)*y(2,j)
+
+JaccardSimilarity: The JaccardSimilarity is calculated as Y1Y2/(Y1+Y2-Y1Y2). See DiceSimilarity for the definition of Y1Y2, Y1 and Y2.
+
+KernelEuclideanDistance: The distance is calculated by the euclidean distance of the two Examples, in a transformed space. The transformation is defined by the chosen kernel and configured by the parameters kernel type, gamma, sigma1, sigma2, sigma 3, shift, degree, a, b.
+
+ManhattanDistance: Sum of the absolute distances of the Attribute values. Dist = Sum_(j=1) |y(1,j)-y(2,j)|
+
+MaxProductSimilarity: The similarity is the maximum of all products of all Attribute values. If the maximum is less or equal to zero the similarity is not defined. Dist = -Similarity = -max_(j=1) (y(1,j)*y(2,j))
+
+OverlapSimilarity: The similarity is a variant of simple matching for numerical Attributes and is calculated as minY1Y2 / min(Y1,Y2). See DiceSimilarity for the definition of Y1, Y2. minY1Y2 = Sum over the minimum of values = Sum_(j=1) min [y(1,j),y(2,j)] .""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition
@@ -1225,7 +1480,26 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults
 :OtherFaults rdf:type owl:Class ;
-             rdfs:subClassOf :Fault .
+             rdfs:subClassOf :Fault ;
+             rdfs:comment """Examples:
+
+Cooling coil valve reverse action
+Four-way reversing valve fault   
+Slipping supply air fan belt fault  
+EXV sticking 
+Air intake decreased
+water intake over- full  
+Cooling coil 
+System is occupied while under normal operation, it should be unoccupied  
+AHU-2 cooling coil valve position software override at 100% open (higher than normal)  
+System is occupied while under normal operation, it should be unoccupied  
+AHU-2 cooling coil valve position software override at 100% open (higher than normal) 
+Heater Fault in Room1(OFF) 
+Battery Fault in Temperature Sensor Room1 
+Gain Fault in CO2 Sensor Room1 
+Communication Fault(Routing) in Room1 
+Battery Fault in CO2 Sensor Room1’ 
+Bypass fault""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection
@@ -1235,7 +1509,15 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Performance
 :Performance rdf:type owl:Class ;
-             rdfs:subClassOf :Fault .
+             rdfs:subClassOf :Fault ;
+             rdfs:comment """Examples:
+
+Performance of chillers
+Heat exchanger efficiency 
+Performance of cooling towers 
+Performance of secondary chilled water pumps
+Air handler unit performance inhibited 
+Reduced compressor efficiency""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Pressure
@@ -1245,7 +1527,8 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed
 :RandomSeed rdf:type owl:Class ;
-            rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+            rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+            rdfs:comment "Local random seed for random generation." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Rate
@@ -1270,7 +1553,8 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Regression
 :Regression rdf:type owl:Class ;
-            rdfs:subClassOf :Algorithm .
+            rdfs:subClassOf :Algorithm ;
+            rdfs:comment "Regression methods used in literature for FDD of HVAC are commonly used in combination with other modeling techniques or fault detection purposes. Regression methods are often coupled with other methods and use thresholds to determine faults in HVAC." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace
@@ -1300,27 +1584,41 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Rho
 :Rho rdf:type owl:Class ;
-     rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+     rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+     rdfs:comment "Similar to momentum and relates to the memory to prior weight updates. Typical values are between 0.9 and 0.999. This parameter is only active if adaptive learning rate is enabled.rdfs:comment" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#RuleBased
 :RuleBased rdf:type owl:Class ;
-           rdfs:subClassOf :Algorithm .
+           rdfs:subClassOf :Algorithm ;
+           rdfs:comment "Rule-based methods in this study include supervised and unsupervised learning methods. The literature has mainly used utilized methods such as Association Rule Mining (ARM) algorithms, an unsupervised method and immune-inspired supervised learning algorithms such as the Artificial Immune Recognition System (AIRS). The rule-based methods intend to develop a set of rules that are mined and identified." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Scale
 :Scale rdf:type owl:Class ;
-       rdfs:subClassOf :Svm .
+       rdfs:subClassOf :Svm ;
+       rdfs:comment "This is a global parameter. If checked, the example values are scaled and the scaling parameters are stored for a test set." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault
 :ScheduleFault rdf:type owl:Class ;
-               rdfs:subClassOf :Fault .
+               rdfs:subClassOf :Fault ;
+               rdfs:comment """Examples:
+
+Out of hours operation
+Schedule fault,chiller  stops earlier 
+Schedule fault (change to unoccupied  mode 2.5 hours earlier)""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#SetPoint
 :SetPoint rdf:type owl:Class ;
-          rdfs:subClassOf :Fault .
+          rdfs:subClassOf :Fault ;
+          rdfs:comment """Examples:
+
+Sewage pump set value 
+The set point of chilled water flow drops by approximately 10% of the rated value (0.3 m3/min)
+Set point of condenser water outlet temperature of cooling tower - The set point of condenser water outlet temperature of cooling towers rises by 10% of the rated value (0.5 degree)
+Unachievable set point.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue
@@ -1330,7 +1628,12 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue
 :SizzingIssue rdf:type owl:Class ;
-              rdfs:subClassOf :Fault .
+              rdfs:subClassOf :Fault ;
+              rdfs:comment """Examples:
+
+Expansion valve opening small 
+Eexpansion valve opening large  
+Incorrect TU sizing to real demand""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation
@@ -1340,7 +1643,13 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Speed
 :Speed rdf:type owl:Class ;
-       rdfs:subClassOf :Fault .
+       rdfs:subClassOf :Fault ;
+       rdfs:comment """Examples:
+
+Return fan at fixed speed 
+Zone temperature sensor fan high speed, valve stuck high 
+return fan at speed (30%) 
+Air supply fan(max speed ¼ 25%)""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity
@@ -1349,7 +1658,8 @@
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#State
-:State rdf:type owl:Class .
+:State rdf:type owl:Class ;
+       rdfs:comment "It illustrates the current status of an entity of interest." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Status
@@ -1364,32 +1674,58 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric
 :StoppingMetric rdf:type owl:Class ;
-                rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+                rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+                rdfs:comment """Metric to use for early stopping. Set stopping_tolerance to tune it. This parameter is visible only if early_stopping is set.
+AUTO: Automatic selection. Uses logloss for classification, deviance for regression.
+deviance, logloss, MSE, AUC, lift_top_group, r2, misclassification, mean_per_class_error: The metric to use to decide if the algorithm should be stopped.""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds
 :StoppingRounds rdf:type owl:Class ;
-                rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+                rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+                rdfs:comment "Early stopping based on convergence of stopping_metric. Stop if simple moving average of length k of the stopping_metric does not improve for k:=stopping_rounds scoring events (0 to disable)." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance
 :StoppingTolerance rdf:type owl:Class ;
-                   rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+                   rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+                   rdfs:comment "Relative tolerance for metric-based stopping criterion (stop if relative improvement is not at least this much)." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed
 :StuckOrPartiallyClosed rdf:type owl:Class ;
-                        rdfs:subClassOf :Fault .
+                        rdfs:subClassOf :Fault ;
+                        rdfs:comment """Examples:
+
+Exhausted air (EA) damper stuck (fully open) 
+Cooling coil valve partially closed (15% open) 
+Fan stuck at high speed 
+Valve stuck shut 
+Valve stuck at position lower than required 
+Cooling coil valve stuck (fully closed) 
+OA damper stuck fully open 
+EA damper stuck 40% open 
+Cooling coil valve stuck fully open 
+Exhausted air (EA) damper stuck (fully open); 
+stuck AHU heating coil valve 
+Stuck heating coil valve:
+Hot water valve stuck 
+Return air/outdoor air damper stuck
+Cooling coil valve stuck at 65% opening 
+Outdoor air damper stuck at fully closed 
+Exhaust air damper stuck at fully closed""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Support
 :Support rdf:type owl:Class ;
-         rdfs:subClassOf :RuleBased .
+         rdfs:subClassOf :RuleBased ;
+         rdfs:comment "Support percentage" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Svm
 :Svm rdf:type owl:Class ;
-     rdfs:subClassOf :Algorithm .
+     rdfs:subClassOf :Algorithm ;
+     rdfs:comment ".The (SVM) is the most common FDD method used at the sub-system level. It is used for binary classification problems to separate normal and faulty data in HVAC. It finds a hyperplane in the high-dimensional feature space to separate the two types of data. The other variant is known as Multi-class SVM, is used when more than two classes of fault exist." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Temperature
@@ -1399,21 +1735,29 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue
 :TemperatureIssue rdf:type owl:Class ;
-                  rdfs:subClassOf :Fault .
+                  rdfs:subClassOf :Fault ;
+                  rdfs:comment """Examples:
+
+TU is not receiving adequate temperature. 
+Abnormal mixed air temperatures 
+Air intake temperature low""" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Track
-:Track rdf:type owl:Class .
+:Track rdf:type owl:Class ;
+       rdfs:comment "Monitoring a state over a specified duration of time" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration
 :TrainSamplesPerIteration rdf:type owl:Class ;
-                          rdfs:subClassOf :NeuralNetworksOrDeepLearining .
+                          rdfs:subClassOf :NeuralNetworksOrDeepLearining ;
+                          rdfs:comment "The number of training data rows to be processed per iteration." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold
 :VarianceThreshold rdf:type owl:Class ;
-                   rdfs:subClassOf :DimensionalityReduction .
+                   rdfs:subClassOf :DimensionalityReduction ;
+                   rdfs:comment "This parameter is available only when the dimensionality reduction parameter is set to 'keep variance'. All the components with a cumulative variance greater than the variance threshold are removed from the ExampleSet." .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Voltage
@@ -1423,7 +1767,8 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote
 :WeightedVote rdf:type owl:Class ;
-              rdfs:subClassOf :InstanceBasedClassification .
+              rdfs:subClassOf :InstanceBasedClassification ;
+              rdfs:comment "The distance values between the Examples are also taken into account for the prediction. It can be useful to weight the contributions of the neighbors, so that nearer neighbors contribute more than more distant ones." .
 
 
 ###  https://w3id.org/bot#Building
@@ -1431,40 +1776,47 @@
                                 rdfs:subClassOf <https://w3id.org/bot#Zone> ;
                                 owl:disjointWith <https://w3id.org/bot#Site> ,
                                                  <https://w3id.org/bot#Space> ,
-                                                 <https://w3id.org/bot#Storey> .
+                                                 <https://w3id.org/bot#Storey> ;
+                                rdfs:comment "An independent unit of the built environment with a characteristic spatial structure, intended to serve at least one function or user activity [ISO-12006]. A bot:Building is a part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent, is contained in a building site, and can contain one or more storeys that are vertically connected." .
 
 
 ###  https://w3id.org/bot#Element
 <https://w3id.org/bot#Element> rdf:type owl:Class ;
                                owl:disjointWith <https://w3id.org/bot#Interface> ,
-                                                <https://w3id.org/bot#Zone> .
+                                                <https://w3id.org/bot#Zone> ;
+                               rdfs:comment "Constituent of a construction entity with a characteristic technical function, form or position [[ISO-12006], 3.4.7]." .
 
 
 ###  https://w3id.org/bot#Interface
 <https://w3id.org/bot#Interface> rdf:type owl:Class ;
-                                 owl:disjointWith <https://w3id.org/bot#Zone> .
+                                 owl:disjointWith <https://w3id.org/bot#Zone> ;
+                                 rdfs:comment "A generic concept to qualify the relationship of two or more things in the world, where at least one is a building element or zone. Examples: (1) Qualification of heat transmission between zones through one or more building elements. This includes one-dimensional (surface) heat losses from one zone to another through a single building element, a two dimensional (line) loss from one zone to another through the connection in which the two elements meet or a three dimensional (point) loss from one zone to another through the connection where three elements (typically two walls and a slab) meet. (2) Connection of an electric device to the electric system of a building. (3) A door between one room and another." .
 
 
 ###  https://w3id.org/bot#Site
 <https://w3id.org/bot#Site> rdf:type owl:Class ;
                             rdfs:subClassOf <https://w3id.org/bot#Zone> ;
                             owl:disjointWith <https://w3id.org/bot#Space> ,
-                                             <https://w3id.org/bot#Storey> .
+                                             <https://w3id.org/bot#Storey> ;
+                            rdfs:comment "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. It is intended to contain or contains one or more buildings." .
 
 
 ###  https://w3id.org/bot#Space
 <https://w3id.org/bot#Space> rdf:type owl:Class ;
                              rdfs:subClassOf <https://w3id.org/bot#Zone> ;
-                             owl:disjointWith <https://w3id.org/bot#Storey> .
+                             owl:disjointWith <https://w3id.org/bot#Storey> ;
+                             rdfs:comment "A part of the physical world or a virtual world whose 3D spatial extent is bounded actually or theoretically, and provides for certain functions within the zone it is contained in." .
 
 
 ###  https://w3id.org/bot#Storey
 <https://w3id.org/bot#Storey> rdf:type owl:Class ;
-                              rdfs:subClassOf <https://w3id.org/bot#Zone> .
+                              rdfs:subClassOf <https://w3id.org/bot#Zone> ;
+                              rdfs:comment "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. A bot:Storey is contained in one or more buildings, and is intended to contain one or more spaces that are horizontally connected. Storeys of a building are connected by means of vertical connections such as elevators and stairs. A bot:Storey encompasses both zones above and below ground, for example, a building with 21 floors above ground, one ground floor and 3 basements is equal to the sentence: A building has 25 instances of bot:Storey." .
 
 
 ###  https://w3id.org/bot#Zone
-<https://w3id.org/bot#Zone> rdf:type owl:Class .
+<https://w3id.org/bot#Zone> rdf:type owl:Class ;
+                            rdfs:comment "A part of the physical world or a virtual world that is inherently both located in this world and has a 3D spatial extent." .
 
 
 #################################################################
@@ -1474,98 +1826,269 @@
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value
 :Drop_out_value rdf:type owl:NamedIndividual ,
                          :HiddenDropoutRatios ;
-                :value 0.67 .
+                :isParameter :SequentialNeuralNetworkModel ;
+                rdfs:comment 0.67 .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel
 :SequentialNeuralNetworkModel rdf:type owl:NamedIndividual ,
-                                       :NeuralNetworksOrDeepLearining .
+                                       :NeuralNetworksOrDeepLearining ;
+                              :algorithmBelongsTo <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> ;
+                              :canDetect <https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status> ,
+                                         <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status> ;
+                              :canUse <https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status> ,
+                                      <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status> ;
+                              :hasParameter :Drop_out_value ,
+                                            :activation_used_for_NN ,
+                                            :adam ,
+                                            :categorical_crossentropy ,
+                                            :patience ,
+                                            :random_state ,
+                                            :size_of_each_layer ,
+                                            :test_size ,
+                                            <https://github.com/arashhosseiniarash/AFDDOntology#3> ,
+                                            <https://github.com/arashhosseiniarash/AFDDOntology#600> .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#Svc
 :Svc rdf:type owl:NamedIndividual ,
-              :Svm .
+              :Svm ;
+     :algorithmBelongsTo <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> ;
+     :canDetect <https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status> ,
+                <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status> ;
+     :canUse <https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status> ,
+             <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status> ;
+     :hasParameter :rbf ,
+                   :svm_scaling ,
+                   <https://github.com/arashhosseiniarash/AFDDOntology#1> .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN
 :activation_used_for_NN rdf:type owl:NamedIndividual ,
                                  :Activation ;
+                        :isParameter :SequentialNeuralNetworkModel ;
                         rdfs:comment "relu and softmax" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#adam
 :adam rdf:type owl:NamedIndividual ,
-               :Optimizer .
+               :Optimizer ;
+      :isParameter :SequentialNeuralNetworkModel .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy
 :categorical_crossentropy rdf:type owl:NamedIndividual ,
-                                   :LossFunction .
+                                   :LossFunction ;
+                          :isParameter :SequentialNeuralNetworkModel .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#patience
 :patience rdf:type owl:NamedIndividual ,
                    :StoppingTolerance ;
-          :value 25 .
+          :isParameter :SequentialNeuralNetworkModel ;
+          rdfs:comment 25 .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#random_state
 :random_state rdf:type owl:NamedIndividual ,
                        :RandomSeed ;
-              :value 101 .
+              :isParameter :SequentialNeuralNetworkModel ;
+              rdfs:comment 101 .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#rbf
 :rbf rdf:type owl:NamedIndividual ,
-              :KernelType .
+              :KernelType ;
+     :isParameter :Svc .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer
 :size_of_each_layer rdf:type owl:NamedIndividual ,
                              :HiddelLayerSize ;
+                    :isParameter :SequentialNeuralNetworkModel ;
                     rdfs:comment "70-15-7" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling
 :svm_scaling rdf:type owl:NamedIndividual ,
                       :Scale ;
+             :isParameter :Svc ;
              rdfs:comment "feature range -1 , 1" .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#test_size
 :test_size rdf:type owl:NamedIndividual ,
                     :TrainSamplesPerIteration ;
-           :value 0.25 .
+           :isParameter :SequentialNeuralNetworkModel ;
+           rdfs:comment 0.25 .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1
 <https://github.com/arashhosseiniarash/AFDDOntology#1> rdf:type owl:NamedIndividual ,
-                                                                :C .
+                                                                :C ;
+                                                       :isParameter :Svc .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling> rdf:type owl:NamedIndividual ,
-                                                                                  :Foul .
+                                                                                  :Foul ;
+                                                                         :faultBelongsTo <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration> rdf:type owl:NamedIndividual ,
-                                                                                       :Leakage .
+                                                                                       :Leakage ;
+                                                                              :faultBelongsTo <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error
 <https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error> rdf:type owl:NamedIndividual ,
-                                                                                   :SetPoint .
+                                                                                   :SetPoint ;
+                                                                          :faultBelongsTo <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error> rdf:type owl:NamedIndividual ,
-                                                                                       :OtherFaults .
+                                                                                       :OtherFaults ;
+                                                                              :faultBelongsTo <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback
 <https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback> rdf:type owl:NamedIndividual ,
-                                                                                          :SetPoint .
+                                                                                          :SetPoint ;
+                                                                                 :faultBelongsTo <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1
@@ -1573,9 +2096,55 @@
                                                                                            :Status .
 
 
+###  https://github.com/arashhosseiniarash/AFDDOntology#1-RTU
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> rdf:type owl:NamedIndividual ,
+                                                                    <https://brickschema.org/schema/Brick#RTU> ;
+                                                           :hasAlgorithm :SequentialNeuralNetworkModel ;
+                                                           :hasAssociated <https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status> ;
+                                                           :hasFault <https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias> .
+
+
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias> rdf:type owl:NamedIndividual ,
-                                                                                            :BiasDriftCalibration .
+                                                                                            :BiasDriftCalibration ;
+                                                                                   :faultBelongsTo <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command
@@ -1778,6 +2347,52 @@
                                                                                          :Status .
 
 
+###  https://github.com/arashhosseiniarash/AFDDOntology#2-RTU
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> rdf:type owl:NamedIndividual ,
+                                                                    <https://brickschema.org/schema/Brick#RTU> ;
+                                                           :hasAlgorithm :Svc ;
+                                                           :hasAssociated <https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status> ,
+                                                                          <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status> ;
+                                                           :hasFault <https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback> ,
+                                                                     <https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias> .
+
+
 ###  https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias
 <https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias> rdf:type owl:NamedIndividual ,
                                                                                             :BiasDriftCalibration .
@@ -1955,12 +2570,14 @@
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#3
 <https://github.com/arashhosseiniarash/AFDDOntology#3> rdf:type owl:NamedIndividual ,
-                                                                :HiddenLayerNumber .
+                                                                :HiddenLayerNumber ;
+                                                       :isParameter :SequentialNeuralNetworkModel .
 
 
 ###  https://github.com/arashhosseiniarash/AFDDOntology#600
 <https://github.com/arashhosseiniarash/AFDDOntology#600> rdf:type owl:NamedIndividual ,
-                                                                  :Epochs .
+                                                                  :Epochs ;
+                                                         :isParameter :SequentialNeuralNetworkModel .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

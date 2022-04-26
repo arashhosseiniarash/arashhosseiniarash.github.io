@@ -25,6 +25,16 @@
 <https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
 <https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Element> .
 # 
+# https://github.com/arashhosseiniarash/AFDDOntology#canDetect
+<https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#canUse
+<https://github.com/arashhosseiniarash/AFDDOntology#canUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#canUse> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#canUse> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
+# 
 # https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo
 <https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
@@ -70,15 +80,15 @@
 <https://github.com/arashhosseiniarash/AFDDOntology#hasState> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
 <https://github.com/arashhosseiniarash/AFDDOntology#hasState> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#State> .
 # 
-# https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures
-<https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
-<https://github.com/arashhosseiniarash/AFDDOntology#hasfeatures> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
-# 
 # https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith
 <https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Feature> .
 <https://github.com/arashhosseiniarash/AFDDOntology#isAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+# 
+# https://github.com/arashhosseiniarash/AFDDOntology#isParameter
+<https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#isRecorded
 <https://github.com/arashhosseiniarash/AFDDOntology#isRecorded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -408,6 +418,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://brickschema.org/schema/Brick#HVAC_Equipment
 <https://brickschema.org/schema/Brick#HVAC_Equipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://brickschema.org/schema/Brick#HVAC_Equipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Element> .
+<https://brickschema.org/schema/Brick#HVAC_Equipment> <http://www.w3.org/2000/01/rdf-schema#comment> "HVAC equpments can be studied at a system or local level. Local-level classification can be divided into (i) sub-system level and (ii) equipment/component level." .
 # 
 # https://brickschema.org/schema/Brick#HX
 <https://brickschema.org/schema/Brick#HX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -651,13 +662,16 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Activation
 <https://github.com/arashhosseiniarash/AFDDOntology#Activation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Activation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Activation> <http://www.w3.org/2000/01/rdf-schema#comment> "The activation function (non-linearity) to be used by the neurons in the hidden layers.\nTanh: Hyperbolic tangent function (same as scaled and shifted sigmoid).\nRectifier: Rectifier Linear Unit: Chooses the maximum of (0, x) where x is the input value.\nMaxout: Choose the maximum coordinate of the input vector.\nExpRectifier: Exponential Rectifier Linear Unit function." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Algorithm
 <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> <http://www.w3.org/2000/01/rdf-schema#comment> "The kind of Machine Learning Algorithm that was utilized for Data-driven FDD of HVAC systems." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks
 <https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#BayesianNetworks> <http://www.w3.org/2000/01/rdf-schema#comment> "Bayesian networks (BN) use graph theory and probability theory to perform data analysis and are preferred for their reasoning ability. In the reviewed literature, it was evident that BN is mostly used in system-level studies to detect and diagnose HVAC faults and support literature analysis results found for the type of HVAC used . BN’s distinct advantage is the ability to identify the causes and sort them from the most to the least probable, which can be used to prioritize inspection and maintenance." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment
 <https://github.com/arashhosseiniarash/AFDDOntology#BeltWearAndSheavesAlighnment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -666,18 +680,22 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration
 <https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> <http://www.w3.org/2000/01/rdf-schema#comment> "Sensor faults can be classified into bias, drifting, precision degradation and complete failure\n\nExamples:\n\nZone temperature sensor positively biased \nZone temperature sensor negatively biased\ntemperature sensor bias +3F \nOA temperature sensor bias -3F \nZone temperature sensor out of calibration (2℃ high offset) \nRoom temperature sensor fault (“1” for +2°C (3.6°F) bias and “-1” for -2°C (-3.6°F) bias, and “0” for no fault;  \nAirflow sensor fault (“1” for positive 10% bias and “-1” for negative 10% bias, and “0” for no fault. \nChiller DP sensor positive bias 1.4 kPa \nOffset Fault in Temperature Sensor Room1 \nTemperature and flow sensors  fixed bias \nTemperature and flow sensors drift biases \nBias faults \nDrift faults \nPositive bias ( + δ) \nNegative bias ( −δ )\nPositive drift ( + δ) \nNegative drift ( −δ)\nPrecision degradation ( μ)" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Blockage
 <https://github.com/arashhosseiniarash/AFDDOntology#Blockage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Blockage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Blockage> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nAir filter area block fault 10% \nAir filter area block fault 25%\nAir filter blockage 25%\nVentilation fan blockage" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Building
 <https://github.com/arashhosseiniarash/AFDDOntology#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Information> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Building> <http://www.w3.org/2000/01/rdf-schema#comment> "Relevant building envelope related information" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#C
 <https://github.com/arashhosseiniarash/AFDDOntology#C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#C> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Svm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#C> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the SVM complexity constant which sets the tolerance for misclassification, where higher C values allow for 'softer' boundaries and lower values create 'harder' boundaries. A complexity constant that is too large can lead to over-fitting, while values that are too small may result in over-generalization." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure
 <https://github.com/arashhosseiniarash/AFDDOntology#CalculatedMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -690,6 +708,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction
 <https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#CapacityReduction> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nCapacity reduction\nHeating coil reduced capacity stage 1 \nHeating coil reduced capacity stage 2 \nHeating coil reduced capacity stage 3\nHeating coil reduced capacity" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks
 <https://github.com/arashhosseiniarash/AFDDOntology#CheckForDamageOrEvidenceOfLeaks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -706,6 +725,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Clustering
 <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Clustering> <http://www.w3.org/2000/01/rdf-schema#comment> "In the clustering method, which is an unsupervised method, two or more clusters are created that separates normal from faulty data. Instance-based classification compares new problem instances with instances seen in training; k-nearest Neighbor (k-NN) is a typical example of the instance-based classifier. Instance-based classification is the least used method in literature and has been used to identify a single type of fault or binary faults in the HVAC system." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem
 <https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -714,10 +734,12 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Confidence
 <https://github.com/arashhosseiniarash/AFDDOntology#Confidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Confidence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Confidence> <http://www.w3.org/2000/01/rdf-schema#comment> "This parameter specifies the confidence level used for the pessimistic error calculation of pruning." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased
 <https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> .
+<https://github.com/arashhosseiniarash/AFDDOntology#ConfidenceForRuleBased> <http://www.w3.org/2000/01/rdf-schema#comment> "Conficence percentage" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Control
 <https://github.com/arashhosseiniarash/AFDDOntology#Control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -726,10 +748,12 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#ControlFault
 <https://github.com/arashhosseiniarash/AFDDOntology#ControlFault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#ControlFault> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#ControlFault> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nCooling coil valve control unstable \nCooling coil control unstable \nSupply fan control unstable\nControl of the number of chillers-Only one of the chillers always drives.\nControl of the number of chillers -Two of the chillers always drive. \nSupply fan control unstable \nCooling coil valve control unstable \nIimproper control of the supply air fan\nControl malfunction \nMixed air damper unstable \nSequence of heating and cooling unstable \nMixed air damper unstable \nMixed air damper unstable cooling coil unstable \nHeating and cooling unstable \nCooling coil valve control unstable" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Criterion
 <https://github.com/arashhosseiniarash/AFDDOntology#Criterion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Criterion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Criterion> <http://www.w3.org/2000/01/rdf-schema#comment> "Selects the criterion on which Attributes will be selected for splitting. For each of these criteria the split value is optimized with regards to the chosen criterion. It can have one of the following values:\n\ninformation_gain: The entropies of all the Attributes are calculated and the one with least entropy is selected for split. This method has a bias towards selecting Attributes with a large number of values.\ngain_ratio: A variant of information gain that adjusts the information gain for each Attribute to allow the breadth and uniformity of the Attribute values.\ngini_index: A measure of inequality between the distributions of label characteristics. Splitting on a chosen Attribute results in a reduction in the average gini index of the resulting subsets.\naccuracy: An Attribute is selected for splitting, which maximizes the accuracy of the whole tree.\nleast_square: An Attribute is selected for splitting, that minimizes the squared distance between the average of values in the node with regards to the true value." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak
 <https://github.com/arashhosseiniarash/AFDDOntology#DamageOrLeak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -742,6 +766,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree
 <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> <http://www.w3.org/2000/01/rdf-schema#comment> "Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Deleted
 <https://github.com/arashhosseiniarash/AFDDOntology#Deleted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -754,6 +779,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction
 <https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction> <http://www.w3.org/2000/01/rdf-schema#comment> "Dimensionality reduction methods such as principal component analysis (PCA), Fisher discriminant analysis (FDA) and linear discriminant analysis (LDA) are used for FDD purposes. However, PCA is the most dominant in this category. Generally, in the PCA method, raw data are decomposed into two subspaces: the principal component subspace and residual subspace. The principal component data captures the main normal statistical correlations and the residual data quantifies the main variances to detect faults." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Disinfect
 <https://github.com/arashhosseiniarash/AFDDOntology#Disinfect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -762,10 +788,12 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction
 <https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#DistributionFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "The distribution function for the training data. For some function (e.g. tweedie) further tuning can be achieved via the expert parameters\nAUTO: Automatic selection. Uses multinomial for nominal and gaussian for numeric labels.\nbernoulli: Bernoulli distribution. Can be used for binominal or 2-class polynominal labels.\ngaussian, possion, gamma, tweedie, quantile, laplace: Distribution functions for regression." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping
 <https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#EarlyStopping> <http://www.w3.org/2000/01/rdf-schema#comment> "If true, parameters for early stopping needs to be specified." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Efficiency
 <https://github.com/arashhosseiniarash/AFDDOntology#Efficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -782,14 +810,17 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning
 <https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#EnsembleLearning> <http://www.w3.org/2000/01/rdf-schema#comment> "Ensemble methods utilize multiple learning algorithms to achieve better predictive performance than the same algorithms separately. Most of the algorithms in ensemble learning can be considered as weak learners. Ensemble learning integrates multiple weak learners to create an improved FDD method." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Epochs
 <https://github.com/arashhosseiniarash/AFDDOntology#Epochs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Epochs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Epochs> <http://www.w3.org/2000/01/rdf-schema#comment> "How many times the dataset should be iterated ." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Epsilon
 <https://github.com/arashhosseiniarash/AFDDOntology#Epsilon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Epsilon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Epsilon> <http://www.w3.org/2000/01/rdf-schema#comment> "Similar to learning rate annealing during initial training and momentum at later stages where it allows forward progress. Typical values are between 1e-10 and 1e-4." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange
 <https://github.com/arashhosseiniarash/AFDDOntology#EvaluateFrequencyOfChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -801,9 +832,11 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Fault
 <https://github.com/arashhosseiniarash/AFDDOntology#Fault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Fault> <http://www.w3.org/2000/01/rdf-schema#comment> "The types of faults associated with the HVAC system.\n\nThe faults considered apply to the HVAC system, sub-system, and/or components. The faults are categorized based on the following procedure. The categories are created using a hypernym keyword. The faults are hyponym and belong to only one of the eighteen hypernyms created. Then, logical reasoning is performed to assign each fault to the category that it best represents. In cases where a hyponym consists of more than one word in its description, the first word will be selected, and the assignment is carried out based on that word. For example, for the fault type referred to as ‘control unstable’, the term ‘control’ is considered the primary word, and ‘unstable’ is a condition associated with controlling. Hence, the fault is assigned to the ‘control’ category. The only exception applies to faults that include bias/drift. In particular, for sensor faults, we skip the sensor type, even if it is the first word of the fault description, and look at the following term in the description." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Feature
 <https://github.com/arashhosseiniarash/AFDDOntology#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "Sensory data obtained that can be used for Data-Driven FDD of HVAC systems" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul
 <https://github.com/arashhosseiniarash/AFDDOntology#FinDamageAndFoul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -816,6 +849,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem
 <https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#FlowProblem> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nReduced condenser water flow (F1) \nLower limit of chilled water flow-The lower limit of chilled water flow rise from 50% to 70% \nLower limit of chilled water flow- The lower limit of chilled water flow drop from 50% to 30%\nReduced condenser water flow\nReduced evaporator water flow\nAir flow rate and supply air temperature \nReduced evaporator water flow rate (REvW)\nReduced condenser air flow \nSupply Air Flow Sensor \nCondenser water flow rate was reduced" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#FlowRate
 <https://github.com/arashhosseiniarash/AFDDOntology#FlowRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -828,6 +862,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Foul
 <https://github.com/arashhosseiniarash/AFDDOntology#Foul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Foul> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Foul> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nCondenser Fouling \nHeating coil fouling \nThe outdoor unit fouling fault \nIndoor units fouling \nHeating fault-fouled water tube of boiler 50 % efficiency) \nCooling fault-fouled condenser or refrigerant leak of a chiller (efficiency 50%) \nEvaporator fouled \nCondenser fouled on the air section \nCondenser fouled on the water section \nAir intake strainer fouled \nCdFoul Blocking tubes in the condenser" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation
 <https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -840,18 +875,22 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#HVAC
 <https://github.com/arashhosseiniarash/AFDDOntology#HVAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#HVAC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Information> .
+<https://github.com/arashhosseiniarash/AFDDOntology#HVAC> <http://www.w3.org/2000/01/rdf-schema#comment> "Relevant HVAC related information" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize
 <https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize> <http://www.w3.org/2000/01/rdf-schema#comment> "The size of each hidden layer in the model." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios
 <https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios> <http://www.w3.org/2000/01/rdf-schema#comment> "A fraction of the inputs for each hidden layer to be omitted from training in order to improve generalization." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber
 <https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "A fraction of the inputs for each hidden layer to be omitted from training in order to improve generalization." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Humidity
 <https://github.com/arashhosseiniarash/AFDDOntology#Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -860,9 +899,11 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Hybrid
 <https://github.com/arashhosseiniarash/AFDDOntology#Hybrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Hybrid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Hybrid> <http://www.w3.org/2000/01/rdf-schema#comment> "This study explicitly defines the hybrid methods for FD/FDD algorithms based on learning as FD/FDD algorithms that have used a separate algorithm for fault detection and fault diagnosis. However, it is common to see multiple definitions based on the algorithms, applications and methodology and hence hybrid methods can be easily confused." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Information
 <https://github.com/arashhosseiniarash/AFDDOntology#Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Information> <http://www.w3.org/2000/01/rdf-schema#comment> "Information pertaining to the building envelope and HVAC as a physical asset" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters
 <https://github.com/arashhosseiniarash/AFDDOntology#InspectFilters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -871,6 +912,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification
 <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> <http://www.w3.org/2000/01/rdf-schema#comment> "Instance-based classification compares new problem instances with instances seen in training; k-nearest Neighbor (k-NN) is a typical example of the instance-based classifier. Instance-based classification is the least used method in literature and has been used to identify a single type of fault or binary faults in the HVAC system." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity
 <https://github.com/arashhosseiniarash/AFDDOntology#InsulationAndVaporIntegrity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -879,30 +921,37 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#K
 <https://github.com/arashhosseiniarash/AFDDOntology#K> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#K> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> .
+<https://github.com/arashhosseiniarash/AFDDOntology#K> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of neighbors used to make the class decision.  The minimum value is 1 in which case you only look at the closest neighbor for each prediction to make your decision." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering
 <https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+<https://github.com/arashhosseiniarash/AFDDOntology#KNumberForClustering> <http://www.w3.org/2000/01/rdf-schema#comment> "This parameter specifies the number of clusters to determine." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#KernelType
 <https://github.com/arashhosseiniarash/AFDDOntology#KernelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#KernelType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Svm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#KernelType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of the kernel function is selected through this parameter. Following kernel types are supported: dot, radial, polynomial, neural, anova, epachnenikov, gaussian combination, multiquadric\ndot: The dot kernel is defined by k(x,y)=x*y i.e. it is inner product of x and y.\nradial: The radial kernel is defined by exp(-g ||x-y||^2) where g is the gamma, it is specified by the kernel gamma parameter. The adjustable parameter gamma plays a major role in the performance of the kernel, and should be carefully tuned to the problem at hand.\npolynomial: The polynomial kernel is defined by k(x,y)=(x*y+1)^d where d is the degree of polynomial and it is specified by the kernel degree parameter. The polynomial kernels are well suited for problems where all the training data is normalized.\nneural: The neural kernel is defined by a two layered neural net tanh(a x*y+b) where a is alpha and b is the intercept constant. These parameters can be adjusted using the kernel a and kernel b parameters. A common value for alpha is 1/N, where N is the data dimension. Note that not all choices of a and b lead to a valid kernel function.\nanova: The anova kernel is defined by raised to power d of summation of exp(-g (x-y)) where g is gamma and d is degree. gamma and degree are adjusted by the kernel gamma and kernel degree parameters respectively.\nepachnenikov: The epachnenikov kernel is this function (3/4)(1-u2) for u between -1 and 1 and zero for u outside that range. It has two adjustable parameters kernel sigma1 and kernel degree.\ngaussian_combination: This is the gaussian combination kernel. It has adjustable parameters kernel sigma1, kernel sigma2 and kernel sigma3.\nmultiquadric: The multiquadric kernel is defined by the square root of ||x-y||^2 + c^2. It has adjustable parameters kernel sigma1 and kernel sigma shift." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#L1
 <https://github.com/arashhosseiniarash/AFDDOntology#L1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#L1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#L1> <http://www.w3.org/2000/01/rdf-schema#comment> "A regularization method that constrains the absolute value of the weights and has the net effect of dropping some weights (setting them to zero) from a model to reduce complexity and avoid overfitting." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#L2
 <https://github.com/arashhosseiniarash/AFDDOntology#L2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#L2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#L2> <http://www.w3.org/2000/01/rdf-schema#comment> "A regularization method that constrains the sum of the squared weights. This method introduces bias into parameter estimates, but frequently produces substantial gains in modeling as estimate variance is reduced." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Leakage
 <https://github.com/arashhosseiniarash/AFDDOntology#Leakage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Leakage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Leakage> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nOutdoor air damper leak \nAHU duct leaking (after supply fan (SF)\nRefrigerent leak/undercharge \nOutdoor air damper leak\nAHU duct leaking (after supply fan (SF))\nEXV leakage \nHeating coil valve leakage \nAHU duct leakage before supply fan \nOutdoor air damper leak" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue
 <https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#LimitIssue> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nLimit issue[over/under Charge/excess oil/reduced evaporator]\nRefrigerant Overcharge\nRefrigerant charge Undercharge (%) \nRefrigerant charge  Overcharge  \nExcess oil \nRefrigerant overcharge \nOvercharge fault \nUndercharge \nOvercharge \nRefLeak Refrigerant charge below normal values\nNcg Extra nitrogen to the refrigerant \nExOil Increasing oil charge" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Load
 <https://github.com/arashhosseiniarash/AFDDOntology#Load> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -911,17 +960,21 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#LossFunction
 <https://github.com/arashhosseiniarash/AFDDOntology#LossFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#LossFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#LossFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "The loss (error) function to be minimized by the model. Absolute, Quadratic, and Huber are applicable for regression or classification, while CrossEntropy is only applicable for classification. Huber can improve for regression problems with outliers. CrossEntropy loss is used when the model output consists of independent hypotheses, and the outputs can be interpreted as the probability that each hypothesis is true. Cross entropy is the recommended loss function when the target values are class labels, and especially for imbalanced data. It strongly penalizes error in the prediction of the actual class label. Quadratic loss is used when the model output are continuous real values, but can be used for classification as well (where it emphasizes the error on all output classes, not just for the actual class)." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Maintenance
 <https://github.com/arashhosseiniarash/AFDDOntology#Maintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Maintenance> <http://www.w3.org/2000/01/rdf-schema#comment> "The maintenance information regarding HVAC systems with regards to action strategy and inspection plan" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction
 <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Maintenance> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceAction> <http://www.w3.org/2000/01/rdf-schema#comment> "HVAC maintenance action" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection
 <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Maintenance> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection> <http://www.w3.org/2000/01/rdf-schema#comment> "HVAC maintenance inspection" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps
 <https://github.com/arashhosseiniarash/AFDDOntology#MaxOptimizationSteps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -930,38 +983,47 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns
 <https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaxRuns> <http://www.w3.org/2000/01/rdf-schema#comment> "This parameter specifies the maximal number of runs of k-Means with random initialization of the start points that are performed." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MaxW2
 <https://github.com/arashhosseiniarash/AFDDOntology#MaxW2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MaxW2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaxW2> <http://www.w3.org/2000/01/rdf-schema#comment> "A maximum on the sum of the squared incoming weights into any one neuron. This tuning parameter is especially useful for unbound activation functions such as Maxout or Rectifier." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth
 <https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MaximalDepth> <http://www.w3.org/2000/01/rdf-schema#comment> "The depth of a tree varies depending upon the size and characteristics of the ExampleSet. This parameter is used to restrict the depth of the decision tree. If its value is set to '-1', the maximal depth parameter puts no bound on the depth of the tree. In this case the tree is built until other stopping criteria are met. If its value is set to '1', a tree with a single node is generated." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes
 <https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypes> <http://www.w3.org/2000/01/rdf-schema#comment> "This parameter is used for selecting the type of measure to be used for finding the nearest neighbors. The following options are available:\n \n\nMixedMeasures: Mixed Measures are used to calculate distances in case of both nominal and numerical Attributes.\n\nNominalMeasures: In case of only nominal Attributes different distance metrices can be used to calculate distances on this nominal Attributes.\n\nNumericalMeasures: In case of only numerical Attributes different distance metrices can be used to calculate distances on this numerical Attributes.\n\nBregmannDivergences: Bregmann divergences are more generic \"closeness\" measure types with does not satisfy the triangle inequality or symmetry. For more details see the parameter divergence." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering
 <https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MeasureTypesForClustering> <http://www.w3.org/2000/01/rdf-schema#comment> "This parameter is used for selecting the type of measure to be used for finding the nearest neighbors. The following options are available:\n \n\nMixedMeasures: Mixed Measures are used to calculate distances in case of both nominal and numerical Attributes.\n\nNominalMeasures: In case of only nominal Attributes different distance metrices can be used to calculate distances on this nominal Attributes.\n\nNumericalMeasures: In case of only numerical Attributes different distance metrices can be used to calculate distances on this numerical Attributes.\n\nBregmannDivergences: Bregmann divergences are more generic \"closeness\" measure types with does not satisfy the triangle inequality or symmetry. For more details see the parameter divergence." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain
 <https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalGain> <http://www.w3.org/2000/01/rdf-schema#comment> "The gain of a node is calculated before splitting it. The node is split if its gain is greater than the minimal gain. A higher value of minimal gain results in fewer splits and thus a smaller tree. A value that is too high will completely prevent splitting and a tree with a single node is generated." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize
 <https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalLeafSize> <http://www.w3.org/2000/01/rdf-schema#comment> "The size of a leaf is the number of Examples in its subset. The tree is generated in such a way that every leaf has at least the minimal leaf size number of Examples." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit
 <https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MinimalSizeForSplit> <http://www.w3.org/2000/01/rdf-schema#comment> "The size of a node is the number of Examples in its subset. Only those nodes are split whose size is greater than or equal to the minimal size for split parameter." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure
 <https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> .
+<https://github.com/arashhosseiniarash/AFDDOntology#MixedMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "The only available option for mixed measure is the 'Mixed Euclidean Distance'. For numerical values the euclidean distance is calculated. For nomimal values, a distance of 0 is taken if both values are the same and a distance of one is taken otherwise. This parameter is available when the measure type parameter is set to 'mixed measures'." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth
 <https://github.com/arashhosseiniarash/AFDDOntology#MoistureOrBiologicalGrowth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -970,14 +1032,17 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining
 <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> <http://www.w3.org/2000/01/rdf-schema#comment> "Artificial neural networks (ANN) or called neural networks/ Deep Learning (DL), can be defined as a machine learning technique that uses a deep neural network and learns a long chain of causal links." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable
 <https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NonCondesable> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nNon-condensable in Refrigerant \nnon-condensable gas in refrigerant \nnon-condensable gas (Ncg)." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning
 <https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NonFunctioning> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nComplete failure of fan \nReturn fan compete failure\nDysfunctional” or “out-of-control\nNon-functioning boiler \nBoth the valve and the boiler are non-functioning \nAir handler unit malfunction \nTotal heating system failure\nCompressor failure \nTotal cooling system failure \nTotal ventilation system failure\nHeating fault-system not turning on (0% efficiency) \nCooling  fault-system not turning on (0% efficiency) \nHumidifier not turning on\nDehumidifier not turning on  \nReturn fan completely failed" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents
 <https://github.com/arashhosseiniarash/AFDDOntology#NumberOfComponents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -986,10 +1051,12 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives
 <https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DecisionTree> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives> <http://www.w3.org/2000/01/rdf-schema#comment> "When split is prevented by prepruning at a certain node this parameter will adjust the number of alternative nodes tested for splitting. Occurs as prepruning runs parallel to the tree generation process. This may prevent splitting at certain nodes, when splitting at that node does not add to the discriminative power of the entire tree. In such a case, alternative nodes are tried for splitting." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure
 <https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Clustering> .
+<https://github.com/arashhosseiniarash/AFDDOntology#NumericalMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "This parameters defines how to calculate distances for only numerical Attributes in the input ExampleSet, in case the measure type is set to numerical measure. For the different distance measures the following variable is defined:\n \ny(i,j) : Value of the j.th Attribute of the i.th Example. Hence y(1,3) - y(2,3) is the difference of the values of the third Attribute of the first and second Example.\n \nIn case of using a similarity as a distance measure, the actual distance is calculated as the negative similarity.\n \n\nEuclideanDistance: Square root of the sum of quadratic differences over all Attributes. Dist = Sqrt ( Sum_(j=1) [y(1,j)-y(2,j)]^2 )\n\nCanberraDistance: Sum over all Attributes. The summand is the absolute of the difference of the value, divided by the sum of the absolute values. Dist = Sum_(j=1) |y(1,j)-y(2,j)| / (|y(1,j)|+|y(2,j)|) The CanberraDistance is often used to compare ranked list or for intrusion detection in computer security.\n\nChebychevDistance: Maximum of all differences of all Attributes. Dist = max_(j=1) (|y(1,j)-y(2,j)|)\n\nCorrelationSimilarity: The similarity is calculated as the correlation between the Attribute vectors of the two Examples.\n\nCosineSimilarity: Similarity measure measuring the cosine of the angle between the Attribute vectors of the two Examples.\n\nDiceSimilarity: The DiceSimilarity for numerical Attributes is calculated as 2*Y1Y2/(Y1+Y2). Y1Y2 = Sum over product of values = Sum_(j=1) y(1,j)*y(2,j). Y1 = Sum over values of first Example = Sum_(j=1) y(1,j) Y2 = Sum over values of second Example = Sum_(j=1) y(2,j)\n\nDynamicTimeWarpingDistance: Dynamic Time Warping is often use in Time Series analysis for measuring the distance between two temporal sequences. Here the distance on an optimal \"warping\" path from the Attribute vector of the first Example to the second Example is calculated.\n\nInnerProductSimilarity: The similarity is calculated as the sum of the product of the Attribute vectors of the two Examples. Dist = -Similarity = -Sum_(j=1) y(1,j)*y(2,j)\n\nJaccardSimilarity: The JaccardSimilarity is calculated as Y1Y2/(Y1+Y2-Y1Y2). See DiceSimilarity for the definition of Y1Y2, Y1 and Y2.\n\nKernelEuclideanDistance: The distance is calculated by the euclidean distance of the two Examples, in a transformed space. The transformation is defined by the chosen kernel and configured by the parameters kernel type, gamma, sigma1, sigma2, sigma 3, shift, degree, a, b.\n\nManhattanDistance: Sum of the absolute distances of the Attribute values. Dist = Sum_(j=1) |y(1,j)-y(2,j)|\n\nMaxProductSimilarity: The similarity is the maximum of all products of all Attribute values. If the maximum is less or equal to zero the similarity is not defined. Dist = -Similarity = -max_(j=1) (y(1,j)*y(2,j))\n\nOverlapSimilarity: The similarity is a variant of simple matching for numerical Attributes and is calculated as minY1Y2 / min(Y1,Y2). See DiceSimilarity for the definition of Y1, Y2. minY1Y2 = Sum over the minimum of values = Sum_(j=1) min [y(1,j),y(2,j)] ." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition
 <https://github.com/arashhosseiniarash/AFDDOntology#OpeningOrPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1006,6 +1073,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults
 <https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nCooling coil valve reverse action\nFour-way reversing valve fault   \nSlipping supply air fan belt fault  \nEXV sticking \nAir intake decreased\nwater intake over- full  \nCooling coil \nSystem is occupied while under normal operation, it should be unoccupied  \nAHU-2 cooling coil valve position software override at 100% open (higher than normal)  \nSystem is occupied while under normal operation, it should be unoccupied  \nAHU-2 cooling coil valve position software override at 100% open (higher than normal) \nHeater Fault in Room1(OFF) \nBattery Fault in Temperature Sensor Room1 \nGain Fault in CO2 Sensor Room1 \nCommunication Fault(Routing) in Room1 \nBattery Fault in CO2 Sensor Room1’ \nBypass fault" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection
 <https://github.com/arashhosseiniarash/AFDDOntology#OtherInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1014,6 +1082,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Performance
 <https://github.com/arashhosseiniarash/AFDDOntology#Performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Performance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Performance> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nPerformance of chillers\nHeat exchanger efficiency \nPerformance of cooling towers \nPerformance of secondary chilled water pumps\nAir handler unit performance inhibited \nReduced compressor efficiency" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Pressure
 <https://github.com/arashhosseiniarash/AFDDOntology#Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1022,6 +1091,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed
 <https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed> <http://www.w3.org/2000/01/rdf-schema#comment> "Local random seed for random generation." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Rate
 <https://github.com/arashhosseiniarash/AFDDOntology#Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1042,6 +1112,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Regression
 <https://github.com/arashhosseiniarash/AFDDOntology#Regression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Regression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Regression> <http://www.w3.org/2000/01/rdf-schema#comment> "Regression methods used in literature for FDD of HVAC are commonly used in combination with other modeling techniques or fault detection purposes. Regression methods are often coupled with other methods and use thresholds to determine faults in HVAC." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace
 <https://github.com/arashhosseiniarash/AFDDOntology#RepairAdjustOrReplace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1066,22 +1137,27 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Rho
 <https://github.com/arashhosseiniarash/AFDDOntology#Rho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Rho> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Rho> <http://www.w3.org/2000/01/rdf-schema#comment> "Similar to momentum and relates to the memory to prior weight updates. Typical values are between 0.9 and 0.999. This parameter is only active if adaptive learning rate is enabled.rdfs:comment" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#RuleBased
 <https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> <http://www.w3.org/2000/01/rdf-schema#comment> "Rule-based methods in this study include supervised and unsupervised learning methods. The literature has mainly used utilized methods such as Association Rule Mining (ARM) algorithms, an unsupervised method and immune-inspired supervised learning algorithms such as the Artificial Immune Recognition System (AIRS). The rule-based methods intend to develop a set of rules that are mined and identified." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Scale
 <https://github.com/arashhosseiniarash/AFDDOntology#Scale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Scale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Svm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Scale> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a global parameter. If checked, the example values are scaled and the scaling parameters are stored for a test set." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault
 <https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#ScheduleFault> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nOut of hours operation\nSchedule fault,chiller  stops earlier \nSchedule fault (change to unoccupied  mode 2.5 hours earlier)" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#SetPoint
 <https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nSewage pump set value \nThe set point of chilled water flow drops by approximately 10% of the rated value (0.3 m3/min)\nSet point of condenser water outlet temperature of cooling tower - The set point of condenser water outlet temperature of cooling towers rises by 10% of the rated value (0.5 degree)\nUnachievable set point." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue
 <https://github.com/arashhosseiniarash/AFDDOntology#SetPointOrSetValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1090,6 +1166,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue
 <https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SizzingIssue> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nExpansion valve opening small \nEexpansion valve opening large  \nIncorrect TU sizing to real demand" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation
 <https://github.com/arashhosseiniarash/AFDDOntology#SolarOrRadiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1098,6 +1175,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Speed
 <https://github.com/arashhosseiniarash/AFDDOntology#Speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Speed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Speed> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nReturn fan at fixed speed \nZone temperature sensor fan high speed, valve stuck high \nreturn fan at speed (30%) \nAir supply fan(max speed ¼ 25%)" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity
 <https://github.com/arashhosseiniarash/AFDDOntology#SpeedOrVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1105,6 +1183,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#State
 <https://github.com/arashhosseiniarash/AFDDOntology#State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#State> <http://www.w3.org/2000/01/rdf-schema#comment> "It illustrates the current status of an entity of interest." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Status
 <https://github.com/arashhosseiniarash/AFDDOntology#Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1117,26 +1196,32 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric
 <https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingMetric> <http://www.w3.org/2000/01/rdf-schema#comment> "Metric to use for early stopping. Set stopping_tolerance to tune it. This parameter is visible only if early_stopping is set.\nAUTO: Automatic selection. Uses logloss for classification, deviance for regression.\ndeviance, logloss, MSE, AUC, lift_top_group, r2, misclassification, mean_per_class_error: The metric to use to decide if the algorithm should be stopped." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds
 <https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingRounds> <http://www.w3.org/2000/01/rdf-schema#comment> "Early stopping based on convergence of stopping_metric. Stop if simple moving average of length k of the stopping_metric does not improve for k:=stopping_rounds scoring events (0 to disable)." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance
 <https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance> <http://www.w3.org/2000/01/rdf-schema#comment> "Relative tolerance for metric-based stopping criterion (stop if relative improvement is not at least this much)." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed
 <https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nExhausted air (EA) damper stuck (fully open) \nCooling coil valve partially closed (15% open) \nFan stuck at high speed \nValve stuck shut \nValve stuck at position lower than required \nCooling coil valve stuck (fully closed) \nOA damper stuck fully open \nEA damper stuck 40% open \nCooling coil valve stuck fully open \nExhausted air (EA) damper stuck (fully open); \nstuck AHU heating coil valve \nStuck heating coil valve:\nHot water valve stuck \nReturn air/outdoor air damper stuck\nCooling coil valve stuck at 65% opening \nOutdoor air damper stuck at fully closed \nExhaust air damper stuck at fully closed" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Support
 <https://github.com/arashhosseiniarash/AFDDOntology#Support> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Support> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#RuleBased> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Support> <http://www.w3.org/2000/01/rdf-schema#comment> "Support percentage" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Svm
 <https://github.com/arashhosseiniarash/AFDDOntology#Svm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Svm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Algorithm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svm> <http://www.w3.org/2000/01/rdf-schema#comment> ".The (SVM) is the most common FDD method used at the sub-system level. It is used for binary classification problems to separate normal and faulty data in HVAC. It finds a hyperplane in the high-dimensional feature space to separate the two types of data. The other variant is known as Multi-class SVM, is used when more than two classes of fault exist." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Temperature
 <https://github.com/arashhosseiniarash/AFDDOntology#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1145,17 +1230,21 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue
 <https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#Fault> .
+<https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples:\n\nTU is not receiving adequate temperature. \nAbnormal mixed air temperatures \nAir intake temperature low" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Track
 <https://github.com/arashhosseiniarash/AFDDOntology#Track> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Track> <http://www.w3.org/2000/01/rdf-schema#comment> "Monitoring a state over a specified duration of time" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration
 <https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of training data rows to be processed per iteration." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold
 <https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#DimensionalityReduction> .
+<https://github.com/arashhosseiniarash/AFDDOntology#VarianceThreshold> <http://www.w3.org/2000/01/rdf-schema#comment> "This parameter is available only when the dimensionality reduction parameter is set to 'keep variance'. All the components with a cumulative variance greater than the variance threshold are removed from the ExampleSet." .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Voltage
 <https://github.com/arashhosseiniarash/AFDDOntology#Voltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1164,6 +1253,7 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote
 <https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/arashhosseiniarash/AFDDOntology#InstanceBasedClassification> .
+<https://github.com/arashhosseiniarash/AFDDOntology#WeightedVote> <http://www.w3.org/2000/01/rdf-schema#comment> "The distance values between the Examples are also taken into account for the prediction. It can be useful to weight the contributions of the neighbors, so that nearer neighbors contribute more than more distant ones." .
 # 
 # https://w3id.org/bot#Building
 <https://w3id.org/bot#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1171,33 +1261,40 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <https://w3id.org/bot#Building> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Site> .
 <https://w3id.org/bot#Building> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Space> .
 <https://w3id.org/bot#Building> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Storey> .
+<https://w3id.org/bot#Building> <http://www.w3.org/2000/01/rdf-schema#comment> "An independent unit of the built environment with a characteristic spatial structure, intended to serve at least one function or user activity [ISO-12006]. A bot:Building is a part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent, is contained in a building site, and can contain one or more storeys that are vertically connected." .
 # 
 # https://w3id.org/bot#Element
 <https://w3id.org/bot#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/bot#Element> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Interface> .
 <https://w3id.org/bot#Element> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#Element> <http://www.w3.org/2000/01/rdf-schema#comment> "Constituent of a construction entity with a characteristic technical function, form or position [[ISO-12006], 3.4.7]." .
 # 
 # https://w3id.org/bot#Interface
 <https://w3id.org/bot#Interface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/bot#Interface> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#Interface> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic concept to qualify the relationship of two or more things in the world, where at least one is a building element or zone. Examples: (1) Qualification of heat transmission between zones through one or more building elements. This includes one-dimensional (surface) heat losses from one zone to another through a single building element, a two dimensional (line) loss from one zone to another through the connection in which the two elements meet or a three dimensional (point) loss from one zone to another through the connection where three elements (typically two walls and a slab) meet. (2) Connection of an electric device to the electric system of a building. (3) A door between one room and another." .
 # 
 # https://w3id.org/bot#Site
 <https://w3id.org/bot#Site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/bot#Site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
 <https://w3id.org/bot#Site> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Space> .
 <https://w3id.org/bot#Site> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Storey> .
+<https://w3id.org/bot#Site> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. It is intended to contain or contains one or more buildings." .
 # 
 # https://w3id.org/bot#Space
 <https://w3id.org/bot#Space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/bot#Space> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
 <https://w3id.org/bot#Space> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/bot#Storey> .
+<https://w3id.org/bot#Space> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of the physical world or a virtual world whose 3D spatial extent is bounded actually or theoretically, and provides for certain functions within the zone it is contained in." .
 # 
 # https://w3id.org/bot#Storey
 <https://w3id.org/bot#Storey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/bot#Storey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Zone> .
+<https://w3id.org/bot#Storey> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of the physical world or a virtual world that is inherently both located in this world and having a 3D spatial extent. A bot:Storey is contained in one or more buildings, and is intended to contain one or more spaces that are horizontally connected. Storeys of a building are connected by means of vertical connections such as elevators and stairs. A bot:Storey encompasses both zones above and below ground, for example, a building with 21 floors above ground, one ground floor and 3 basements is equal to the sentence: A building has 25 instances of bot:Storey." .
 # 
 # https://w3id.org/bot#Zone
 <https://w3id.org/bot#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of the physical world or a virtual world that is inherently both located in this world and has a 3D spatial extent." .
 # 
 # 
 # 
@@ -1211,89 +1308,305 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value
 <https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#HiddenDropoutRatios> .
-<https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> <https://github.com/arashhosseiniarash/AFDDOntology#value> "0.67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> <http://www.w3.org/2000/01/rdf-schema#comment> "0.67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel
 <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#adam> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#patience> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#random_state> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#test_size> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#3> .
+<https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#600> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#Svc
 <https://github.com/arashhosseiniarash/AFDDOntology#Svc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#Svc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Svm> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#algorithmBelongsTo> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canDetect> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#canUse> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#rbf> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling> .
+<https://github.com/arashhosseiniarash/AFDDOntology#Svc> <https://github.com/arashhosseiniarash/AFDDOntology#hasParameter> <https://github.com/arashhosseiniarash/AFDDOntology#1> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN
 <https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Activation> .
+<https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
 <https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN> <http://www.w3.org/2000/01/rdf-schema#comment> "relu and softmax" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#adam
 <https://github.com/arashhosseiniarash/AFDDOntology#adam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#adam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Optimizer> .
+<https://github.com/arashhosseiniarash/AFDDOntology#adam> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy
 <https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#LossFunction> .
+<https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#patience
 <https://github.com/arashhosseiniarash/AFDDOntology#patience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#patience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#StoppingTolerance> .
-<https://github.com/arashhosseiniarash/AFDDOntology#patience> <https://github.com/arashhosseiniarash/AFDDOntology#value> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/arashhosseiniarash/AFDDOntology#patience> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
+<https://github.com/arashhosseiniarash/AFDDOntology#patience> <http://www.w3.org/2000/01/rdf-schema#comment> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#random_state
 <https://github.com/arashhosseiniarash/AFDDOntology#random_state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#random_state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed> .
-<https://github.com/arashhosseiniarash/AFDDOntology#random_state> <https://github.com/arashhosseiniarash/AFDDOntology#value> "101"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/arashhosseiniarash/AFDDOntology#random_state> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
+<https://github.com/arashhosseiniarash/AFDDOntology#random_state> <http://www.w3.org/2000/01/rdf-schema#comment> "101"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#rbf
 <https://github.com/arashhosseiniarash/AFDDOntology#rbf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#rbf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#KernelType> .
+<https://github.com/arashhosseiniarash/AFDDOntology#rbf> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#Svc> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer
 <https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#HiddelLayerSize> .
+<https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
 <https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer> <http://www.w3.org/2000/01/rdf-schema#comment> "70-15-7" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling
 <https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Scale> .
+<https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#Svc> .
 <https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling> <http://www.w3.org/2000/01/rdf-schema#comment> "feature range -1 , 1" .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#test_size
 <https://github.com/arashhosseiniarash/AFDDOntology#test_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#test_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#TrainSamplesPerIteration> .
-<https://github.com/arashhosseiniarash/AFDDOntology#test_size> <https://github.com/arashhosseiniarash/AFDDOntology#value> "0.25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://github.com/arashhosseiniarash/AFDDOntology#test_size> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
+<https://github.com/arashhosseiniarash/AFDDOntology#test_size> <http://www.w3.org/2000/01/rdf-schema#comment> "0.25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#1
 <https://github.com/arashhosseiniarash/AFDDOntology#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#C> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#Svc> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Foul> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling> <https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Leakage> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration> <https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error
 <https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error> <https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error> <https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback
 <https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#SetPoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback> <https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
 # 
+# https://github.com/arashhosseiniarash/AFDDOntology#1-RTU
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://brickschema.org/schema/Brick#RTU> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias> .
+# 
 # https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> .
+<https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias> <https://github.com/arashhosseiniarash/AFDDOntology#faultBelongsTo> <https://github.com/arashhosseiniarash/AFDDOntology#1-RTU> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command
 <https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1455,6 +1768,51 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Status> .
 # 
+# https://github.com/arashhosseiniarash/AFDDOntology#2-RTU
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://brickschema.org/schema/Brick#RTU> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm> <https://github.com/arashhosseiniarash/AFDDOntology#Svc> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated> <https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback> .
+<https://github.com/arashhosseiniarash/AFDDOntology#2-RTU> <https://github.com/arashhosseiniarash/AFDDOntology#hasFault> <https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias> .
+# 
 # https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias
 <https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#BiasDriftCalibration> .
@@ -1598,9 +1956,11 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://github.com/arashhosseiniarash/AFDDOntology#3
 <https://github.com/arashhosseiniarash/AFDDOntology#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#HiddenLayerNumber> .
+<https://github.com/arashhosseiniarash/AFDDOntology#3> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
 # 
 # https://github.com/arashhosseiniarash/AFDDOntology#600
 <https://github.com/arashhosseiniarash/AFDDOntology#600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://github.com/arashhosseiniarash/AFDDOntology#600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/arashhosseiniarash/AFDDOntology#Epochs> .
+<https://github.com/arashhosseiniarash/AFDDOntology#600> <https://github.com/arashhosseiniarash/AFDDOntology#isParameter> <https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
