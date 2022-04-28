@@ -43,10 +43,10 @@
     "id" : "84",
     "type" : "owl:Class"
   }, {
-    "id" : "87",
+    "id" : "86",
     "type" : "owl:Class"
   }, {
-    "id" : "88",
+    "id" : "87",
     "type" : "owl:Class"
   }, {
     "id" : "104",
@@ -88,9 +88,6 @@
     "id" : "174",
     "type" : "owl:Class"
   }, {
-    "id" : "70",
-    "type" : "owl:Class"
-  }, {
     "id" : "176",
     "type" : "owl:Class"
   }, {
@@ -109,7 +106,7 @@
     "id" : "189",
     "type" : "owl:Class"
   }, {
-    "id" : "190",
+    "id" : "191",
     "type" : "owl:Class"
   }, {
     "id" : "192",
@@ -208,7 +205,7 @@
     "id" : "123",
     "type" : "owl:Class"
   }, {
-    "id" : "338",
+    "id" : "337",
     "type" : "owl:Class"
   }, {
     "id" : "257",
@@ -232,10 +229,10 @@
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "102",
+    "id" : "355",
     "type" : "owl:Class"
   }, {
-    "id" : "355",
+    "id" : "102",
     "type" : "owl:Class"
   }, {
     "id" : "166",
@@ -250,16 +247,16 @@
     "id" : "81",
     "type" : "owl:Class"
   }, {
-    "id" : "191",
+    "id" : "190",
     "type" : "owl:Class"
   }, {
     "id" : "239",
     "type" : "owl:Class"
   }, {
-    "id" : "225",
+    "id" : "203",
     "type" : "owl:Class"
   }, {
-    "id" : "203",
+    "id" : "225",
     "type" : "owl:Class"
   }, {
     "id" : "205",
@@ -269,6 +266,9 @@
     "type" : "owl:Class"
   }, {
     "id" : "264",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
     "type" : "owl:Class"
   }, {
     "id" : "46",
@@ -340,10 +340,10 @@
     "id" : "331",
     "type" : "owl:Class"
   }, {
-    "id" : "173",
+    "id" : "80",
     "type" : "owl:Class"
   }, {
-    "id" : "80",
+    "id" : "173",
     "type" : "owl:Class"
   }, {
     "id" : "196",
@@ -352,10 +352,10 @@
     "id" : "336",
     "type" : "owl:Class"
   }, {
-    "id" : "421",
+    "id" : "76",
     "type" : "owl:Class"
   }, {
-    "id" : "76",
+    "id" : "421",
     "type" : "owl:Class"
   }, {
     "id" : "329",
@@ -367,10 +367,10 @@
     "id" : "121",
     "type" : "owl:Class"
   }, {
-    "id" : "74",
+    "id" : "53",
     "type" : "owl:Class"
   }, {
-    "id" : "53",
+    "id" : "74",
     "type" : "owl:Class"
   }, {
     "id" : "222",
@@ -409,13 +409,13 @@
     "id" : "131",
     "type" : "owl:Class"
   }, {
-    "id" : "89",
-    "type" : "owl:Class"
-  }, {
-    "id" : "276",
+    "id" : "85",
     "type" : "owl:Class"
   }, {
     "id" : "433",
+    "type" : "owl:Class"
+  }, {
+    "id" : "276",
     "type" : "owl:Class"
   }, {
     "id" : "159",
@@ -463,13 +463,13 @@
     "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "85",
-    "type" : "owl:Class"
-  }, {
-    "id" : "456",
+    "id" : "88",
     "type" : "owl:Class"
   }, {
     "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "456",
     "type" : "owl:Class"
   }, {
     "id" : "106",
@@ -496,7 +496,7 @@
     "id" : "381",
     "type" : "owl:Class"
   }, {
-    "id" : "345",
+    "id" : "344",
     "type" : "owl:Class"
   }, {
     "id" : "4",
@@ -562,7 +562,7 @@
     "id" : "201",
     "type" : "owl:Class"
   }, {
-    "id" : "343",
+    "id" : "342",
     "type" : "owl:Class"
   }, {
     "id" : "317",
@@ -595,10 +595,10 @@
     "id" : "306",
     "type" : "owl:Class"
   }, {
-    "id" : "119",
+    "id" : "185",
     "type" : "owl:Class"
   }, {
-    "id" : "185",
+    "id" : "119",
     "type" : "owl:Class"
   }, {
     "id" : "55",
@@ -625,7 +625,7 @@
     "id" : "375",
     "type" : "owl:Class"
   }, {
-    "id" : "344",
+    "id" : "343",
     "type" : "owl:Class"
   }, {
     "id" : "497",
@@ -757,7 +757,7 @@
     "id" : "178",
     "type" : "owl:Class"
   }, {
-    "id" : "86",
+    "id" : "89",
     "type" : "owl:Class"
   }, {
     "id" : "64",
@@ -831,19 +831,6 @@
     "label" : {
       "IRI-based" : "RTU"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU"
-      }
-    } ],
     "attributes" : [ "external" ],
     "id" : "40",
     "superClasses" : [ "41" ]
@@ -878,19 +865,6 @@
     "label" : {
       "IRI-based" : "Control"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_System:_Control_Command",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Lighting_System:_Control_Command"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_System:_Control_Command",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Lighting_System:_Control_Command"
-      }
-    } ],
     "id" : "44",
     "superClasses" : [ "7" ]
   }, {
@@ -923,25 +897,6 @@
     "id" : "77",
     "superClasses" : [ "78" ]
   }, {
-    "iri" : "https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator",
-    "baseIri" : "https://brickschema.org/schema/Brick",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Steam_Baseboard_Radiator"
-    },
-    "attributes" : [ "external" ],
-    "id" : "84",
-    "superClasses" : [ "85", "86" ]
-  }, {
-    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#DamperConditionSettingAndOperation",
-    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "DamperConditionSettingAndOperation"
-    },
-    "id" : "87",
-    "superClasses" : [ "46" ]
-  }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#NumberOfPrepruningAlternatives",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
     "instances" : 0,
@@ -951,8 +906,27 @@
     "comment" : {
       "undefined" : "When split is prevented by prepruning at a certain node this parameter will adjust the number of alternative nodes tested for splitting. Occurs as prepruning runs parallel to the tree generation process. This may prevent splitting at certain nodes, when splitting at that node does not add to the discriminative power of the entire tree. In such a case, alternative nodes are tried for splitting."
     },
-    "id" : "88",
-    "superClasses" : [ "89" ]
+    "id" : "84",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#DamperConditionSettingAndOperation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DamperConditionSettingAndOperation"
+    },
+    "id" : "86",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Steam_Baseboard_Radiator",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Steam_Baseboard_Radiator"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "88", "89" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RepairReplaceOrRestore",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -1091,18 +1065,6 @@
     "id" : "174",
     "superClasses" : [ "175" ]
   }, {
-    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#HVAC",
-    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "HVAC"
-    },
-    "comment" : {
-      "undefined" : "Relevant HVAC related information"
-    },
-    "id" : "70",
-    "superClasses" : [ "71" ]
-  }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#TemperatureIssue",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
     "instances" : 0,
@@ -1148,7 +1110,7 @@
       "undefined" : "The size of a node is the number of Examples in its subset. Only those nodes are split whose size is greater than or equal to the minimal size for split parameter."
     },
     "id" : "180",
-    "superClasses" : [ "89" ]
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#Electric_Baseboard_Radiator",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -1158,17 +1120,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "92",
-    "superClasses" : [ "85", "93" ]
-  }, {
-    "iri" : "https://brickschema.org/schema/Brick#Evaporative_Heat_Exchanger",
-    "baseIri" : "https://brickschema.org/schema/Brick",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Evaporative_Heat_Exchanger"
-    },
-    "attributes" : [ "external" ],
-    "id" : "189",
-    "superClasses" : [ "130" ]
+    "superClasses" : [ "88", "93" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#Underfloor_Air_Plenum",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -1177,8 +1129,18 @@
       "IRI-based" : "Underfloor_Air_Plenum"
     },
     "attributes" : [ "external" ],
-    "id" : "190",
-    "superClasses" : [ "191" ]
+    "id" : "189",
+    "superClasses" : [ "190" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Evaporative_Heat_Exchanger",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Evaporative_Heat_Exchanger"
+    },
+    "attributes" : [ "external" ],
+    "id" : "191",
+    "superClasses" : [ "130" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Regression",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -1198,16 +1160,6 @@
     "label" : {
       "IRI-based" : "TrainSamplesPerIteration"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#test_size",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "comment" : {
-        "undefined" : "0.25"
-      },
-      "labels" : {
-        "IRI-based" : "test_size"
-      }
-    } ],
     "comment" : {
       "undefined" : "The number of training data rows to be processed per iteration."
     },
@@ -1220,7 +1172,7 @@
     "label" : {
       "IRI-based" : "Heat_Exchanger"
     },
-    "subClasses" : [ "129", "193", "189", "194" ],
+    "subClasses" : [ "129", "193", "191", "194" ],
     "attributes" : [ "external" ],
     "id" : "130",
     "superClasses" : [ "78" ]
@@ -1458,13 +1410,6 @@
     "label" : {
       "IRI-based" : "Svm"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Svc",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "Svc"
-      }
-    } ],
     "subClasses" : [ "249", "251", "208" ],
     "comment" : {
       "undefined" : ".The (SVM) is the most common FDD method used at the sub-system level. It is used for binary classification problems to separate normal and faulty data in HVAC. It finds a hyperplane in the high-dimensional feature space to separate the two types of data. The other variant is known as Multi-class SVM, is used when more than two classes of fault exist."
@@ -1554,7 +1499,7 @@
       "IRI-based" : "Fume_Hood"
     },
     "attributes" : [ "external" ],
-    "id" : "338",
+    "id" : "337",
     "superClasses" : [ "78" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#RC_Panel",
@@ -1573,16 +1518,6 @@
     "label" : {
       "IRI-based" : "Scale"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#svm_scaling",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "comment" : {
-        "undefined" : "feature range -1 , 1"
-      },
-      "labels" : {
-        "IRI-based" : "svm_scaling"
-      }
-    } ],
     "comment" : {
       "undefined" : "This is a global parameter. If checked, the example values are scaled and the scaling parameters are stored for a test set."
     },
@@ -1595,13 +1530,6 @@
     "label" : {
       "IRI-based" : "LossFunction"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#categorical_crossentropy",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "categorical_crossentropy"
-      }
-    } ],
     "comment" : {
       "undefined" : "The loss (error) function to be minimized by the model. Absolute, Quadratic, and Huber are applicable for regression or classification, while CrossEntropy is only applicable for classification. Huber can improve for regression problems with outliers. CrossEntropy loss is used when the model output consists of independent hypotheses, and the outputs can be interpreted as the probability that each hypothesis is true. Cross entropy is the recommended loss function when the target values are class labels, and especially for imbalanced data. It strongly penalizes error in the prediction of the actual class label. Quadratic loss is used when the model output are continuous real values, but can be used for classification as well (where it emphasizes the error on all output classes, not just for the actual class)."
     },
@@ -1614,7 +1542,7 @@
     "label" : {
       "IRI-based" : "Track"
     },
-    "subClasses" : [ "216", "343", "344", "345" ],
+    "subClasses" : [ "216", "342", "343", "344" ],
     "comment" : {
       "undefined" : "Monitoring a state over a specified duration of time"
     },
@@ -1651,16 +1579,6 @@
     "id" : "13",
     "superClasses" : [ "4" ]
   }, {
-    "iri" : "https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser",
-    "baseIri" : "https://brickschema.org/schema/Brick",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Jet_Nozzle_Air_Diffuser"
-    },
-    "attributes" : [ "external" ],
-    "id" : "102",
-    "superClasses" : [ "98" ]
-  }, {
     "iri" : "https://brickschema.org/schema/Brick#Space_Heater",
     "baseIri" : "https://brickschema.org/schema/Brick",
     "instances" : 0,
@@ -1670,6 +1588,16 @@
     "attributes" : [ "external" ],
     "id" : "355",
     "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Jet_Nozzle_Air_Diffuser"
+    },
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "98" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FoulingCorrosionOrDegradation",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -1713,9 +1641,9 @@
     "label" : {
       "IRI-based" : "Supply_Air_Plenum"
     },
-    "subClasses" : [ "190" ],
+    "subClasses" : [ "189" ],
     "attributes" : [ "external" ],
-    "id" : "191",
+    "id" : "190",
     "superClasses" : [ "373" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Clustering",
@@ -1731,31 +1659,6 @@
     "id" : "239",
     "superClasses" : [ "9" ]
   }, {
-    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults",
-    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "OtherFaults"
-    },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Lighting_Setback_Error",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Lighting_Setback_Error"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Lighting_Setback_Error",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Lighting_Setback_Error"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "Examples:\n\nCooling coil valve reverse action\nFour-way reversing valve fault   \nSlipping supply air fan belt fault  \nEXV sticking \nAir intake decreased\nwater intake over- full  \nCooling coil \nSystem is occupied while under normal operation, it should be unoccupied  \nAHU-2 cooling coil valve position software override at 100% open (higher than normal)  \nSystem is occupied while under normal operation, it should be unoccupied  \nAHU-2 cooling coil valve position software override at 100% open (higher than normal) \nHeater Fault in Room1(OFF) \nBattery Fault in Temperature Sensor Room1 \nGain Fault in CO2 Sensor Room1 \nCommunication Fault(Routing) in Room1 \nBattery Fault in CO2 Sensor Room1’ \nBypass fault"
-    },
-    "id" : "225",
-    "superClasses" : [ "60" ]
-  }, {
     "iri" : "https://brickschema.org/schema/Brick#Constant_Air_Volume_Box",
     "baseIri" : "https://brickschema.org/schema/Brick",
     "instances" : 0,
@@ -1765,6 +1668,18 @@
     "attributes" : [ "external" ],
     "id" : "203",
     "superClasses" : [ "197" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#OtherFaults",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OtherFaults"
+    },
+    "comment" : {
+      "undefined" : "Examples:\n\nCooling coil valve reverse action\nFour-way reversing valve fault   \nSlipping supply air fan belt fault  \nEXV sticking \nAir intake decreased\nwater intake over- full  \nCooling coil \nSystem is occupied while under normal operation, it should be unoccupied  \nAHU-2 cooling coil valve position software override at 100% open (higher than normal)  \nSystem is occupied while under normal operation, it should be unoccupied  \nAHU-2 cooling coil valve position software override at 100% open (higher than normal) \nHeater Fault in Room1(OFF) \nBattery Fault in Temperature Sensor Room1 \nGain Fault in CO2 Sensor Room1 \nCommunication Fault(Routing) in Room1 \nBattery Fault in CO2 Sensor Room1’ \nBypass fault"
+    },
+    "id" : "225",
+    "superClasses" : [ "60" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#VAV",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -1796,13 +1711,25 @@
     "id" : "264",
     "superClasses" : [ "178" ]
   }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#BuildingInformation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingInformation"
+    },
+    "comment" : {
+      "undefined" : "Relevant building envelope related information"
+    },
+    "id" : "70",
+    "superClasses" : [ "71" ]
+  }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#MaintenanceInspection",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
     "instances" : 0,
     "label" : {
       "IRI-based" : "MaintenanceInspection"
     },
-    "subClasses" : [ "386", "87", "354", "387", "157", "159", "150", "162", "164", "166", "113", "169", "171", "173", "155", "134", "136", "45", "139" ],
+    "subClasses" : [ "386", "86", "354", "387", "157", "159", "150", "162", "164", "166", "113", "169", "171", "173", "155", "134", "136", "45", "139" ],
     "comment" : {
       "undefined" : "HVAC maintenance inspection"
     },
@@ -1836,19 +1763,6 @@
     "label" : {
       "IRI-based" : "BiasDriftCalibration"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Thermostat_measurement_bias",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Thermostat_measurement_bias"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Thermostat_measurement_bias",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Thermostat_measurement_bias"
-      }
-    } ],
     "comment" : {
       "undefined" : "Sensor faults can be classified into bias, drifting, precision degradation and complete failure\n\nExamples:\n\nZone temperature sensor positively biased \nZone temperature sensor negatively biased\ntemperature sensor bias +3F \nOA temperature sensor bias -3F \nZone temperature sensor out of calibration (2? high offset) \nRoom temperature sensor fault (“1” for +2°C (3.6°F) bias and “-1” for -2°C (-3.6°F) bias, and “0” for no fault;  \nAirflow sensor fault (“1” for positive 10% bias and “-1” for negative 10% bias, and “0” for no fault. \nChiller DP sensor positive bias 1.4 kPa \nOffset Fault in Temperature Sensor Room1 \nTemperature and flow sensors  fixed bias \nTemperature and flow sensors drift biases \nBias faults \nDrift faults \nPositive bias ( + ?) \nNegative bias ( ?? )\nPositive drift ( + ?) \nNegative drift ( ??)\nPrecision degradation ( ?)"
     },
@@ -1885,7 +1799,7 @@
       "undefined" : "Selects the criterion on which Attributes will be selected for splitting. For each of these criteria the split value is optimized with regards to the chosen criterion. It can have one of the following values:\n\ninformation_gain: The entropies of all the Attributes are calculated and the one with least entropy is selected for split. This method has a bias towards selecting Attributes with a large number of values.\ngain_ratio: A variant of information gain that adjusts the information gain for each Attribute to allow the breadth and uniformity of the Attribute values.\ngini_index: A measure of inequality between the distributions of label characteristics. Splitting on a chosen Attribute results in a reduction in the average gini index of the resulting subsets.\naccuracy: An Attribute is selected for splitting, which maximizes the accuracy of the whole tree.\nleast_square: An Attribute is selected for splitting, that minimizes the squared distance between the average of values in the node with regards to the true value."
     },
     "id" : "389",
-    "superClasses" : [ "89" ]
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Information",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -1917,19 +1831,6 @@
     "label" : {
       "IRI-based" : "Leakage"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Excessive_infiltration",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Excessive_infiltration"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Excessive_infiltration",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Excessive_infiltration"
-      }
-    } ],
     "comment" : {
       "undefined" : "Examples:\n\nOutdoor air damper leak \nAHU duct leaking (after supply fan (SF)\nRefrigerent leak/undercharge \nOutdoor air damper leak\nAHU duct leaking (after supply fan (SF))\nEXV leakage \nHeating coil valve leakage \nAHU duct leakage before supply fan \nOutdoor air damper leak"
     },
@@ -2000,16 +1901,6 @@
     "label" : {
       "IRI-based" : "Activation"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#activation_used_for_NN",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "comment" : {
-        "undefined" : "relu and softmax"
-      },
-      "labels" : {
-        "IRI-based" : "activation_used_for_NN"
-      }
-    } ],
     "comment" : {
       "undefined" : "The activation function (non-linearity) to be used by the neurons in the hidden layers.\nTanh: Hyperbolic tangent function (same as scaled and shifted sigmoid).\nRectifier: Rectifier Linear Unit: Chooses the maximum of (0, x) where x is the input value.\nMaxout: Choose the maximum coordinate of the input vector.\nExpRectifier: Exponential Rectifier Linear Unit function."
     },
@@ -2042,19 +1933,6 @@
     "label" : {
       "IRI-based" : "Foul"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Condenser_Fouling",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Condenser_Fouling"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Condenser_Fouling",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Condenser_Fouling"
-      }
-    } ],
     "comment" : {
       "undefined" : "Examples:\n\nCondenser Fouling \nHeating coil fouling \nThe outdoor unit fouling fault \nIndoor units fouling \nHeating fault-fouled water tube of boiler 50 % efficiency) \nCooling fault-fouled condenser or refrigerant leak of a chiller (efficiency 50%) \nEvaporator fouled \nCondenser fouled on the air section \nCondenser fouled on the water section \nAir intake strainer fouled \nCdFoul Blocking tubes in the condenser"
     },
@@ -2088,27 +1966,11 @@
     "label" : {
       "IRI-based" : "Epochs"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#600",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "600"
-      }
-    } ],
     "comment" : {
       "undefined" : "How many times the dataset should be iterated ."
     },
     "id" : "331",
     "superClasses" : [ "4" ]
-  }, {
-    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FluidFlowAndLeaks",
-    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "FluidFlowAndLeaks"
-    },
-    "id" : "173",
-    "superClasses" : [ "46" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#Intake_Air_Filter",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -2119,6 +1981,15 @@
     "attributes" : [ "external" ],
     "id" : "80",
     "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#FluidFlowAndLeaks",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FluidFlowAndLeaks"
+    },
+    "id" : "173",
+    "superClasses" : [ "46" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#Fan_Coil_Unit",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -2141,6 +2012,18 @@
     },
     "id" : "336"
   }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#HvacInformation",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HvacInformation"
+    },
+    "comment" : {
+      "undefined" : "Relevant HVAC related information"
+    },
+    "id" : "76",
+    "superClasses" : [ "71" ]
+  }, {
     "iri" : "https://brickschema.org/schema/Brick#Computer_Room_Air_Conditioning",
     "baseIri" : "https://brickschema.org/schema/Brick",
     "instances" : 0,
@@ -2151,145 +2034,12 @@
     "id" : "421",
     "superClasses" : [ "78" ]
   }, {
-    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Building",
-    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Building"
-    },
-    "comment" : {
-      "undefined" : "Relevant building envelope related information"
-    },
-    "id" : "76",
-    "superClasses" : [ "71" ]
-  }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Humidity",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Humidity"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_105_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_105_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_202_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_202_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_106_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_106_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_203_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_203_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_103_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_103_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_102_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_102_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_104_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_104_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_104_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_104_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_103_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_103_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_106_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_106_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_105_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_105_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_206_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_206_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_206_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_206_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_203_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_203_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_205_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_205_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_202_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_202_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_204_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_204_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_102_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_102_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_205_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_205_Air_Humidity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_204_Air_Humidity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_204_Air_Humidity"
-      }
-    } ],
     "id" : "329",
     "superClasses" : [ "7" ]
   }, {
@@ -2299,13 +2049,6 @@
     "label" : {
       "IRI-based" : "KernelType"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#rbf",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "rbf"
-      }
-    } ],
     "comment" : {
       "undefined" : "The type of the kernel function is selected through this parameter. Following kernel types are supported: dot, radial, polynomial, neural, anova, epachnenikov, gaussian combination, multiquadric\ndot: The dot kernel is defined by k(x,y)=x*y i.e. it is inner product of x and y.\nradial: The radial kernel is defined by exp(-g ||x-y||^2) where g is the gamma, it is specified by the kernel gamma parameter. The adjustable parameter gamma plays a major role in the performance of the kernel, and should be carefully tuned to the problem at hand.\npolynomial: The polynomial kernel is defined by k(x,y)=(x*y+1)^d where d is the degree of polynomial and it is specified by the kernel degree parameter. The polynomial kernels are well suited for problems where all the training data is normalized.\nneural: The neural kernel is defined by a two layered neural net tanh(a x*y+b) where a is alpha and b is the intercept constant. These parameters can be adjusted using the kernel a and kernel b parameters. A common value for alpha is 1/N, where N is the data dimension. Note that not all choices of a and b lead to a valid kernel function.\nanova: The anova kernel is defined by raised to power d of summation of exp(-g (x-y)) where g is gamma and d is degree. gamma and degree are adjusted by the kernel gamma and kernel degree parameters respectively.\nepachnenikov: The epachnenikov kernel is this function (3/4)(1-u2) for u between -1 and 1 and zero for u outside that range. It has two adjustable parameters kernel sigma1 and kernel degree.\ngaussian_combination: This is the gaussian combination kernel. It has adjustable parameters kernel sigma1, kernel sigma2 and kernel sigma3.\nmultiquadric: The multiquadric kernel is defined by the square root of ||x-y||^2 + c^2. It has adjustable parameters kernel sigma1 and kernel sigma shift."
     },
@@ -2322,15 +2065,6 @@
     "id" : "121",
     "superClasses" : [ "1" ]
   }, {
-    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RepairOrReplace",
-    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "RepairOrReplace"
-    },
-    "id" : "74",
-    "superClasses" : [ "51" ]
-  }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#EnergyOrPower",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
     "instances" : 0,
@@ -2339,6 +2073,15 @@
     },
     "id" : "53",
     "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RepairOrReplace",
+    "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RepairOrReplace"
+    },
+    "id" : "74",
+    "superClasses" : [ "51" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Speed",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -2381,7 +2124,7 @@
       "undefined" : "The gain of a node is calculated before splitting it. The node is split if its gain is greater than the minimal gain. A higher value of minimal gain results in fewer splits and thus a smaller tree. A value that is too high will completely prevent splitting and a tree with a single node is generated."
     },
     "id" : "385",
-    "superClasses" : [ "89" ]
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Algorithm",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -2389,7 +2132,7 @@
     "label" : {
       "IRI-based" : "Algorithm"
     },
-    "subClasses" : [ "4", "8", "259", "364", "89", "358", "175", "192", "313", "209", "239" ],
+    "subClasses" : [ "4", "8", "259", "364", "85", "358", "175", "192", "313", "209", "239" ],
     "comment" : {
       "undefined" : "The kind of Machine Learning Algorithm that was utilized for Data-driven FDD of HVAC systems."
     },
@@ -2401,16 +2144,6 @@
     "label" : {
       "IRI-based" : "StoppingTolerance"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#patience",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "comment" : {
-        "undefined" : "25"
-      },
-      "labels" : {
-        "IRI-based" : "patience"
-      }
-    } ],
     "comment" : {
       "undefined" : "Relative tolerance for metric-based stopping criterion (stop if relative improvement is not at least this much)."
     },
@@ -2455,31 +2188,6 @@
     "label" : {
       "IRI-based" : "ElectricCurrents"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Electricity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Electricity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Electricity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Electricity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Fan_Electricity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Fan_Electricity"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Fan_Electricity",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Fan_Electricity"
-      }
-    } ],
     "id" : "308",
     "superClasses" : [ "7" ]
   }, {
@@ -2511,22 +2219,12 @@
     "label" : {
       "IRI-based" : "DecisionTree"
     },
-    "subClasses" : [ "389", "385", "88", "180", "379", "377", "383" ],
+    "subClasses" : [ "389", "385", "84", "180", "379", "377", "383" ],
     "comment" : {
       "undefined" : "Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression"
     },
-    "id" : "89",
+    "id" : "85",
     "superClasses" : [ "9" ]
-  }, {
-    "iri" : "https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel",
-    "baseIri" : "https://brickschema.org/schema/Brick",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Embedded_Surface_System_Panel"
-    },
-    "attributes" : [ "external" ],
-    "id" : "276",
-    "superClasses" : [ "199" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#Compressor",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -2537,6 +2235,16 @@
     "attributes" : [ "external" ],
     "id" : "433",
     "superClasses" : [ "78" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Embedded_Surface_System_Panel",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Embedded_Surface_System_Panel"
+    },
+    "attributes" : [ "external" ],
+    "id" : "276",
+    "superClasses" : [ "199" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#CompressorOilLevelPressureSystem",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -2553,31 +2261,6 @@
     "label" : {
       "IRI-based" : "SetPointOrSetValue"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Cooling_Setpoint",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_Air_Temperature_Cooling_Setpoint"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Heating_Setpoint",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_Air_Temperature_Heating_Setpoint"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Terminal:_Room_Air_Temperature_Heating_Setpoint",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Terminal:_Room_Air_Temperature_Heating_Setpoint"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Terminal:_Room_Air_Temperature_Cooling_Setpoint",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Terminal:_Room_Air_Temperature_Cooling_Setpoint"
-      }
-    } ],
     "id" : "304",
     "superClasses" : [ "7" ]
   }, {
@@ -2630,7 +2313,7 @@
     "label" : {
       "IRI-based" : "HVAC_Equipment"
     },
-    "subClasses" : [ "21", "41", "371", "436", "77", "440", "438", "1", "338", "433", "355", "130", "109", "427", "421", "419", "356", "197", "373", "188", "115", "411", "409", "178" ],
+    "subClasses" : [ "21", "41", "371", "436", "77", "440", "438", "1", "337", "433", "355", "130", "109", "427", "421", "419", "356", "197", "373", "188", "115", "411", "409", "178" ],
     "comment" : {
       "undefined" : "HVAC equpments can be studied at a system or local level. Local-level classification can be divided into (i) sub-system level and (ii) equipment/component level."
     },
@@ -2678,31 +2361,6 @@
     "label" : {
       "IRI-based" : "SetPoint"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-No_Overnight_HVAC_Setback",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-No_Overnight_HVAC_Setback"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-No_Overnight_HVAC_Setback",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-No_Overnight_HVAC_Setback"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-HVAC_Setback_Error",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-HVAC_Setback_Error"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-HVAC_Setback_Error",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-HVAC_Setback_Error"
-      }
-    } ],
     "comment" : {
       "undefined" : "Examples:\n\nSewage pump set value \nThe set point of chilled water flow drops by approximately 10% of the rated value (0.3 m3/min)\nSet point of condenser water outlet temperature of cooling tower - The set point of condenser water outlet temperature of cooling towers rises by 10% of the rated value (0.5 degree)\nUnachievable set point."
     },
@@ -2715,7 +2373,7 @@
     "label" : {
       "IRI-based" : "Air_Plenum"
     },
-    "subClasses" : [ "191", "466" ],
+    "subClasses" : [ "190", "466" ],
     "attributes" : [ "external" ],
     "id" : "373",
     "superClasses" : [ "78" ]
@@ -2740,7 +2398,7 @@
       "undefined" : "The depth of a tree varies depending upon the size and characteristics of the ExampleSet. This parameter is used to restrict the depth of the decision tree. If its value is set to '-1', the maximal depth parameter puts no bound on the depth of the tree. In this case the tree is built until other stopping criteria are met. If its value is set to '1', a tree with a single node is generated."
     },
     "id" : "379",
-    "superClasses" : [ "89" ]
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Status",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -2748,175 +2406,6 @@
     "label" : {
       "IRI-based" : "Status"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_105_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_105_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_206_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_206_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_202_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_202_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_106_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_106_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-Occupancy_Mode_Indicator_1",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-Occupancy_Mode_Indicator_1"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_103_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_103_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_2_On/Off_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Compressor_2_On/Off_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_104_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_104_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_204_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_204_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_205_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_205_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Fan_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Supply_Air_Fan_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_202_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_202_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_106_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_106_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_203_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_203_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_104_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_104_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_102_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_102_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_205_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_205_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_105_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_105_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_1_On/Off_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Compressor_1_On/Off_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_102_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_102_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_206_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_206_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_103_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_103_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-VAV_Box:_Room_203_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-VAV_Box:_Room_203_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Compressor_1_On/Off_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Compressor_1_On/Off_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-VAV_Box:_Room_204_Reheat_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-VAV_Box:_Room_204_Reheat_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Fan_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Supply_Air_Fan_Status"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-Occupancy_Mode_Indicator",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-Occupancy_Mode_Indicator"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Compressor_2_On/Off_Status",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Compressor_2_On/Off_Status"
-      }
-    } ],
     "id" : "48",
     "superClasses" : [ "7" ]
   }, {
@@ -2926,20 +2415,10 @@
     "label" : {
       "IRI-based" : "Baseboard_Radiator"
     },
-    "subClasses" : [ "464", "84", "92" ],
+    "subClasses" : [ "464", "87", "92" ],
     "attributes" : [ "external" ],
-    "id" : "85",
+    "id" : "88",
     "superClasses" : [ "201" ]
-  }, {
-    "iri" : "https://brickschema.org/schema/Brick#Condenser_Water_Bypass_Valve",
-    "baseIri" : "https://brickschema.org/schema/Brick",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Condenser_Water_Bypass_Valve"
-    },
-    "attributes" : [ "external" ],
-    "id" : "456",
-    "superClasses" : [ "152" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#Absorption_Chiller",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -2950,6 +2429,16 @@
     "attributes" : [ "external" ],
     "id" : "187",
     "superClasses" : [ "188" ]
+  }, {
+    "iri" : "https://brickschema.org/schema/Brick#Condenser_Water_Bypass_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condenser_Water_Bypass_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "456",
+    "superClasses" : [ "152" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#Displacement_Flow_Air_Diffuser",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -3044,7 +2533,7 @@
     "label" : {
       "IRI-based" : "Record"
     },
-    "id" : "345",
+    "id" : "344",
     "superClasses" : [ "217" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#NeuralNetworksOrDeepLearining",
@@ -3053,13 +2542,6 @@
     "label" : {
       "IRI-based" : "NeuralNetworksOrDeepLearining"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#SequentialNeuralNetworkModel",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "SequentialNeuralNetworkModel"
-      }
-    } ],
     "subClasses" : [ "55", "3", "13", "17", "23", "29", "33", "37", "43", "323", "327", "331", "296", "299", "302", "306", "310", "315", "319" ],
     "comment" : {
       "undefined" : "Artificial neural networks (ANN) or called neural networks/ Deep Learning (DL), can be defined as a machine learning technique that uses a deep neural network and learns a long chain of causal links."
@@ -3083,67 +2565,6 @@
     "label" : {
       "IRI-based" : "Pressure"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Discharge_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Circuit_2_Discharge_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Condenser_Outlet_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Circuit_2_Condenser_Outlet_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_2_Suction_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Circuit_2_Suction_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Suction_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Circuit_1_Suction_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Discharge_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Circuit_1_Discharge_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_1_Discharge_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Circuit_1_Discharge_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Condenser_Outlet_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Circuit_2_Condenser_Outlet_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Discharge_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Circuit_2_Discharge_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Circuit_2_Suction_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Circuit_2_Suction_Pressure"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Circuit_1_Suction_Pressure",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Circuit_1_Suction_Pressure"
-      }
-    } ],
     "id" : "6",
     "superClasses" : [ "7" ]
   }, {
@@ -3215,13 +2636,6 @@
     "label" : {
       "IRI-based" : "C"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1"
-      }
-    } ],
     "comment" : {
       "undefined" : "This is the SVM complexity constant which sets the tolerance for misclassification, where higher C values allow for 'softer' boundaries and lower values create 'harder' boundaries. A complexity constant that is too large can lead to over-fitting, while values that are too small may result in over-generalization."
     },
@@ -3265,13 +2679,6 @@
     "label" : {
       "IRI-based" : "Optimizer"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#adam",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "adam"
-      }
-    } ],
     "id" : "323",
     "superClasses" : [ "4" ]
   }, {
@@ -3344,7 +2751,7 @@
     "label" : {
       "IRI-based" : "Radiator"
     },
-    "subClasses" : [ "482", "85", "93", "86" ],
+    "subClasses" : [ "482", "88", "93", "89" ],
     "attributes" : [ "external" ],
     "id" : "201",
     "superClasses" : [ "197" ]
@@ -3355,7 +2762,7 @@
     "label" : {
       "IRI-based" : "Calculation"
     },
-    "id" : "343",
+    "id" : "342",
     "superClasses" : [ "217" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Support",
@@ -3389,7 +2796,7 @@
       "undefined" : "This parameter specifies the confidence level used for the pessimistic error calculation of pruning."
     },
     "id" : "383",
-    "superClasses" : [ "89" ]
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Efficiency",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
@@ -3453,31 +2860,11 @@
     "label" : {
       "IRI-based" : "HiddelLayerSize"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#size_of_each_layer",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "comment" : {
-        "undefined" : "70-15-7"
-      },
-      "labels" : {
-        "IRI-based" : "size_of_each_layer"
-      }
-    } ],
     "comment" : {
       "undefined" : "The size of each hidden layer in the model."
     },
     "id" : "306",
     "superClasses" : [ "4" ]
-  }, {
-    "iri" : "https://brickschema.org/schema/Brick#Chilled_Water_Valve",
-    "baseIri" : "https://brickschema.org/schema/Brick",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Chilled_Water_Valve"
-    },
-    "attributes" : [ "external" ],
-    "id" : "119",
-    "superClasses" : [ "114" ]
   }, {
     "iri" : "https://w3id.org/bot#Site",
     "baseIri" : "https://w3id.org/bot",
@@ -3492,22 +2879,22 @@
     "id" : "185",
     "superClasses" : [ "112" ]
   }, {
+    "iri" : "https://brickschema.org/schema/Brick#Chilled_Water_Valve",
+    "baseIri" : "https://brickschema.org/schema/Brick",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chilled_Water_Valve"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "114" ]
+  }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#RandomSeed",
     "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
     "instances" : 0,
     "label" : {
       "IRI-based" : "RandomSeed"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#random_state",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "comment" : {
-        "undefined" : "101"
-      },
-      "labels" : {
-        "IRI-based" : "random_state"
-      }
-    } ],
     "comment" : {
       "undefined" : "Local random seed for random generation."
     },
@@ -3531,19 +2918,6 @@
     "label" : {
       "IRI-based" : "FlowRate"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#2-RTU:_Supply_Air_Volumetric_Flow_Rate_1",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "2-RTU:_Supply_Air_Volumetric_Flow_Rate_1"
-      }
-    }, {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#1-RTU:_Supply_Air_Volumetric_Flow_Rate_1",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "1-RTU:_Supply_Air_Volumetric_Flow_Rate_1"
-      }
-    } ],
     "id" : "15",
     "superClasses" : [ "7" ]
   }, {
@@ -3584,16 +2958,6 @@
     "label" : {
       "IRI-based" : "HiddenDropoutRatios"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#Drop_out_value",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "comment" : {
-        "undefined" : "0.67"
-      },
-      "labels" : {
-        "IRI-based" : "Drop_out_value"
-      }
-    } ],
     "comment" : {
       "undefined" : "A fraction of the inputs for each hidden layer to be omitted from training in order to improve generalization."
     },
@@ -3618,7 +2982,7 @@
     "label" : {
       "IRI-based" : "Deleted"
     },
-    "id" : "344",
+    "id" : "343",
     "superClasses" : [ "217" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#RVAV",
@@ -3659,7 +3023,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "464",
-    "superClasses" : [ "482", "85" ]
+    "superClasses" : [ "482", "88" ]
   }, {
     "iri" : "https://brickschema.org/schema/Brick#Radiant_Ceiling_Panel",
     "baseIri" : "https://brickschema.org/schema/Brick",
@@ -3747,13 +3111,6 @@
     "label" : {
       "IRI-based" : "HiddenLayerNumber"
     },
-    "individuals" : [ {
-      "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#3",
-      "baseIri" : "https://github.com/arashhosseiniarash/AFDDOntology",
-      "labels" : {
-        "IRI-based" : "3"
-      }
-    } ],
     "comment" : {
       "undefined" : "A fraction of the inputs for each hidden layer to be omitted from training in order to improve generalization."
     },
@@ -4085,9 +3442,9 @@
     "label" : {
       "IRI-based" : "Steam_Radiator"
     },
-    "subClasses" : [ "84" ],
+    "subClasses" : [ "87" ],
     "attributes" : [ "external" ],
-    "id" : "86",
+    "id" : "89",
     "superClasses" : [ "201" ]
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#StuckOrPartiallyClosed",
@@ -4122,7 +3479,7 @@
       "undefined" : "The size of a leaf is the number of Examples in its subset. The tree is generated in such a way that every leaf has at least the minimal leaf size number of Examples."
     },
     "id" : "377",
-    "superClasses" : [ "89" ]
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://w3id.org/bot#Element",
     "baseIri" : "https://w3id.org/bot",
@@ -4547,7 +3904,7 @@
     "id" : "335",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "337",
+    "id" : "338",
     "type" : "owl:objectProperty"
   }, {
     "id" : "339",
@@ -4559,7 +3916,7 @@
     "id" : "341",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "342",
+    "id" : "345",
     "type" : "owl:objectProperty"
   }, {
     "id" : "346",
@@ -5030,232 +4387,232 @@
   "propertyAttribute" : [ {
     "range" : "4",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "2"
   }, {
     "range" : "7",
     "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "5"
   }, {
     "range" : "4",
     "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "12"
   }, {
     "range" : "7",
     "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "14"
   }, {
     "range" : "4",
     "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "16"
   }, {
     "range" : "7",
     "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
     "range" : "4",
     "domain" : "23",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "22"
   }, {
     "range" : "7",
     "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "24"
   }, {
     "range" : "4",
     "domain" : "29",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "28"
   }, {
     "range" : "7",
     "domain" : "31",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "30"
   }, {
     "range" : "4",
     "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "32"
   }, {
     "range" : "7",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "34"
   }, {
     "range" : "4",
     "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "36"
   }, {
     "range" : "7",
     "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "38"
   }, {
     "range" : "4",
     "domain" : "43",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "42"
   }, {
     "range" : "7",
     "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "47"
   }, {
     "range" : "51",
     "domain" : "50",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "49"
   }, {
     "range" : "7",
     "domain" : "53",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "52"
   }, {
     "range" : "4",
     "domain" : "55",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
     "range" : "7",
     "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "56"
   }, {
     "range" : "60",
     "domain" : "59",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "58"
   }, {
     "range" : "1",
     "domain" : "62",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "61"
   }, {
     "range" : "60",
     "domain" : "64",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "63"
   }, {
     "range" : "1",
     "domain" : "66",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "65"
   }, {
     "range" : "51",
     "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "67"
   }, {
     "range" : "71",
     "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "69"
   }, {
     "range" : "51",
     "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "73"
   }, {
     "range" : "71",
     "domain" : "76",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "75"
   }, {
     "range" : "51",
     "domain" : "72",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "90"
   }, {
     "range" : "93",
     "domain" : "92",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "91"
   }, {
     "range" : "51",
     "domain" : "95",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "94"
   }, {
     "range" : "98",
     "domain" : "97",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "96"
   }, {
     "range" : "51",
     "domain" : "100",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "99"
   }, {
     "range" : "98",
     "domain" : "102",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "101"
   }, {
     "range" : "51",
     "domain" : "104",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "103"
   }, {
     "range" : "98",
     "domain" : "106",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "105"
   }, {
     "range" : "51",
     "domain" : "108",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "107"
   }, {
     "range" : "1",
     "domain" : "121",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "120"
   }, {
     "range" : "60",
     "domain" : "126",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "125"
   }, {
     "range" : "1",
     "domain" : "128",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "127"
   }, {
     "range" : "46",
     "domain" : "134",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "133"
   }, {
     "range" : "46",
     "domain" : "136",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "135"
   }, {
     "range" : "46",
     "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "137"
   }, {
     "range" : "46",
     "domain" : "139",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "138"
   }, {
     "range" : "1",
     "domain" : "141",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "140"
   }, {
     "range" : "1",
     "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "142"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#canUse",
@@ -5270,147 +4627,147 @@
   }, {
     "range" : "1",
     "domain" : "145",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "144"
   }, {
     "range" : "1",
     "domain" : "147",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "146"
   }, {
     "range" : "1",
     "domain" : "149",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "148"
   }, {
     "range" : "46",
     "domain" : "155",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "154"
   }, {
     "range" : "46",
     "domain" : "157",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "156"
   }, {
     "range" : "46",
     "domain" : "159",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "158"
   }, {
     "range" : "46",
     "domain" : "150",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "160"
   }, {
     "range" : "46",
     "domain" : "162",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "161"
   }, {
     "range" : "46",
     "domain" : "164",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "163"
   }, {
     "range" : "46",
     "domain" : "166",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "165"
   }, {
     "range" : "46",
     "domain" : "113",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "167"
   }, {
     "range" : "46",
     "domain" : "169",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "168"
   }, {
     "range" : "46",
     "domain" : "171",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "170"
   }, {
     "range" : "46",
     "domain" : "173",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "172"
   }, {
     "range" : "112",
     "domain" : "179",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "181"
   }, {
     "range" : "112",
     "domain" : "183",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "182"
   }, {
     "range" : "112",
     "domain" : "185",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "184"
   }, {
     "range" : "188",
     "domain" : "187",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "186"
   }, {
     "range" : "197",
     "domain" : "196",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "195"
   }, {
     "range" : "197",
     "domain" : "199",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "198"
   }, {
     "range" : "197",
     "domain" : "201",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "200"
   }, {
     "range" : "197",
     "domain" : "203",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "202"
   }, {
     "range" : "197",
     "domain" : "205",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "204"
   }, {
     "range" : "112",
     "domain" : "111",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "206"
   }, {
     "range" : "209",
     "domain" : "208",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "207"
   }, {
     "range" : "197",
     "domain" : "27",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "210"
   }, {
     "range" : "197",
     "domain" : "98",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "211"
   }, {
     "range" : "197",
     "domain" : "213",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "212"
   }, {
     "range" : "197",
     "domain" : "215",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "214"
   }, {
     "iri" : "https://w3id.org/bot#containsElement",
@@ -5421,7 +4778,7 @@
     },
     "superproperty" : [ "234" ],
     "domain" : "233",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "232"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasFault",
@@ -5436,237 +4793,237 @@
   }, {
     "range" : "236",
     "domain" : "78",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "240"
   }, {
     "range" : "110",
     "domain" : "242",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "241"
   }, {
     "range" : "110",
     "domain" : "244",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "243"
   }, {
     "range" : "110",
     "domain" : "246",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "245"
   }, {
     "range" : "209",
     "domain" : "249",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "248"
   }, {
     "range" : "209",
     "domain" : "251",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "250"
   }, {
     "range" : "199",
     "domain" : "253",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "252"
   }, {
     "range" : "178",
     "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "254"
   }, {
     "range" : "199",
     "domain" : "257",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "256"
   }, {
     "range" : "178",
     "domain" : "177",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "258"
   }, {
     "range" : "262",
     "domain" : "261",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "260"
   }, {
     "range" : "178",
     "domain" : "264",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "263"
   }, {
     "range" : "262",
     "domain" : "266",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "265"
   }, {
     "range" : "178",
     "domain" : "268",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "267"
   }, {
     "range" : "118",
     "domain" : "270",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "269"
   }, {
-    "range" : "86",
-    "domain" : "84",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "89",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "271"
   }, {
     "range" : "118",
     "domain" : "273",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "272"
   }, {
     "range" : "132",
     "domain" : "280",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "282"
   }, {
     "range" : "199",
     "domain" : "274",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "283"
   }, {
     "range" : "279",
     "domain" : "278",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "284"
   }, {
     "range" : "199",
     "domain" : "275",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "285"
   }, {
     "range" : "287",
     "domain" : "51",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "286"
   }, {
     "range" : "199",
     "domain" : "276",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "289"
   }, {
     "range" : "287",
     "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "290"
   }, {
     "range" : "199",
     "domain" : "277",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "291"
   }, {
     "range" : "178",
     "domain" : "293",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "292"
   }, {
     "range" : "4",
     "domain" : "296",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "295"
   }, {
     "range" : "7",
     "domain" : "44",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "297"
   }, {
     "range" : "4",
     "domain" : "299",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "298"
   }, {
     "range" : "7",
     "domain" : "237",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "300"
   }, {
     "range" : "4",
     "domain" : "302",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "301"
   }, {
     "range" : "7",
     "domain" : "304",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "303"
   }, {
     "range" : "4",
     "domain" : "306",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "305"
   }, {
     "range" : "7",
     "domain" : "308",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "307"
   }, {
     "range" : "4",
     "domain" : "310",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "309"
   }, {
     "range" : "313",
     "domain" : "312",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "311"
   }, {
     "range" : "4",
     "domain" : "315",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "314"
   }, {
     "range" : "313",
     "domain" : "317",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "316"
   }, {
     "range" : "4",
     "domain" : "319",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "318"
   }, {
     "range" : "7",
     "domain" : "321",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "320"
   }, {
     "range" : "4",
     "domain" : "323",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "322"
   }, {
     "range" : "7",
     "domain" : "325",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "324"
   }, {
     "range" : "4",
     "domain" : "327",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "326"
   }, {
     "range" : "7",
     "domain" : "329",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "328"
   }, {
     "range" : "4",
     "domain" : "331",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "330"
   }, {
     "range" : "7",
     "domain" : "333",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "332"
   }, {
     "range" : "114",
     "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "334"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasState",
@@ -5686,8 +5043,8 @@
       "IRI-based" : "hasSubElement"
     },
     "domain" : "236",
-    "attributes" : [ "external", "object" ],
-    "id" : "337"
+    "attributes" : [ "object", "external" ],
+    "id" : "338"
   }, {
     "iri" : "https://w3id.org/bot#intersectsZone",
     "baseIri" : "https://w3id.org/bot",
@@ -5696,17 +5053,17 @@
       "IRI-based" : "intersectsZone"
     },
     "domain" : "112",
-    "attributes" : [ "external", "symmetric", "object" ],
+    "attributes" : [ "symmetric", "object", "external" ],
     "id" : "339"
   }, {
     "range" : "109",
     "domain" : "110",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "340"
   }, {
     "range" : "77",
     "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "341"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasParameter",
@@ -5717,156 +5074,156 @@
     },
     "domain" : "9",
     "attributes" : [ "object" ],
-    "id" : "342"
+    "id" : "345"
   }, {
     "range" : "77",
     "domain" : "80",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "346"
   }, {
     "range" : "77",
     "domain" : "79",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "347"
   }, {
     "range" : "77",
     "domain" : "82",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "348"
   }, {
     "range" : "77",
     "domain" : "81",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "349"
   }, {
     "range" : "9",
     "domain" : "313",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "350"
   }, {
     "range" : "9",
     "domain" : "192",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "351"
   }, {
     "range" : "9",
     "domain" : "239",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "352"
   }, {
     "range" : "9",
     "domain" : "209",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "353"
   }, {
     "range" : "9",
     "domain" : "358",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "357"
   }, {
     "range" : "9",
-    "domain" : "89",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "359"
   }, {
     "range" : "9",
     "domain" : "175",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "360"
   }, {
     "range" : "9",
     "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "361"
   }, {
     "range" : "9",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "362"
   }, {
     "range" : "9",
     "domain" : "364",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "363"
   }, {
     "range" : "9",
     "domain" : "259",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "365"
   }, {
     "range" : "8",
     "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "367"
   }, {
     "range" : "8",
     "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "368"
   }, {
     "range" : "78",
     "domain" : "21",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "369"
   }, {
     "range" : "78",
     "domain" : "371",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "370"
   }, {
     "range" : "78",
     "domain" : "41",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "372"
   }, {
-    "range" : "89",
+    "range" : "85",
     "domain" : "377",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "376"
   }, {
-    "range" : "89",
+    "range" : "85",
     "domain" : "379",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "378"
   }, {
     "range" : "371",
     "domain" : "381",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "380"
   }, {
-    "range" : "89",
+    "range" : "85",
     "domain" : "383",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "382"
   }, {
-    "range" : "89",
+    "range" : "85",
     "domain" : "385",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "384"
   }, {
-    "range" : "89",
+    "range" : "85",
     "domain" : "389",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "388"
   }, {
-    "range" : "89",
+    "range" : "85",
     "domain" : "180",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "390"
   }, {
-    "range" : "89",
-    "domain" : "88",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "85",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "391"
   }, {
     "range" : "131",
     "domain" : "393",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "392"
   }, {
     "range" : "21",
     "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "394"
   }, {
     "iri" : "https://w3id.org/bot#hasBuilding",
@@ -5877,77 +5234,77 @@
     },
     "superproperty" : [ "397" ],
     "domain" : "112",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "396"
   }, {
     "range" : "21",
     "domain" : "262",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "399"
   }, {
     "range" : "122",
     "domain" : "124",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "400"
   }, {
     "range" : "122",
     "domain" : "118",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "401"
   }, {
     "range" : "129",
     "domain" : "132",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "402"
   }, {
     "range" : "129",
     "domain" : "131",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "403"
   }, {
     "range" : "114",
     "domain" : "118",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "404"
   }, {
     "range" : "114",
     "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "405"
   }, {
     "range" : "122",
     "domain" : "123",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "406"
   }, {
     "range" : "114",
     "domain" : "119",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "407"
   }, {
     "range" : "78",
     "domain" : "409",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "408"
   }, {
     "range" : "78",
     "domain" : "411",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "410"
   }, {
     "range" : "373",
-    "domain" : "191",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "190",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "412"
   }, {
     "range" : "78",
     "domain" : "178",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "413"
   }, {
     "range" : "78",
     "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "414"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#isRecorded",
@@ -5962,52 +5319,52 @@
   }, {
     "range" : "78",
     "domain" : "188",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "416"
   }, {
     "range" : "78",
     "domain" : "373",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "417"
   }, {
     "range" : "78",
     "domain" : "419",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "418"
   }, {
     "range" : "78",
     "domain" : "421",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "420"
   }, {
     "range" : "78",
     "domain" : "197",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "422"
   }, {
     "range" : "78",
     "domain" : "356",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "423"
   }, {
     "range" : "78",
     "domain" : "130",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "424"
   }, {
     "range" : "78",
     "domain" : "355",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "425"
   }, {
     "range" : "78",
     "domain" : "427",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "426"
   }, {
     "range" : "78",
     "domain" : "109",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "428"
   }, {
     "iri" : "https://w3id.org/bot#adjacentZone",
@@ -6017,77 +5374,77 @@
       "IRI-based" : "adjacentZone"
     },
     "domain" : "112",
-    "attributes" : [ "external", "symmetric", "object" ],
+    "attributes" : [ "symmetric", "object", "external" ],
     "id" : "429"
   }, {
     "range" : "78",
-    "domain" : "338",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "337",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "430"
   }, {
     "range" : "78",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "431"
   }, {
     "range" : "78",
     "domain" : "433",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "432"
   }, {
     "range" : "78",
     "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "434"
   }, {
     "range" : "78",
     "domain" : "436",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "435"
   }, {
     "range" : "78",
     "domain" : "438",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "437"
   }, {
     "range" : "78",
     "domain" : "440",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "439"
   }, {
     "range" : "60",
     "domain" : "176",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "441"
   }, {
     "range" : "60",
     "domain" : "227",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "442"
   }, {
     "range" : "60",
     "domain" : "229",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "443"
   }, {
     "range" : "60",
     "domain" : "228",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "444"
   }, {
     "range" : "60",
     "domain" : "224",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "445"
   }, {
     "range" : "60",
     "domain" : "226",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "446"
   }, {
     "range" : "60",
     "domain" : "225",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "447"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasInspection",
@@ -6108,7 +5465,7 @@
     },
     "superproperty" : [ "234" ],
     "domain" : "233",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "449"
   }, {
     "iri" : "https://w3id.org/bot#hasElement",
@@ -6119,97 +5476,97 @@
     },
     "domain" : "112",
     "subproperty" : [ "450", "449", "232" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "234"
   }, {
     "range" : "60",
     "domain" : "221",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "451"
   }, {
     "range" : "60",
     "domain" : "220",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "452"
   }, {
     "range" : "60",
     "domain" : "223",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "453"
   }, {
     "range" : "60",
     "domain" : "222",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "454"
   }, {
     "range" : "152",
     "domain" : "456",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "455"
   }, {
     "range" : "130",
     "domain" : "194",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "457"
   }, {
     "range" : "60",
     "domain" : "219",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "458"
   }, {
     "range" : "152",
     "domain" : "151",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "459"
   }, {
     "range" : "130",
-    "domain" : "189",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "191",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "460"
   }, {
     "range" : "130",
     "domain" : "193",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "461"
   }, {
     "range" : "130",
     "domain" : "129",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "462"
   }, {
-    "range" : "85",
+    "range" : "88",
     "domain" : "464",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "463"
   }, {
     "range" : "373",
     "domain" : "466",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "465"
   }, {
-    "range" : "85",
+    "range" : "88",
     "domain" : "92",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "467"
   }, {
-    "range" : "85",
-    "domain" : "84",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "88",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "468"
   }, {
     "range" : "60",
     "domain" : "230",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "469"
   }, {
     "range" : "60",
     "domain" : "153",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "470"
   }, {
     "range" : "60",
     "domain" : "231",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "471"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasMaintenance",
@@ -6230,7 +5587,7 @@
     },
     "superproperty" : [ "397" ],
     "domain" : "112",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "474"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#canDetect",
@@ -6271,62 +5628,62 @@
     },
     "superproperty" : [ "397" ],
     "domain" : "112",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "484"
   }, {
     "range" : "239",
     "domain" : "294",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "486"
   }, {
     "range" : "239",
     "domain" : "374",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "487"
   }, {
     "range" : "239",
     "domain" : "375",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "488"
   }, {
     "range" : "239",
     "domain" : "238",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "489"
   }, {
     "range" : "239",
     "domain" : "281",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "490"
   }, {
     "range" : "482",
     "domain" : "464",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "491"
   }, {
     "range" : "46",
     "domain" : "386",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "492"
   }, {
     "range" : "46",
-    "domain" : "87",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "493"
   }, {
     "range" : "46",
     "domain" : "354",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "494"
   }, {
     "range" : "46",
     "domain" : "387",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "495"
   }, {
-    "range" : "191",
-    "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "190",
+    "domain" : "189",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "496"
   }, {
     "iri" : "https://w3id.org/bot#adjacentElement",
@@ -6337,7 +5694,7 @@
     },
     "superproperty" : [ "234" ],
     "domain" : "233",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "450"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasAlgorithm",
@@ -6352,112 +5709,112 @@
   }, {
     "range" : "175",
     "domain" : "477",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "500"
   }, {
     "range" : "175",
     "domain" : "473",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "501"
   }, {
     "range" : "41",
     "domain" : "485",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "502"
   }, {
     "range" : "41",
     "domain" : "479",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "503"
   }, {
     "range" : "41",
     "domain" : "476",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "504"
   }, {
     "range" : "41",
     "domain" : "40",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "505"
   }, {
     "range" : "41",
     "domain" : "395",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "506"
   }, {
     "range" : "41",
     "domain" : "247",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "507"
   }, {
     "range" : "41",
     "domain" : "398",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "508"
   }, {
     "range" : "175",
     "domain" : "498",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "509"
   }, {
     "range" : "175",
     "domain" : "174",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "510"
   }, {
     "range" : "201",
     "domain" : "93",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "511"
   }, {
     "range" : "201",
-    "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "512"
   }, {
     "range" : "217",
     "domain" : "216",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "513"
   }, {
     "range" : "217",
-    "domain" : "343",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "342",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "514"
   }, {
     "range" : "217",
-    "domain" : "344",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "343",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "515"
   }, {
     "range" : "217",
-    "domain" : "345",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "344",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "516"
   }, {
     "range" : "27",
     "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "517"
   }, {
     "range" : "27",
     "domain" : "497",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "518"
   }, {
     "range" : "115",
     "domain" : "122",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "519"
   }, {
     "range" : "201",
     "domain" : "482",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "520"
   }, {
     "range" : "201",
-    "domain" : "85",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "521"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#hasAssociated",
@@ -6482,37 +5839,37 @@
   }, {
     "range" : "188",
     "domain" : "480",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "524"
   }, {
     "range" : "115",
     "domain" : "152",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "525"
   }, {
     "range" : "115",
     "domain" : "114",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "526"
   }, {
     "range" : "115",
     "domain" : "279",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "527"
   }, {
     "range" : "115",
     "domain" : "218",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "528"
   }, {
     "range" : "115",
     "domain" : "288",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "529"
   }, {
     "range" : "115",
     "domain" : "481",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "530"
   }, {
     "iri" : "https://github.com/arashhosseiniarash/AFDDOntology#featureBelongsTo",
@@ -6542,52 +5899,52 @@
       "IRI-based" : "interfaceOf"
     },
     "domain" : "531",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "534"
   }, {
-    "range" : "183",
+    "range" : "185",
     "domain" : "179",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "535"
   }, {
     "range" : "531",
     "domain" : "236",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "536"
   }, {
     "range" : "112",
     "domain" : "236",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "537"
   }, {
     "range" : "112",
     "domain" : "531",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "538"
   }, {
     "range" : "183",
     "domain" : "185",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "539"
   }, {
     "range" : "111",
     "domain" : "185",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "540"
   }, {
     "range" : "183",
     "domain" : "111",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "541"
-  }, {
-    "range" : "185",
-    "domain" : "179",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "542"
   }, {
     "range" : "111",
     "domain" : "179",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "542"
+  }, {
+    "range" : "183",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "543"
   }, {
     "iri" : "https://w3id.org/bot#containsZone",
@@ -6598,7 +5955,7 @@
     },
     "domain" : "112",
     "subproperty" : [ "474", "484", "396" ],
-    "attributes" : [ "transitive", "external", "object" ],
+    "attributes" : [ "transitive", "object", "external" ],
     "id" : "397"
   } ]
 }
